@@ -1,3 +1,7 @@
+*{
+    font-family:'Roboto', sans-serif;
+}
+
 .bg-block
 {
     background-color: #000;
@@ -43,4 +47,62 @@
     text-align: center;
     background-color: yellow;
     color: #fff;
+}
+.img-1
+{
+    background-image: url(../images/banner-bg.jpg);
+    height: 35rem;
+    overflow: hidden;
+}
+.pd
+{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.font-3
+{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.font-4
+{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #d9b061;
+}
+.font-bold
+{
+    font-weight: bold;
+}
+.font-family-text
+{
+    font-family: 'Jost', sans-serif;
+}
+.font-family-body
+{
+    font-family:'Roboto', sans-serif;
+}
+.icon-circle
+{
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+.bg-color-2
+{
+    background-color: #4D5765;
+}
+.bg-color-3
+{
+    background-color: #F20F10;
+}
+.bg-color-4
+{
+    background-color: #d9b061;
+}
+.mb-2
+{
+    margin-bottom:2rem !important;
 }
