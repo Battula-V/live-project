@@ -1,0 +1,13 @@
+Software development life-cycle(SDLC)
+======================================
+1.To start any project in a software company we have to follow SDLC
+2.SDLC has the following steps 
+    1.Requirement gathering(Take all the inputs from the client)
+    2.Analysis(Here we will decide What technology,servers are to be used . Also cost estimation)
+    3.Designing(Here based on the requirement some rough screens have to be prepared using paper(or)paint(or)photoshop)
+    4.Development(It is purely based on requirement and designing. Coding will be done as per designing)
+    5.Testing(A team of testers will test designing and development happens as per requirement. A tool called JIRA is used by testers)
+    6.Delirvery and installation(Once testing completed software will be delivered to the client)
+    7.Maintanance(After delivering the project if any issues arraises client will ask for changes and client will pay for the changes)
+3.Role of full-stack developer
+    Among all the steps in SDLC only development steps will be taken care of by full-stack developer

@@ -1,0 +1,43 @@
+SDLc step-1(Requirement)
+=======================
+The following are the requirements 
+1.Location adding,updating,listing,deleting
+2.Restaurant's adding,updating,listing,deleting
+3.Categoriesing food items(Level-1,Level-2,....),adding,updating,listing,deleting
+4.Food items adding,updating,listing,deleting
+5.Registration and login
+6.Search option for food items(By price,location,category and item name)
+7.Cart management(adding,updating,deleting,displaying)
+8.Check-out management(Verify user details and total amount)
+9.Payment process and order placing 
+10.Orders listing(Give option to cancel order or deleting order)
+11.Profile updation(Change name,email,mobile)
+
+
+SDLC step-2(Analysis)
+======================
+1.software requirements
+    front-end:angular
+    back-end:php
+    database:MySQL
+    server:xampp
+
+2.Hardware requirements
+    any computer with above 8gb RAM and windows Os 10 (or) above
+
+3.Installation requirements
+    domain:www.project name.com
+    hosting:unlimited hosting from godaddy.com (or) any other hosting provider
+
+SDLC step-3(Designing)
+======================
+1.Create some page designings  on paper (or) paint (or) photoshop
+2.some times design can be changed many times based on client mentality.In this case we can directly go to the developement and write the code for screens in html
+
+SDLC step-4(Developement)
+========================
+1.Start the front-end developement 
+2.If project time is very less start the back-end and database at a time
+
+
+
