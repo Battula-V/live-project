@@ -1,0 +1,65 @@
+In php we have to write everything by our own, so it takes time to complete the project in short time and quickley
+To solve this issue php is providing lot of frame works 
+frame work contains already written code, we simply use that code and complete the project quickly
+The popular frame work is laravel
+
+How to install laravel frame-work
+==================================
+To install laravel framework 1st we need to install composer software by downloading from https://getcomposer.org/download/
+To check composer installation run following command 
+->composer enter key
+The above command will display composer version otherwise composer not installed properly 
+Now we can install laravel using composer.composer in php is just like npm in angular
+
+Command to install laravel
+=============================
+For full documentation and learning laravel go to the website https://laravel.com/docs/10.x
+->composer global require laravel/installer
+The above command install the laravel in the computer 
+
+Create laravel project
+=======================
+The below command is used to create any laravel project 
+->laravel new project-name
+
+Running laravel-project
+========================
+->php artisan serve
+Go to localhost:8000 in browser to check project running (or) not
+
+Purpose of laravel project
+============================
+This can be used for 
+1.For both front-end and back-end
+2.Only for back-end. To create API (application programming interface)
+
+Creating ApI's
+===============
+API'S always send data from the back-end to front-end
+we follow below process to create API'S in laravel
+->api.php -> app\Http\controllers folder -> app/Models folder 
+
+api.php file
+============
+In this file we will write all the request(or)routes url's needed for front-end 
+
+controllers folder
+====================
+For each route in api.php file there must be one controller to handle and send the response to front-end
+
+Models folder
+=============
+This folder is used for mapping php and database. Every model is a table in the database 
+database containes tables
+table contains rows and columns
+
+Working with models
+=======================
+To work with models follow the below steps
+1.Go to phpMyadmin and create a databsae(swiggy_api)
+2.Add database details in .env file 
+3.create model using below command(Creating model is nothing but creating a table)
+  -> php artisan make:model ModelName --migration
+
+
+
