@@ -60,6 +60,31 @@ To work with models follow the below steps
 2.Add database details in .env file 
 3.create model using below command(Creating model is nothing but creating a table)
   -> php artisan make:model ModelName --migration
+4.The above command will create 2-files 
+    one file for model class (in models folder).This model class will connect to table in the database
+    another file for database table (in database/migrations).This file will create a table in the database
+5.go to the generated migration file and write code in up method, for adding columns into table.
 
+  Schema::create('tablename', function (Blueprint $table) {
+            $table->id();
+            $table->string("columnname1");
+            $table->enum('columnname2', ['active', 'inactive'])->default('active');
+            $table->timestamp('columnname3')->useCurrent();
+            $table->timestamp('columnname4')->nullable()->useCurrentOnUpdate();
+        });
+6.To send the table into the database, run the below command   
+    ->php artisan migrate
+    Now go to database and check if table name created in the database (or) not
 
+7.If you want to change anything in the existing table.run the below command.
+  ->php artisan make:migration new_migration_filename
+  The above command will generate thje file in migrations folder.go to that file and write below code. 
+
+  Schema::table('tablename to update', function (Blueprint $table) {
+            $table->string("columnname1");
+            $table->enum('columnname2', ['active', 'inactive'])->default('active');
+            $table->timestamp('columnname3')->useCurrent();
+            $table->timestamp('columnname4')->nullable()->useCurrentOnUpdate();
+        });
+8.
 
