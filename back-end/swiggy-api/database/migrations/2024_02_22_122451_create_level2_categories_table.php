@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->bigInteger('level1CategoryId')->unsigned();
             $table->string("level2CategoryName");
-            $table->enum('statuls', ['active', 'inactive'])->default('active');
+            $table->enum('status', ['active', 'inactive'])->default('active');
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->nullable()->useCurrentOnUpdate();
             $table->foreign('level1CategoryId')->references('id')->on('level1_categories')->onDelete('cascade');
