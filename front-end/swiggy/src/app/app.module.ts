@@ -14,6 +14,11 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatToolbarModule} from '@angular/material/toolbar';
+// https://www.npmjs.com/package/ng-image-slider(imeges)
+// image slider
+import { NgImageSliderModule } from 'ng-image-slider';
+// for cards
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +36,9 @@ import { MatToolbarModule} from '@angular/material/toolbar';
     MatIconModule,
     MatInputModule,
     MatFormFieldModule,
-    MatToolbarModule
+    MatToolbarModule,
+    NgImageSliderModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

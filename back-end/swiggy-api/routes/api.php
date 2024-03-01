@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LocationController;
 use App\Http\Controllers\Level1CategoriesController;
 use App\Http\Controllers\Level2CategoriesController;
+use App\Http\controllers\RestaurantController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -28,3 +29,6 @@ Route::middleware('api')->get('/get-level2Categories',[Level2CategoriesControlle
 Route::middleware('api')->post('/add-level2Categories',[Level2CategoriesController::class,"addLevel2Categories"]);
 Route::middleware('api')->delete('/delete-level1Categories/{id}',[Level1CategoriesController::class,"deleteLevel1Categories"]);
 Route::middleware('api')->delete('/delete-level2Categories/{id}',[Level2CategoriesController::class,"deleteLevel2Categories"]);
+Route::middleware('api')->get('/get-restaurants',[RestaurantController::class,"getRestaurants"]);
+Route::middleware('api')->post('/add-restaurants',[RestaurantController::class,"addRestaurants"]);
+Route::middleware('api')->delete('/delete-restaurants/{id}',[RestaurantController::class,"deleteRestaurants"]);
