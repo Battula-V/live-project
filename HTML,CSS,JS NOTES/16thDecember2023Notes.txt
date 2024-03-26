@@ -1,0 +1,156 @@
+<html>
+<body id="demo">
+<h1 id="test"><u>HTML, CSS & Java Script</u></h1>
+<h2>HTML</h2>
+<p>HTML stands for Hyper Text Markup Language. It is called as presentation language. It is also called as formatting language. It is used to create a web page. It was developed by Tim Berners Lee in 1993.</p>
+<h2>CSS</h2>
+<p>CSS stands for Cascading Style Sheets. It is called as style sheet language. It is used to define style sheets to a web page.It was developed by Hakon Wium Lie in 1996.</p>
+<h2>Java Script</h2>
+<p>Java Script is an object oriented programming language. It is used to add dynamic behaviour to a web page. It is also used to validate html forms. It was developed by Brendan Eich in 1995.</p>
+<input type="button" value="Stylesheet1" onclick="style1()">
+<input type="button" value="Stylesheet2" onclick="style2()">
+<input type="button" value="Stylesheet3" onclick="style3()">
+<script>
+function style1()
+{
+	let element1=document.getElementById("demo");
+	element1.style.backgroundColor="yellow";
+	element1.style.color="red";
+	element1.style.margin="100px";
+	let element2=document.getElementById("test");
+	element2.align="left";
+	element2.style.fontFamily="arial";
+	element2.style.fontSize="40px";
+	let headings=document.getElementsByTagName("h2");
+	for(let heading of headings)
+	{
+		heading.style.color="black";
+		heading.style.fontSize="35px";
+	}
+	let paragraphs=document.getElementsByTagName("p");
+	for(let paragraph of paragraphs)
+	{
+		paragraph.style.borderStyle="solid";
+		paragraph.style.borderWidth="10px";
+		paragraph.style.fontSize="30px";
+		paragraph.style.padding="30px";
+	}
+}
+function style2()
+{
+	let element1=document.getElementById("demo");
+	element1.style.backgroundColor="green";
+	element1.style.color="yellow";
+	element1.style.margin="30px";
+	let element2=document.getElementById("test");
+	element2.align="center";
+	element2.style.fontFamily="courier";
+	element2.style.fontSize="50px";
+	let headings=document.getElementsByTagName("h2");
+	for(let heading of headings)
+	{
+		heading.style.color="white";
+	}
+	let paragraphs=document.getElementsByTagName("p");
+	for(let paragraph of paragraphs)
+	{
+		paragraph.style.borderStyle="double";
+		paragraph.style.borderWidth="8px";
+		paragraph.style.fontSize="25px";
+		paragraph.style.padding="25px";
+	}
+}
+function style3()
+{
+	let element1=document.getElementById("demo");
+	element1.style.backgroundColor="cyan";
+	element1.style.color="purple";
+	element1.style.margin="80px";
+	let element2=document.getElementById("test");
+	element2.align="right";
+	element2.style.fontFamily="georgia";
+	element2.style.fontSize="60px";
+	let headings=document.getElementsByTagName("h2");
+	for(let heading of headings)
+	{
+		heading.style.color="red";
+	}
+	let paragraphs=document.getElementsByTagName("p");
+	for(let paragraph of paragraphs)
+	{
+		paragraph.style.borderStyle="dotted";
+		paragraph.style.borderWidth="5px";
+		paragraph.style.fontSize="20px";
+		paragraph.style.padding="20px";
+	}
+}
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate getElementById() & getElementsByClassName() methods -->
+<html>
+<body>
+<h1 id="demo">HTML</h1>
+<h1 class="test">CSS</h1>
+<h1 class="test">JS</h1>
+<script>
+let element1=document.getElementById("demo");
+element1.innerHTML="Hyper Text Markup Language";
+let elements=document.getElementsByClassName("test");
+elements[0].innerHTML="Cascading Style Sheets";
+elements[1].innerHTML="Java Script";
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate getElementsByTagName() method -->
+<html>
+<body>
+<h1>HTML</h1>
+<h1>CSS</h1>
+<h1>JS</h1>
+<script>
+let elements=document.getElementsByTagName("h1");
+elements[0].innerHTML="Hyper Text Markup Language";
+elements[1].innerHTML="Cascading Style Sheets";
+elements[2].innerHTML="Java Script";
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate querySelector() & querySelectorAll() methods -->
+<html>
+<body>
+<h1 id="demo">HTML</h1>
+<h1 class="test">CSS</h1>
+<h1 class="test">JS</h1>
+<script>
+let element=document.querySelector("#demo");
+element.innerHTML="Hyper Text Markup Language";
+let elements=document.querySelectorAll(".test");
+elements[0].innerHTML="Cascading Style Sheets";
+elements[1].innerHTML="Java Script";
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate key events -->
+<html>
+<body>
+<script>
+window.addEventListener("keydown", event=>{
+	if(event.key=="g")
+		window.open("http://www.google.com");
+	else if(event.key=="f")
+		window.open("http://www.facebook.com");
+	else if(event.key=="y")
+		window.open("http://www.yahoo.com");
+});
+</script>
+</body>
+</html>
+
+
+
+

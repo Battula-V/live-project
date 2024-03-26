@@ -1,0 +1,12 @@
+<!doc type html>
+<html>
+<head>
+<tittle>example of marque tag</tittle>
+</head>
+<body>
+<marque with="40"direction="40"height="30%"
+bg colour="blue"scrool amount="10"loop="8"
+behaviour="scroll">this is the sample created
+using marque tag</marque>
+</body>
+</html>

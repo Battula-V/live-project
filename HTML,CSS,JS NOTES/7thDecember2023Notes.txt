@@ -1,0 +1,97 @@
+3) history object:
+==============
+It refers browser's history.
+
+Methods of history object:
+======================
+1) back() => It is used to get the backward page which is 
+already visited.
+2) forward() => It is used to get the forward page which is
+already visited.
+
+<!-- Program to demonstrate back() & forward() methods -->
+<html>
+<body>
+<input type="button" value="Back" onclick="fun1()">
+<input type="button" value="Forward" onclick="fun2()">
+<script>
+function fun1()
+{
+	history.back();
+}
+function fun2()
+{
+	history.forward();
+}
+</script>
+</body>
+</html>
+
+Date object
+==========
+It is used to get the system date & time.
+
+Methods of Date object:
+====================
+1) getDate() => It is used to get the date.
+2) getMonth() => It is used to get the month.
+3) getFullYear() => It is used to get the year.
+4) getHours() => It is used to get the hours.
+5) getMinutes() => It is used to get the minutes.
+6) getSeconds() => It is used to get the seconds.
+7) toString() => It is used to get the string representation of
+date & time.
+
+<!-- Program to get system time -->
+<html>
+<head>
+<meta http-equiv="refresh" content="1">
+<style>
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(cyan,yellow,cyan);
+}
+h1
+{
+	border-style: solid;
+	border-width: 5px;
+	border-color: red;
+	background-color: purple;
+	color: white;
+	width: 120px;
+}
+</style>
+</head>
+<body>
+<h1 id="demo"></h1>
+<script>
+let d=new Date();
+document.getElementById("demo").innerHTML=d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+</script>
+</body>
+</html>
+
+Math object:
+===========
+It is used to get mathematical operations.
+
+Methods of Math object:
+====================
+1) round()
+2) ceil()
+3) floor()
+4) trunc()
+5) random()
+
+
+
+
+
+
+
+
+
+

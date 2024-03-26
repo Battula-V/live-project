@@ -1,0 +1,103 @@
+1) Arithmetic Operators(6 Binary)
+2) Relational Operators(8 Binary)
+3) Logical Operators(2 Binary & 1 Unary)
+4) Increment & Decrement Operators(2 Unary)
+
+Logical Operators:
+================
+	Operator		Meaning
+	========		========
+	     &&		Logical AND
+	      ||		Logical OR
+	       !		Logical NOT
+
+<html>
+<body>
+<script>
+let a=5, b=3, c=2;
+let d=!((a>b)&&(a>c));
+let e=(a>b)||(a>c);
+document.write(d);
+document.write(e);
+</script>
+</body>
+</html>
+     
+Types of Operators:
+=================
+There are 3 types of operators:
+1) Unary Operator
+2) Binary Operator
+3) Ternary Operator
+
+Unary Operator:
+==============
+An operator that operates on only one operand is called as
+unary operator.
+Here operand can be a variable, literal or expression.
+
+Binary Operator:
+==============
+An operator that operates on two operands is called as
+binary operator.
+
+Ternary Operator:
+===============
+An operator that operates on three operands is called as
+ternary operator.
+
+Increment & Decrement Operators:
+==============================
+	Operator		Meaning
+	========		=======
+	     ++		Increment By 1
+	      --		Decrement By 1
+
+	++a => Pre increment
+	a++ => Post increment
+	--a => Pre decrement
+	a-- => Post decrement
+
+<html>
+<body>
+<script>
+let a=10, b=3;
+let c=a++ + ++b;
+document.write(a,b,c);
+</script>
+</body>
+</html>
+
+Bitwise Operators:
+================
+	Operator		Meaning
+	========		=======
+	      &		Bitwise AND
+	       |		Bitwise OR
+	       ^		Bitwise XOR
+	      <<		Left Shift
+	      >>		Right Shift
+	      ~		Complement (tilde)
+
+The above all bitwise operators operate on binary data.
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

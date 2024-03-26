@@ -1,0 +1,134 @@
+Math object:
+==========
+It is used to perform mathematical operations.
+
+Methods of Math object:
+====================
+1) round() => It returns rounded number.
+2) ceil() => It returns rounded up number.
+3) floor() => It returns rounded down number.
+4) trunc() => It returns integer part of a number.
+5) random() => It returns random number between 0 and 1.
+
+Example:
+========
+<html>
+<body>
+<script>
+let a=5.49;
+document.write(Math.round(a)); => 5
+document.write(Math.floor(a)); => 5
+document.write(Math.ceil(a)); => 6
+document.write(Math.trunc(a)); => 5
+</script>
+</body>
+</html>
+
+Random Examples:
+================
+1)
+let a=Math.random();
+document.write(a); => It returns between 
+0 and 1(with decimals).
+
+2)
+let a=Math.trunc(Math.random()*10);
+document.write(a); => It returns between 0 and 9(integer
+part only).
+
+3)
+let a=Math.trunc(Math.random()*11);
+document.write(a); => It returns between 0 and 10(integer
+part only).
+
+4)
+let a=Math.trunc(Math.random()*256);
+document.write(a); => It returns between 0 and 255(integer
+part only).
+
+5)
+let a=Math.trunc(Math.random()*101)+100;
+document.write(a); => It returns between 100 to 200(integer
+part only).
+
+<!-- Program to get random background color -->
+<html>
+<head>
+<meta http-equiv="refresh" content="1">
+</head>
+<body id="demo">
+<script>
+document.getElementById("demo").style.backgroundColor=
+"rgb("+Math.trunc(Math.random()*256)+","+Math.trunc(Math.random()*256)+","+Math.trunc(Math.random()*256)+")";
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate random colors & random borders -->
+<html>
+<body>
+<h1 id="demo">Welcome to Naresh IT</h1>
+<script>
+function fun()
+{
+let element=document.getElementById("demo");
+element.style.borderWidth="10px";
+element.style.color=
+"rgb("+Math.trunc(Math.random()*256)+","+Math.trunc(Math.random()*256)+","+Math.trunc(Math.random()*256)+")";
+element.style.backgroundColor=
+"rgb("+Math.trunc(Math.random()*256)+","+Math.trunc(Math.random()*256)+","+Math.trunc(Math.random()*256)+")";
+let borders=["solid","dotted","dashed","double","none"];
+element.style.borderStyle=borders[Math.trunc(Math.random()*5)];
+}
+window.setInterval(fun, 1000);
+</script>
+</body>
+</html>
+
+String object:
+============
+Every string literal itself an object.
+
+Properties of String object:
+=======================
+1) length => It is used to get the no. of characters in a given
+string.
+
+Methods of String object:
+=====================
+1) toUpperCase() => It is used to convert into upper case 
+letters.
+2) toLowerCase() => It is used to convert into lower case 
+letters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

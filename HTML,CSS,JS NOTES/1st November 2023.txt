@@ -1,0 +1,145 @@
+1) Color Properties
+2) Background Properties
+3) Border Properties
+4) Width & Height Properties
+5) Margin Properties
+6) Padding Properties
+7) Font Properties
+8) Text Properties
+
+<html>
+<head>
+<style>
+body
+{
+	background-color: cyan;
+}
+div
+{
+	border-style: double;
+	border-color: red;
+	width: 475px;
+	background-color: yellow;
+	border-width: 10px;
+}
+img
+{
+	width: 150px;
+	height: 150px;
+}
+#one
+{
+	border-style: solid;
+	border-width: 3px;
+	border-color: red;
+	border-radius: 100px;
+}
+#two
+{
+	border-style: dashed;
+	border-width: 3px;
+	border-color: green;
+	border-radius: 40px;
+}
+#three
+{
+	border-style: dotted;
+	border-width: 3px;
+	border-color: blue;
+	border-radius: 50%;
+}
+</style>
+</head>
+<body>
+<div>
+<img id="one" src="C:/flowers.jfif">
+<img id="two" src="E:/pinkroses.jpeg">
+<img id="three" src="E:/roses.jpg">
+</div>
+</body>
+</html>
+
+Gradient properties:
+=================
+Gradient properties are used to display transitions 
+between two or more colors.
+
+There are three types of gradients:
+1) Linear Gradients
+2) Radial Gradients
+3) Conic Gradients
+
+1) Linear Gradients Property Values:
+===============================
+1) linear-gradient(red, yellow);=> Top to Bottom
+2) linear-gradient(orange, white, green); => Top to Bottom
+3) linear-gradient(to right, red, yellow); => Left to Right
+4) linear-gradient(to right, orange, white, green); => Left
+				to Right
+5) linear-gradient(to bottom right, red, yellow);
+	=> Top Left to Bottom Right
+6) linear-gradient(to bottom right, orange, white, green);
+	=> Top Left to Bottom Right
+7) linear-gradient(to bottom right, red, green, blue, 
+orange, cyan, purple, yellow);
+8) repeating-linear-gradient(orange 10%, white 20%,
+green 30%);
+
+<html>
+<head>
+<style>
+body
+{
+	background-image: repeating-linear-gradient(orange 10%, white 20%, green 30%);
+}
+</style>
+</head>
+<body>
+<h1>Welcome to Naresh i Technologies</h1>
+</body>
+</html>
+
+2) Radial Gradients Property Values:
+===============================
+1) radial-gradient(red, yellow);
+2) radial-gradient(orange, white, green);
+3) repeating-radial-gradient(red 10%, yellow 20%);
+4) repeating-radial-gradient(orange 10%, white 20%,
+			green 30%);
+
+3) Conic Gradients Property Values:
+===============================
+1) conic-gradient(red, yellow);
+2) conic-gradient(orange, white, green);
+3) repeating-conic-gradient(red 10%, yellow 20%);
+4) repeating-conic-gradient(orange 10%, white 20%,
+			green 30%);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

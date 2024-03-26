@@ -1,0 +1,77 @@
+Control Flow Statements:
+=====================
+1) Conditional Statements
+	i) if Statement
+	ii) if else Statement
+	iii) if else if .... else Statement
+	iv) Nested if Statement
+	v) switch Statement
+2) Iterative Statements(Loops):
+	i) while loop
+	ii) do while loop
+	iii) for loop
+	iv) for in loop
+	v) for of loop
+	vi) Nested loops
+3) Loop Controlling Statements:
+	i) break Statement
+	ii) break LABEL Statement
+	iii) continue Statement
+	iv) continue LABEL Statement
+
+<!-- Program to demonstrate while loop -->
+<html>
+<body>
+<script>
+let a=1;
+while(a<=10)
+{
+	document.write(a);
+	a++;
+}
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate do while loop -->
+<html>
+<body>
+<script>
+let a=1;
+do
+{
+	document.write(a);
+	a++;
+}while(a<=10);
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate for loop -->
+<html>
+<body>
+<script>
+for(let a=1;a<=10;a++)
+{
+	document.write(a);
+}
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate nested loops -->
+<html>
+<body>
+<script>
+for(let j=1;j<=5;j++)
+{
+	for(let i=1;i<=j;i++)
+	{
+		document.write(i);
+	}
+	document.write("<br>");
+}
+</script>
+</body>
+</html>
+

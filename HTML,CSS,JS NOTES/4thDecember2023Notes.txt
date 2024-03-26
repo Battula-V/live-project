@@ -1,0 +1,111 @@
+Arrays in Java Script:
+==================
+An array is a collection of similar data elements.
+Array index always begins with zero & ends with size-1.
+In Java Script, array itself an object. 
+Array object contains collection of objects because 
+in Java Script almost every thing is an object.
+
+Declaration:
+==========
+Example:
+========
+let x=[];
+
+Assignment:
+==========
+Examples:
+=========
+x[0]=53;
+x[1]=98;
+x[2]=90;
+
+Initialization:
+===========
+Example:
+========
+let x=[53,98,90];
+
+Accessing array elements by using for loop:
+====================================
+Example:
+========
+<html>
+<body>
+<script>
+let x=[23,93,55,93,45];
+for(let i=0;i<x.length;i++)
+{
+	document.write(x[i]+"<br>");
+}
+</script>
+</body>
+</html>
+
+Accessing array elements by using for in loop:
+======================================
+Example:
+========
+<html>
+<body>
+<script>
+let x=[23,93,55,93,45];
+for(let i in x)
+{
+	document.write(x[i]+"<br>");
+}
+</script>
+</body>
+</html>
+
+Accessing array elements by using for of loop:
+======================================
+Example:
+========
+<html>
+<body>
+<script>
+let x=[23,93,55,93,45];
+for(let y of x)
+{
+	document.write(y+"<br>");
+}
+</script>
+</body>
+</html>
+
+Example:
+========
+<html>
+<body text="purple" id="test">
+<h1 align="center" id="demo">Welcome to Naresh IT</h1>
+<script>
+let i=0;
+function fun()
+{
+	let x=["left","center","right"];
+	let y=["red","green","blue"];
+	let element1=document.getElementById("demo");
+	element1.align=x[i];
+	let element2=document.getElementById("test");
+	element2.text=y[i];
+	i++;
+	if(i==3)
+		i=0;
+}
+setInterval(fun, 1000);//It calls fun function for every second.
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

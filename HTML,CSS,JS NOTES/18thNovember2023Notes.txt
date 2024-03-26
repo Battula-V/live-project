@@ -1,0 +1,112 @@
+1) Arithmetic Operators(6 Binary)
+2) Relational Operators(8 Binary)
+3) Logical Operators(2 Binary &  1 Unary)
+4) Increment & Decrement Operators(2 Unary)
+5) Bitwise Operators(5 Binary & 1 Unary)
+6) Assignment Operators(12 Binary)
+7) Conditional Operators
+8) Unary Plus & Unary Minus Operators
+9) Other Operators
+
+<html>
+<body>
+<script>
+let a=9, b=13;
+document.write((a&b)+"<br>");
+document.write((a|b)+"<br>");
+document.write(a^b);
+</script>
+</body>
+</html>
+
+<html>
+<body>
+<script>
+let a=9;
+document.write((a<<2)+"<br>");
+document.write(a>>2);
+</script>
+</body>
+</html>
+
+<html>
+<body>
+<script>
+let a=53;
+document.write(~a);
+</script>
+</body>
+</html>
+
+Assignment Operators:
+===================
+	Operator		Meaning
+	========		=======
+	      =		Normal Assignment
+	   a+=b;		a=a+b;
+	   a-=b;		a=a-b;
+	   a*=b;		a=a*b;
+	   a/=b;		a=a/b;
+	   a%=b;		a=a%b;
+	   a**=b;		a=a**b;
+	   a&=b;		a=a&b;
+	   a|=b;		a=a|b;
+	   a^=b;		a=a^b;
+	   a<<=b;		a=a<<b;
+	   a>>=b;		a=a>>b;
+
+Conditional Operators:
+===================
+It is a ternary operator & it operates on three operands.
+
+Syntax:
+======
+	operand1 ? operand2 : operand3
+
+Example:
+========
+<html>
+<body>
+<script>
+let a=5, b=3;
+let c=(a>b)?a:b;
+document.write(c);
+</script>
+</body>
+</html>
+
+Unary Plus & Unary Minus Operators:
+===============================
+	Operator		Meaning
+	========		=======
+	       +		Positive
+	       - 		Negative
+
+Example:
+========
+<html>
+<body>
+<script>
+let a=-5;
+let b=-a;
+document.write(b);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+what is html?
+ans:html stands for hyper text markup language.it is a tag based language
+what is tag?
+ans:anything enclosed in b/w angular brackets(<>)
+EX:<html>
+types of tags?
+ans:open tag
+    closing tag
+    self closing tag
+what are html attributes?
+ans:this are used for giving additional information for the tag
+syntax:<div attributeName="attributeValue"> </div>
+EX:<div width="56" height="90"></div>
+What are different types of tags?
+Ans:list,table,form,semantic
+What is another name of tag?
+Ans:element
+What are list elements?
+Ans:ordered list and unordered list
+EX:
+<h1>unordered list</h1>
+<ul>
+<li>cricket</li><li>football</li></ul><h1>ordered list</h1>
+
+   <ol><li>cricket</li><li>football</li></ol>
+Image tag:
+============
+syntax:<img src="" width="80" height="60"/>
+<img src=""/>
+
+what is src in image tag?
+Ans:It is location/path of image file
+layout designing
+===============
+css is used for layout designing
+types of css
+==============
+1.inline styles
+2.internal styles
+3.external styles
+inline styles
+=================

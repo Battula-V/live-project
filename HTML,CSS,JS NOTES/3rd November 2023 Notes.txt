@@ -1,0 +1,86 @@
+1) Pseudo Classes:
+================
+1) :hover
+2) :link
+3) :visited
+4) :active
+5) :checked
+6) :focus
+7) :optional
+8) :required
+9) :valid
+10) :invalid
+
+Pseudo Elements:
+===============
+1) ::first-letter
+2) ::first-line
+3) ::selection
+
+<!-- Program to demonstrate :focus, :invalid & :valid
+pseudo classes -->
+<html>
+<head>
+<style>
+input:focus
+{
+	background-color: yellow;
+}
+input:invalid
+{
+	color: red;
+}
+input:valid
+{
+	color: green;
+}
+</style>
+</head>
+<body>
+<form action="demo.jsp" method="POST">
+Mail Id <input type="email" name="mail">
+<input type="submit">
+</form>
+</body>
+</html>
+
+<html>
+<head>
+<style>
+input:checked
+{
+	accent-color: red;
+	width: 20px;
+	height: 20px;
+}
+</style>
+</head>
+<body>
+<form action="demo.jsp" method="POST">
+<input type="checkbox" name="book1" value="HTML">HTML
+<input type="checkbox" name="book2" value="CSS">CSS
+<input type="checkbox" name="book3" value="Java Script">Java Script
+<input type="submit">
+</form>
+</body>
+</html>
+
+<html>
+<head>
+<style>
+p::first-letter
+{
+	font-size: 30px;
+}
+p::selection
+{
+	background-color: yellow;
+	color: red;
+}
+</style>
+</head>
+<body>
+<p>Hyper Text Markup Language</p>
+</body>
+</html>
+

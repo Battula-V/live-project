@@ -1,0 +1,123 @@
+Errors in Java Script:
+==================
+A programming mistake is said to be an error.
+
+There are 3 types of errors:
+=======================
+1) Compile time errors(Syntax errors)
+2) Run time errors(Exceptions)
+3) Logical errors
+
+The following keywords we use in Java script to handle errors:
+1) try	2) catch	3) throw 	4) finally
+
+The syntax of try & catch blocks:
+===========================
+try
+{
+        ======
+        ======
+}catch(error)
+{
+      ========
+}
+
+The catch block is executed whenever error occurs in a try block.
+
+There are many errors:
+For example,
+1) SyntaxError
+2) RangeError
+3) ReferenceError
+4) TypeError, .. etc.,
+
+In Java Script for all errors objects are created.
+Whenever exception(run time error) occurs then the object of
+exception created by Java Script engine,  passed to catch block
+& catch block code is executed.
+
+There are two properties in error object:
+1) name => It is used to get the name of an error.
+2) message => It is used to get the description of an error.
+
+In the above errors, SyntaxError is a compile time error & 
+remaining all errors are run time errors(exceptions).
+
+<!-- Program to demonstrate SyntaxError -->
+<html>
+<body>
+<script>
+document.write("Welcome);	
+</script>
+</body>
+</html>
+This error cannot be handled because it is a compile time error & 
+it is not an exception.
+
+<!-- Program to demonstrate RangeError -->
+<html>
+<body>
+<script>
+let a=Number(window.prompt("Enter first number: "));
+let b=Number(window.prompt("Enter second number: "));
+document.write(a.toExponential(b));
+</script>
+</body>
+</html>
+
+In the above example RangeError can be handled by using 
+try & catch blocks as follows:
+<html>
+<body>
+<script>
+try{
+let a=Number(window.prompt("Enter first number: "));
+let b=Number(window.prompt("Enter second number: "));
+document.write(a.toExponential(b));
+}catch(error)
+{
+	document.write(error+"<br>");
+	document.write(error.name+"<br>");
+	document.write(error.message+"<br>");
+}
+</script>
+</body>
+</html>
+
+In the above example, predefined error messages are displayed.
+It is also possible to display user friendly error message 
+as follows:
+<html>
+<body>
+<script>
+try{
+let a=Number(window.prompt("Enter first number: "));
+let b=Number(window.prompt("Enter second number: "));
+document.write(a.toExponential(b));
+}catch(error)
+{
+	document.write("Please pass second number between 0 and 100");
+}
+</script>
+</body>
+</html>
+
+It is also possible to throw user friendly error message to catch
+block by using throw keyword as follows:
+
+<html>
+<body>
+<script>
+try{
+let a=Number(window.prompt("Enter first number: "));
+let b=Number(window.prompt("Enter second number: "));
+if((b<0)||(b>100))
+	throw "Please pass second number between 0 and 100";
+document.write(a.toExponential(b));
+}catch(error)
+{
+	document.write(error);
+}
+</script>
+</body>
+</html>

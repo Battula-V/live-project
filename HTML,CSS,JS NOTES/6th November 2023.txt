@@ -1,0 +1,91 @@
+1) Simple Selectors
+2) Grouping Selectors
+3) Pseudo Selectors
+4) Attribute Selectors
+5) Combinator Selectors
+
+transform property:
+=================
+It is used to specify the transformation.
+The possible values are rotate, translate, scale, skew,
+rotatex, rotatey & rotatez.
+
+transition-duration property:
+========================
+It is used to set the time interval.
+
+<!-- Program to demonstrate scale transform -->
+<html>
+<head>
+<style>
+h1
+{
+	margin-top: 100px;
+	margin-left: 100px;
+	color: blue;
+	background-color: yellow;
+	border-style: solid;
+	width: 160px;
+	border-color: red;
+	text-align: center;
+}
+h1:hover
+{
+	transform: scale(-2, -2);
+	transition-duration: 2s;
+}
+</style>
+</head>
+<body>
+<h1>
+Java Script<br>
+By<br>
+Venkatesh<br>
+Mansani
+</h1>
+</body>
+</html>
+
+<!-- Program to demonstrate skew transform -->
+h1:hover
+{
+	transform: skew(20deg, 20deg);
+	transition-duration: 2s;
+}
+
+<!-- Program to demonstrate rotate transform -->
+h1:hover
+{
+	transform: rotate(360deg);
+	transition-duration: 20s;
+}
+
+<!-- Program to demonstrate translate transform -->
+h1:hover
+{
+	transform: translate(500px, 0px);
+	transition-duration: 20s;
+}
+
+Combinator Selectors:
+===================
+Combinator selectors are used to select the elements
+based on relationship.
+
+There are four combinator selectors:
+1) Descendant Selectors(Space)
+2) Child Selectors(>)
+3) Adjacent Siblings Selectors(+)
+4) General Siblings Selectors(~)
+
+
+
+
+
+
+
+
+
+
+
+

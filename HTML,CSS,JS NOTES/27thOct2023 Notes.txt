@@ -1,0 +1,195 @@
+CSS Selectors:
+=============
+1) Simple Selectors
+	i) Element Selector
+	ii) Id Selector
+	iii) Class Selector
+2) Grouping Selectors
+	i) Grouping Multiple Elements Selector
+	ii) Grouping All Elements Selector
+3) Combinator Selectors
+4) Attribute Selectors
+5) Pseudo Selectors
+
+Grouping Selectors:
+=================
+There are two grouping selectors.
+1) Grouping Multiple Elements Selector
+2) Grouping All Elements Selector
+
+1) Grouping Multiple Elements Selector:
+=================================
+It selects the elements based on element names only to style.
+It allows to write multiple element names.
+Syntax:
+======
+element-name1, element-name2, ......
+{
+	Property Declarations
+}
+
+Example:
+========
+<html>
+<head>
+<style>
+h1,h2,h3
+{
+	color: green;
+	background-color: yellow;
+}
+h4,h5,h6
+{
+	color: blue;
+	background-color:pink;
+}
+</style>
+</head>
+<body>
+<h1>Hyper Text Markup Language</h1>
+<h2>Cascading Style Sheets</h2>
+<h3>Java Script</h3>
+<h4>Java</h4>
+<h5>C#.Net</h5>
+<h6>Python</h6>
+</body>
+</html>
+
+2) Grouping All Elements Selector:
+=============================
+It selects the all elements in html document to style.
+Syntax:
+======
+*
+{
+	Property Declarations
+}
+Here * indicates all elements. This selector is also called as
+universal selector.
+
+Example:
+========
+<html>
+<head>
+<style>
+*
+{
+	color: yellow;
+	background-color: green;
+}
+</style>
+</head>
+<body>
+<h1>Hyper Text Markup Language</h1>
+<h2>Cascading Style Sheets</h2>
+<h3>Java Script</h3>
+</body>
+</html>
+
+Color Properties:
+===============
+1) color => It is used to set the text color.
+Values can be used as follows:
+	i) red (or) green (or) blue (or) ......
+	ii) rgb(255, 0, 0) (or) rgb(0, 255, 0) (or) rgb(........)
+	iii) #ff0000 (or) #00ff00 (or) #.......
+2) background-color => It is used to set the background color.
+3) border-color => It is used to set the border color.
+Note: border-color attribute requires border-style attribute.
+
+Example:
+========
+<html>
+<head>
+<style>
+h1
+{
+	color: #0000ff;
+	background-color: cyan;
+	border-style: solid;
+	border-color: rgb(255,0,0);
+}
+</style>
+</head>
+<body>
+<h1>Hyper Text Markup Language</h1>
+</body>
+</html>
+
+Background Properties:
+====================
+1) background-image => It is used to set the background 
+			image.
+2) background-repeat => It is used to specify whether image
+			should be repeated or not.
+The following values can be used.
+i) repeat => It is used to repeat both horizontal & vertical.
+ii) repeat-x => It is used to repeat horizontally.
+iii) repeat-y => It is used to repeat vertically.
+iv) no-repeat => It does not repeat the image.
+Note: Default is repeat.
+
+3) background-attachment => It is used to specify whether
+	the image should be scrolled or fixed.
+The following values can be used.
+i) scroll => It is used to scroll the image.
+ii) fixed => It is used to specify the fixed size.
+4) background-position => It is used to specify the position
+to display image.
+The following values can be used:
+1) left top	2) left center 3) left bottom 4) center top
+5) center center 6) center bottom 7) right top 8) right center
+9) right bottom 
+Note: Default is left top
+
+Example:
+========
+<html>
+<head>
+<style>
+body
+{
+	background-image: url("c:/flowers.jfif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right top;
+}
+</style>
+</head>
+<body>
+<h1>Hyper Text Markup Language</h1>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

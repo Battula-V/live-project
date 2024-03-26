@@ -1,0 +1,99 @@
+Color Properties:
+===============
+1) color
+2) background-color
+3) border-color
+
+Background Properties:
+====================
+1) background-image
+2) background-repeat
+3) background-attachment
+4) background-position
+
+Width & Height Properties:
+=======================
+1) width => It is used to specify the element width.
+2) height => It is used to specify the element height.
+
+Margins:
+=======
+The space between screen & border is called as margin.
+
+Margin Properties:
+================
+1) margin-top => It is used to specify the top margin.
+2) margin-right => It is used to specify the right margin.
+3) margin-bottom => It is used to specify the bottom margin.
+4) margin-left => It is used to specify the left margin.
+5) margin => It is used to specify margin at all sides.
+
+Padding:
+========
+The space between content & border is called as padding.
+
+Padding Properties:
+=================
+1) padding-top => It is used to specify the top padding.
+2) padding-right => It is used to specify the right padding.
+3) padding-bottom => It is used to specify the bottom padding.
+4) padding-left => It is used to specify the left padding.
+5) padding => It is used to specify the padding at all sides.
+
+Border Properties:
+================
+1) border-style => It is used to specify the style of the border.
+The following values can be used.
+1) solid	2) dashed	       3) dotted      4) double      5)  none
+2) border-width => It is used to specify the border thickness.
+3) border-color => It is used to specify the border color.
+
+Example:
+========
+<html>
+<head>
+<style>
+body
+{
+	background-color: cyan;
+}
+div
+{
+	color: blue;
+	background-color: yellow;
+	border-style: dotted;
+	border-color: red;
+	width: 430px;
+	height: 250px;
+	margin-left: 100px;
+	margin-top: 100px;
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	border-width: 15px;
+}
+</style>
+</head>
+<body>
+<div>
+<h1>Hyper Text Markup Language</h1>
+<h1>Cascading Style Sheets</h1>
+<h1>Java Script</h1>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

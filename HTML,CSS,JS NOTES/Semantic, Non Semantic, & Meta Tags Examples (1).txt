@@ -1,0 +1,169 @@
+Semantic Tags:
+=============
+1) <header>....</header>
+2) <footer>....</footer>
+3) <main>....</main>
+4) <article>.....</article>
+5) <section>.....</section>
+
+Non Semantic Tags:
+=================
+1) <div>....</div>
+2) <span>....</span>
+
+Meta Tags:
+==========
+1) <meta>
+2) <base>
+3) <!DOCTYPE>
+
+<!-- HTML program to demonstrate Semantic Tags & Non Semantic Tags -->
+<html>
+<body>
+<header>
+<center>
+<h1><u>HTML, CSS & Java Script</u></h1>
+</center>
+</header>
+<article>
+<div>
+<section>
+<h2>HTML</h2>
+<p>HTML stands for Hyper Text Markup Language. It is used to create web pages.</p>
+</section>
+<section>
+<h2>CSS</h2>
+<p>CSS stands for Cascading Style Sheets. It is used to design web pages.</p>
+</section>
+</div>
+<section>
+<h2>Java Script</h2>
+<p>Java Script is used to validate forms & also used to develop interactive web pages.</p>
+</section>
+</article>
+<footer>
+<center>
+<h3><span>Naresh i Technologies</span>, Ameerpet, Hyderabad</h3>
+</center>
+</footer>
+</body>
+</html>
+
+<!-- HTML program to demonstrate Meta Tags -->
+<!doctype html>
+<html lang="en">
+ <head>									
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="Venkatesh Mansani">
+  <meta name="Keywords" content="HTML, CSS & Java Script">
+  <meta name="Description" content="It is a Web Page">
+  <meta name="viewport" content="width=device-width, initial-scale='1.0'">
+  <meta http-equiv="refresh" content="30">
+  <title>Document</title>
+ </head>
+ <body bgcolor="green" text="yellow">
+  <h1>Welcome to Naresh i Technologies</h1>
+ </body>
+</html>
+
+Attributes of <base> tag:
+=====================
+1) href="...." => It is used to specify default url. It is applied to 
+all links in that particular html document.
+2) target="...." => It is used to specify default target. It is applied
+to all targets in that particular html document.
+
+<!-- HTML program to demonstrate <base> tag -->
+<html>
+<head>
+<base href="http://www.google.com" target="_blank">
+</head>
+<body>
+<h1>
+<a href="/index.html">Google HomePage</a><br>
+<a href="/search?q=html+tutorial&sca_esv=574054633&source=hp&ei=OaEuZY30HIH6-QaA272gCQ&iflsig=AO6bgOgAAAAAZS6vSTHrPhLXXl0pePXlw9TIYA2ntahW&oq=html+tu&gs_lp=Egdnd3Mtd2l6IgdodG1sIHR1KgIIADILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIHEAAYgAQYCjIFEAAYgAQyBRAAGIAEMgUQABiABEicEFAAWPoIcAB4AJABAJgBbqABpQWqAQM1LjK4AQPIAQD4AQHCAhEQLhiDARjHARixAxjRAxiABMICBRAuGIAEwgILEC4YgAQYsQMYgwHCAggQABiABBixA8ICCxAuGIoFGLEDGIMBwgIEEAAYA8ICERAuGIAEGLEDGIMBGMcBGNED&sclient=gws-wiz">HTML Tutorial Links</a>
+</h1>
+</body>
+</html>
+
+Programming Tags:
+================
+1) <script> .... </script> => It is used to write client side scripting
+			code. For example: Java Script code.
+2) <noscript>...</noscript> => It is used to specify alternate text.
+This text displayed whenever browser does not support script.
+3) <style> .... </style> => It is used to write style sheet 
+			code(CSS code).
+
+Deprecated Tags in HTML5:
+=======================
+1) <center>....</center>
+2) <font>....</font>
+3) <marquee>.....</marquee>
+4) <strike>....</strike>
+5) <u>.....</u>
+6) <frameset>....</frameset>
+7) <frame>
+
+Deprecated Attributes in HTML5:
+============================
+1) align="..."
+2) hspace="..."
+3) vspace="..."
+4) link="...."
+5) alink="...."
+6) vlink="...."
+7) bgcolor="...."
+8) text="....."
+9) background="...."
+
+Global Attributes:
+===============
+Global attributes can be used in html tags.
+1) id="..." => It is used to specify unique id for css.
+2) class="..." => It is used to specify multiple class names for css.
+3) title="..." => It is used to specify tool tip text.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

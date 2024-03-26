@@ -1,0 +1,152 @@
+Objects:
+=======
+Object is a collection of properties & methods.
+Java Script object contains properties & methods.
+Here properties are variables & methods are functions.
+
+Example:
+========
+let emp={
+	empNo: 101,
+	name: "Venkatesh",
+	salary: 5000.00
+	get: function(){}
+};
+
+In the above example, empNo, name & salary are called
+properties(variables).
+get is a method(function).
+Here emp is an object reference. It is also called as an object
+name(variable).
+
+The above properties can be accessed as follows:
+document.write(emp.empNo+"<br>"+emp.name+
+			"<br>"+emp.salary+"<br>");
+		(or)
+document.write(emp["empNo"]+"<br>"+emp["name"]+
+			        "<br>"+emp["salary"]);
+
+Properties of an object can be accessed by using for in loop
+as follows:
+<html>
+<body>
+<script>
+let emp={
+	empNo: 101,
+	name: "aaa",
+	salary: 5000.00
+};
+for(let x in emp)
+{
+	document.write(emp[x]+"<br>");
+}
+</script>
+</body>
+</html>
+
+Java Script allows to add new property after creating an 
+object also.
+
+Java Script allows to remove an existed property by using
+delete keyword.
+
+Example:
+========
+<html>
+<body>
+<script>
+let emp={
+	empNo: 101,
+	name: "aaa",
+};
+for(let x in emp)
+{
+	document.write(emp[x]+"<br>");
+}
+emp.salary=5000.00;
+for(let x in emp)
+{
+	document.write(emp[x]+"<br>");
+}
+delete emp.name;
+for(let x in emp)
+{
+	document.write(emp[x]+"<br>");
+}
+</script>
+</body>
+</html>
+
+Properties of an object can be accessed in a method by using
+this keyword.
+Here this keyword refers current object.
+
+Example:
+========
+<html>
+<body>
+<script>
+let emp={
+	empNo: 101,
+	name: "aaa",
+	salary: 5000.00,
+	get: function(){ document.write(this.empNo+"<br>"+this.name+"<br>"+this.salary); }
+};
+emp.get(); 
+</script>
+</body>
+</html>
+
+Properties of an object can be returned through method
+as follows:
+<html>
+<body>
+<script>
+let emp={
+	empNo: 101,
+	name: "aaa",
+	salary: 6000.00,
+	get: function(){  return this.empNo+"<br>"+this.name+"<br>"+this.salary; }
+};
+let e=emp.get(); 
+document.write(e);
+</script>
+</body>
+</html>
+
+In Java Script, object can be created by using new keyword
+& constructor function.
+
+Example:
+========
+<html>
+<body>
+<script>
+function Emp(empNo, name, salary)
+{
+	this.empNo=empNo;
+	this.name=name;
+	this.salary=salary;
+}
+let e1=new Emp(101,"aaa",5000.00);
+document.write(e1.empNo+"<br>"+e1.name+"<br>"+e1.salary+"<br>");
+let e2=new Emp(102,"bbb",6000.00);
+document.write(e2.empNo+"<br>"+e2.name+"<br>"+e2.salary);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

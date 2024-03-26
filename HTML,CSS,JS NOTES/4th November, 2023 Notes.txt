@@ -1,0 +1,155 @@
+CSS Selectors:
+=============
+1) Simple Selectors:
+	i) Element Selector
+	ii) Id Selector
+	iii) Class Selector
+2) Grouping Selectors:
+	i) Grouping Multiple Elements Selector
+	ii) Grouping All Elements Selector
+3) Pseudo Selectors:
+	1) Pseduo Class Selectors:
+		i) :hover
+		ii) :link
+		iii) :visited
+		iv) :active
+		v) :checked
+		vi) :focus
+		vii) :optional
+		viii) :required
+		ix) :valid
+		x) : invalid
+	2) Pseudo Element Selectors:
+		i) ::first-letter
+		ii) ::first-line
+		iii) ::selection
+4) Attribute Selectors
+5) Combinator Selectors
+
+Attribute Selectors:
+=================
+Attribute selectors are used to select the elements 
+based on attribute name or attribute value to style.
+
+1) element[attribute] selector:
+=========================
+This selector selects the elements based on specified
+attribute in a specified element to style.
+
+Example:
+========
+input[type]
+{
+	background-color: yellow;
+}
+
+2) element[attribute="value"] selector:
+=================================
+This selector selects the elements based on specified
+value in a specified attribute in a specified element 
+to style.
+
+Example:
+========
+input[type="text"]
+{
+	background-color: yellow;
+}
+
+3) element[attribute~="word"] selector:
+=================================
+This selector selects the elements based on specified
+word in a specified attribute in a specified element to
+style.
+Note: Specified word should present in a specified a
+attribute value with space.
+
+Example:
+========
+input[class~="demo"]
+{
+	background-color: yellow;
+}
+
+4) element[attribute|="word"] selector:
+=================================
+This selector selects the elements whose attribute
+value contains specified word & whose attribute value
+contains specified word and followed by hyphen(-) to
+style.
+
+Example:
+========
+input[class|="demo"]
+{
+	background-color: yellow;
+}
+
+5) element[attribute^="word"] selector:
+=================================
+This selector selects the elements whose attribute
+value starts with specified word to style.
+
+Example:
+========
+input[class^="demo"]
+{
+	background-color: yellow;
+}
+
+6) element[attribute$="word"] selector:
+=================================
+This selector selects the elements whose attribute 
+value ends with the specified word to style.
+
+Example:
+========
+input[class$="demo"]
+{
+	background-color: yellow;
+}
+
+7) element[attribute*="word"] selector:
+=================================
+This selector selects the elements whose attribute
+value contains specified word as a substring to style.
+
+Example:
+========
+input[class*="demo"]
+{
+	background-color: yellow;
+}
+
+<html>
+<head>
+<style>
+input[class*="demo"]
+{
+	background-color: yellow;
+}
+</style>
+</head>
+<body>
+<h1><u>Login Form</u></h1>
+<form method="POST" action="login.jsp">
+Username <input type="text" name="uname" class="demo"><br>
+Password <input type="password" name="pword" 
+class="first demo"><br><br>
+<input type="submit" class="demo-second"><input type="reset" class="seconddemothird">
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+	
+
+
+

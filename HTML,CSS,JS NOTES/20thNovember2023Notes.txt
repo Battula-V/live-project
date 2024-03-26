@@ -1,0 +1,99 @@
+Control Flow Statements:
+=====================
+1) Conditional Statements:
+	i) if Statement
+	ii) if else Statement
+	iii) if else if ... else Statement
+	iv) Nested if Statement
+	v) switch Statement
+2) Iterative Statements(Loops):
+	i) while loop
+	ii) do while loop
+	iii) for loop
+	iv) for in loop
+	v) for of loop
+	vi) Nested loops
+3) Loop Controlling Statements:
+	i) break Statement
+	ii) break LABEL Statement
+	iii) continue Statement
+	iv) continue LABEL Statement
+
+<!-- Program to demonstrate if else if ... else statement -->
+<html>
+<body>
+<script>
+let a=0;
+if(a>0)
+	document.write("Positive Number");
+else if(a<0)
+	document.write("Negative Number");
+else
+	document.write("Zero");
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate nested if statement -->
+<html>
+<body>
+<script>
+let a=-10;
+if(a>0)
+{
+	if(a%2==0)
+	    document.write("Even Number");
+	else
+		document.write("Odd Number");
+}
+else
+{
+	if(a<0)
+		document.write("Negative Number");
+	else
+		document.writer("Zero");
+}
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate switch statement -->
+<html>
+<body>
+<script>
+let a=3;
+switch(a)
+{
+	case 1: document.write("One");
+		    break;
+	case 2: document.write("Two");
+			break;
+	default: document.write("Invalid");
+}
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate switch statement -->
+<html>
+<body>
+<script>
+let a="mon";
+switch(a)
+{
+	case "mon": 
+	case "tue": 
+	case "wed": 
+	case "thu": 
+	case "fri": document.write("Working Day");
+				break;
+	case "sat": 
+	case "sun": document.write("Holiday");
+				break;
+	default: document.write("Invalid Day");
+}
+</script>
+</body>
+</html>
+
+

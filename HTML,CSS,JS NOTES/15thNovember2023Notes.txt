@@ -1,0 +1,150 @@
+1) Identifiers
+2) Keywords
+3) Literals
+4) Data Types
+5) Variables
+6) Type Conversions
+7) Operations On Data
+8) Program Structure
+9) Operators
+10) Control Statements
+
+Data Types:
+==========
+1) Number
+2) String
+3) Boolean
+4) Object
+5) BigInt
+6) Undefined
+7) Null
+8) Symbol
+
+Type Conversions:
+================
+Converting one type to another type is called as type conversion.
+
+Literal	Number	String	Boolean
+======	=======	======	=======
+1	1	"1"	true
+0	0	"0"	false
+10	10	"10"	true
+-10	-10	"-10"	true
+true	1	"true"	true
+false	0	"false"	false
+""	0	""	false
+"0"	0	"0"	true
+"1"	1	"1"	true
+"abc"	NaN	"abc"	true
+"5a"	NaN	"5a"	true
+
+<!-- Program to convert Number to String & Boolean -->
+<html>
+<body>
+<script>
+let a=-5;
+let b=String(a);
+let c=Boolean(a);
+document.write(a);
+document.write(typeof(a));
+document.write(b);
+document.write(typeof(b));
+document.write(c);
+document.write(typeof(c));
+</script>
+</body>
+</html>
+
+<!-- Program to convert Boolean to Number & String -->
+<html>
+<body>
+<script>
+let a=false;
+let b=Number(a);
+let c=String(a);
+document.write(a);
+document.write(typeof(a));
+document.write(b);
+document.write(typeof(b));
+document.write(c);
+document.write(typeof(c));
+</script>
+</body>
+</html>
+
+<!-- Program to convert String to Number & Boolean -->
+<html>
+<body>
+<script>
+let a="59a";
+let b=Number(a);
+let c=Boolean(a);
+document.write(a);
+document.write(typeof(a));
+document.write(b);
+document.write(typeof(b));
+document.write(c);
+document.write(typeof(c));
+</script>
+</body>
+</html>
+
+Operations On Data:
+=================
+Number + Number => Number
+Number + String => String
+Number + Boolean => Number
+String + Number => String
+String + String => String
+String + Boolean => String
+Boolean + Number => Number
+Boolean + String => String
+Boolean + Boolean => Number
+
+<!-- Program to demonstrate operations on data -->
+<html>
+<body>
+<script>
+let a=5,b="hello",c=true;
+document.write(a+a, a+b, a+c);
+document.write(b+a, b+b, b+c);
+document.write(c+a, c+b, c+c);
+</script>
+</body>
+</html>
+
+Operators:
+=========
+An operator is a special symbol that operates on data.
+In Java Script, operators are divided into the following categories.
+1) Arithmetic Operators
+2) Relational Operators
+3) Logical Operators
+4) Increment & Decrement Operators
+5) Bitwise Operators
+6) Assignment Operators
+7) Conditional Operators
+8) Unary Plus & Unary Minus Operators
+9) Other Operators
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

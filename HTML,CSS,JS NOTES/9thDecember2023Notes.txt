@@ -1,0 +1,131 @@
+Methods of String object:
+=====================
+1) toUpperCase() => It is used to convert into upper case letters.
+2) toLowerCase() => It is used to convert into lower case letters.
+3) startsWith() => It returns true if the string starts with specified
+string, otherwise returns false.
+4) endsWith() => It returns true if the string ends with specified
+string, otherwise returns false.
+
+<!-- Program to demonstrate endsWith() method -->
+<html>
+<body>
+<script>
+let x=prompt("Enter any file: ");
+if(x.endsWith(".js"))
+	document.write("Yes, given file is Java Script file");
+else
+	document.write("No, given file is not a Java Script file");
+</script>
+</body>
+</html>
+
+5) substring(start-index, end-index) => It returns sub string of
+specified string. Here start index included & end index excluded.
+
+6) substr(start-index, number-of-characters) => It returns sub 
+string of specified string. Here start index included.
+
+<html>
+<body>
+<script>
+document.write("Welcome".startsWith("We")+"<br>"); => true
+document.write("Welcome".substring(3,4)+"<br>"); => c
+document.write("Welcome".substr(3,4)); => come
+</script>
+</body>
+</html>
+
+7) indexOf() => It is used to get the index of specified string.
+8) lastIndexOf() => It is used to get the last index of specified
+string.
+9) charAt() => It is used to get the character at specified index.
+10) charCodeAt() => It is used to get the ASCII code at specified
+index.
+ASCII stands for American Standard Code for Information 
+Interchange
+
+<html>
+<body>
+<script>
+let s="Welcome";
+document.write(s.indexOf("e")); => 1
+document.write(s.lastIndexOf("e")); => 6
+document.write(s.charAt(3)); => c
+document.write(s.charCodeAt(3)); => 99
+</script>
+</body>
+</html>
+
+11) concat() => It is used concatinate two strings. It is also
+possible to concatinate two strings by using + symbol.
+
+<html>
+<body>
+<script>
+let s1="Taj";
+let s2="Mahal";
+document.write(s1.concat(s2)+"<br>");
+document.write(s1+s2);
+</script>
+</body>
+</html>
+
+12) replace() => It is used to replace a specified string with new
+string.
+
+<html>
+<body>
+<script>
+let s="Welcome to HTML";
+document.write(s+"<br>");
+s=s.replace("HTML", "CSS");
+document.write(s);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

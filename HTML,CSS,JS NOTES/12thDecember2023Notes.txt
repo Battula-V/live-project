@@ -1,0 +1,116 @@
+try block contains task code.
+catch block contains error message.
+throw keyword used to throw user defined error 
+message.
+finally block is used to perform clean up activities.
+Cleanup activities are closing a file, closing a data
+base connection & closing socket, .. etc.,
+finally block is executed even exception occurs in a
+program.
+
+<!-- Program to demonstrate finally block -->
+<html>
+<body>
+<script>
+try{
+let a=Number(window.prompt("Enter first number: "));
+let b=Number(window.prompt("Enter second number: "));
+document.write(a.toExponential(b));
+}catch(e)
+{
+	document.write(e);
+}
+finally
+{
+	document.write("End");
+}
+</script>
+</body>
+</html>
+
+Regular Expressions:
+==================
+Regular expression is a search pattern that is used to search
+a specified pattern in a specified text & it is also used to
+replace the text.
+
+It is required to validate forms. It is also used in web 
+scrapping applications.
+
+There are two ways to create search pattern:
+======================================
+1) By using regular expression literal.
+2) By using constructor RegExp() function.
+
+1) By using relular expression literal:
+===============================
+Example:
+========
+let pattern=/welcome/;
+
+2) By using constructor RegExp() function:
+====================================
+Example:
+========
+let pattern=new RegExp("Welcome");
+
+Search Patterns:
+==============
+Examples:
+=========
+1) [agh] => matches a, g & h.
+2) [abcde] => matches a, b, c, d & e.
+3) [a-e] => matches a, b, c, d & e.
+4) [a-z] => matches a to z.
+5) [A-Za-z] => matches A to Z & a to z.
+6) [^agh] => matches except a, g & h.
+7) [0-9] => matches 0 to 9.
+8) "^he" => matches the word starts with he.
+9) "come$" => matches the word ends with come.
+10) "..." => matches any word that contains 3 characters.
+11) "^h...o$" => matches any word that starts with h, ends 
+with o and in between any three characters.
+12) "ab*c" => It means b zero or more times.
+13) "ab+c" => It means b one or more times.
+14) "ab?c" => It means b zero or one time.
+15) "ab{3}c" => It means b 3 times.
+16) "ab{3,6}c" => It means b minimum 3 times & maximum 6 
+times.
+17) [0-9]{3} => It means any three digits number.
+18) [1-5][6-9] => It means first digit 1 to 5 & second digit 6 to 9.
+19) [A-Za-z]{3,6} => It means minimum 3 characters & 
+maximum 6 characters.
+20) [A-Za-z0-9]{5} => It means alphanumeric exact 5 
+characters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+External CSS:
+============
+It is used to apply style to multiple html documents also.
+By using external CSS, we can apply multiple style sheets
+to single html document & one style sheet can be applied
+to multiple html documents.
+To apply external CSS, we use <link> tag in html.
+
+Attributes of <link> tag:
+====================
+1) rel="..." => It is used to specify the relationship between
+html document & other external resource.
+2) href="..." => It is used to specify the external resource file.
+
+Example:
+========
+demo.html
+=========
+<html>
+ <head>
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="test.css">
+ </head>
+ <body>
+  <h1>HTML</h1>
+  <p>Hyper Text Markup Language</p>
+  <h1>CSS</h1>
+  <p>Cascading Style Sheets</p>
+  <h1>JS</h1>
+  <p>Java Script</p>
+ </body>
+</html>
+
+demo.css
+=========
+h1
+{
+	color: red;
+}
+
+test.css
+=======
+p
+{
+	color: blue;
+}
+
+Priority of CSS:
+=============
+1) Inline CSS
+2) Internal CSS or External CSS whichever is latest in html
+     document.
+
+
+
+
+
+
+
+
+
+
+
+
+

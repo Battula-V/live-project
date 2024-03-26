@@ -1,0 +1,130 @@
+CSS Selectors:
+=============
+1) Simple Selectors
+	i) Element Selector
+	ii) Id Selector
+	iii) Class Selector
+2) Grouping Selectors
+	i) Grouping Multiple Elements Selector
+	ii) Grouping All Elements Selector
+3) Combinator Selectors
+4) Attribute Selectors
+5) Pseudo Selectors
+
+CSS Properties:
+==============
+1) Color Properties
+	i) color
+	ii) background-color
+	iii) border-color
+2) Background Properties
+	i) background-image
+	ii) background-repeat
+	iii) background-attachment
+	iv) background-position
+	v) background-color
+	vi) background
+3) Width & Height Properties
+	i) width
+	ii) height
+4) Margin Properties
+	i) margin-top
+	ii) margin-right
+	iii) margin-bottom
+	iv) margin-left
+	v) margin
+5) Padding Properties
+	i) padding-top
+	ii) padding-right
+	iii) padding-bottom
+	iv) padding-left
+	v) padding
+6) Border Properties
+	i) border-style
+	ii) border-width
+	iii) border-color
+
+Border Properties:
+================
+1) border-style => solid (or) dashed (or) dotted (or) double (or) none
+2) border-width => 5px (or) 10px (or) .....
+3) border-color => red (or) green (or) blue (or) ......
+4) border-radius => It is used to display rounded borders.
+5) border-top-style
+6) border-right-style
+7) border-bottom-style
+8) border-left-style		
+9) border-top-width
+10) border-right-width
+11) border-bottom-width
+12) border-left-width
+13) border-top-color
+14) border-right-color
+15) border-bottom-color
+16) border-left-color
+17) border-top-left-radius
+18) border-top-right-radius
+19) border-bottom-left-radius
+20) border-bottom-right-radius
+21) border
+
+Example:
+========
+<html>
+<head>
+<style>
+body
+{
+	background-color: yellow;
+}
+div
+{
+	color: blue;
+	border-style: solid;
+	border-color: red;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	width: 250px;
+	height: 250px;
+	padding-top: 50px;
+	padding-left: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	background-color: cyan;
+}
+</style>
+</head>
+<body>
+<div>
+<h1>HTML</h1>
+<h1>CSS</h1>
+<h1>Java Script</h1>
+</div>
+</body>
+</html>
+
+Font Properties:
+==============
+1) font-family => It is used to specify font name.
+2) font-size => It is used to specify size of the font.
+3) font-style => It is used to specify that italic font or normal font.
+4) font-weight => It is used to specify that bold font or normal font.
+5) font-variant => It is used to specify that small caps font or 
+				normal font.
+6) font => It is used to specify the above all property values at a time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

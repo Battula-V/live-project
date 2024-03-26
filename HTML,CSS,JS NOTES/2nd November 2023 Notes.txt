@@ -1,0 +1,123 @@
+CSS Selectors:
+=============
+1) Simple Selectors
+2) Grouping Selectors
+3) Combinator Selectors
+4) Attribute Selectors
+5) Pseudo Selectors
+
+Pseudo Selectors:
+===============
+There are two types of pseudo selectors:
+1) Pseudo Class Selectors
+2) Pseudo Element Selectors
+
+1) Pseudo Class Selectors:
+=======================
+Pseudo class selectors are used to select elements to style
+based on certain state.
+
+Syntax:
+======
+selector : pseudo-class
+{
+	property-name: property-value;
+}
+
+2) Pseudo Element Selectors:
+=========================
+Pseudo element selectors are used to select the part of an
+element to style.
+
+Syntax:
+======
+selector :: pseudo-element
+{
+	property-name: property-value;
+}
+
+List of Pseudo Classes:
+===================
+1) :hover => It selects the element to style whenever user
+		mouse over it on element.
+2) :link => It selects unvisited links to style.
+3) :visited => It selects visited links to style.
+4) :active => It selects active link to style.
+5) :checked => It selects checked input elements to style.
+6) :focus => It selects element to style whenever focus gained
+		on that particular element.
+7) :optional => It selects input elements which are not having
+		required attribute to style.
+8) :required => It selects input elements which are having
+		require attribute to style.
+9) :valid => It selects valid input elements to style.
+10) :invalid => It selects invalid input elements to style.
+
+List of Pseudo Elements:
+=====================
+1) ::first-letter => It selects first letter of an element to style.
+2) ::first-line => It selects first line of an element to style.
+3) ::selection => It selects selected text to style.
+
+<!-- Program to demonstrate :hover pseudo class -->
+<html>
+<head>
+<style>
+h1
+{
+	color: green;
+}
+h1:hover
+{
+	color: blue;
+	font-size: 100;
+}
+</style>
+</head>
+<body>
+<h1>Hyper Text Markup Language</h1>
+</body>
+</html>
+
+<html>
+<head>
+<style>
+input:hover
+{
+	border-style: dashed;
+	background-color: yellow;
+	color: red;
+}
+</style>
+</head>
+<body>
+<h1><u>Login Form</u></h1>
+<form action="demo.jsp" method="POST">
+Username <input type="text" name="uname"><br>
+Password <input type="password" name="pword"><br><br>
+<input type="submit"><input type="reset">
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

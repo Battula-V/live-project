@@ -1,0 +1,187 @@
+Instance Variables:
+================
+A variable that is defined as a member of a class is called 
+as an instance variable.
+
+Memory allocated to instance variables whenever an 
+object is created.
+
+Separate copy of instance variable exist for every object.
+
+Instance variable can be accessed by using an object 
+reference.
+
+Instance variable can be accessed in instance method
+by using this keyword.
+
+this keyword refers current object.
+
+Instance variables can be initialized by using constructor
+method.
+
+Instance Method:
+===============
+A method that is defined as a member of a class is called as
+an instance method.
+
+Constructor Method:
+=================
+It is a special method which name is constructor() only.
+
+<!-- Program to demonstrate instance variables -->
+<html>
+<body>
+<script>
+class Emp
+{
+	empNo=101;
+	salary=5000.00;
+}
+let e=new Emp();
+document.write(e.empNo+"<br>"+e.salary);
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate instance method -->
+<html>
+<body>
+<script>
+class Emp
+{
+	empNo=101;
+	salary=5000.00;
+	display()
+	{
+		document.write(this.empNo+"<br>"+this.salary);
+	}
+}
+let e=new Emp();
+e.display();
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate constructor -->
+<html>
+<body>
+<script>
+class Emp
+{
+	constructor(empNo, salary)
+	{
+		this.empNo=empNo;
+		this.salary=salary;
+	}
+	display()
+	{
+	document.write(this.empNo+"<br>"+this.salary+"<br>");
+	}
+}
+let e1=new Emp(101, 5000.00);
+let e2=new Emp(102, 6000.00);
+let e3=new Emp(103, 7000.00);
+e1.display();
+e2.display();
+e3.display();
+</script>
+</body>
+</html>
+
+Class Variables:
+==============
+A variable that is defined as a static member of a class is 
+called as class variable.
+
+Class variables memory allocated whenever class is loaded.
+
+Only one copy of class variable exist for all objects.
+
+Class variable can be accessed by using class name.
+
+Note: If the value is different for every object then use 
+instance variable, if the value is same for all objects then 
+use class variable.
+
+Class Method:
+============
+A method that is defined as a static member of a class is
+called as class method.
+
+<!-- Program to demonstrate class variable & class method -->
+<html>
+<body>
+<script>
+class Demo
+{
+	static x=10;
+	static display()
+	{
+		document.write(Demo.x);
+	}
+}
+Demo.display();
+</script>
+</body>
+</html>
+
+Encapsulation:
+=============
+Binding of variables & methods into a class is known as
+an encapsulation.
+
+Abstraction:
+===========
+Providing necessary information & hiding unnecessary 
+information is called as an abstraction.
+
+<!-- Program to demonstrate Encapsulation & Abstraction -->
+<html>
+<body>
+<script>
+class Student
+{
+	constructor(rollNo, name, marks)
+	{
+		this.rollNo=rollNo;
+		this.name=name;
+		this.marks=marks;
+	}
+	static institute_name="Naresh IT";
+	display()
+	{
+		document.write(this.rollNo, this.name, this.marks, Student.institute_name,"<br>");
+	}
+}
+let s1=new Student(1,"aaa",83);
+let s2=new Student(2,"bbb",89);
+s1.display();
+s2.display();
+</script>
+</body>
+</html>
+
+Inheritance:
+==========
+Creating a new class from an existing class is called as an
+inheritance.
+
+In inheritance, existed class is said to be super class & new
+class is said to be sub class.
+
+Whenever super class object is created then memory 
+allocated to super class members only.
+
+Whenever sub class object is created then memory allocated
+to both super class & sub class members.
+
+
+
+
+
+
+
+
+
+
+

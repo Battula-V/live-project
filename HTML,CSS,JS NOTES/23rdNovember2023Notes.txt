@@ -1,0 +1,65 @@
+Java Script HTML DOM:
+==================
+The HTML DOM(Document Object Model) is created by browser whenever a web page is loaded.
+The HTML DOM is created as a tree of objects.
+
+For example:
+==========
+demo.html
+========
+<html>
+<head>
+<title>Home Page</title>
+</head>
+<body bgcolor="yellow" text="red">
+<h1>Welcome</h1>
+</body>
+</html>
+
+The DOM tree created by browser for the above html document as follows:
+Document(demo.html) => Root Element(<html>)=>Element(<head>) & 
+Element(<body>)
+Element(<head>) => Element(<title>) => Text("Home Page")
+Element(<body>) => Element(<h1>), Attribute(bgcolor="yellow") & Attribute(text="red")
+Element(<h1>) => Text("Welcome")
+
+Java Script can access all html elements, attributes & content of an html document.
+
+Java Script can do the following on html document:
+1) It can change the content of html elements.
+2) It can change the values of html attributes.
+3) It can change the css styles.
+4) It can add new html elements & attributes.
+5) It can remove existing html elements & attributes.
+6) It can create new html events.
+7) It can react to all existing html events.
+
+HTML DOM methods are used to perform actions on html elements.
+HTML DOM properties are used to change the values of html elements.
+
+Example:
+=======
+document.getElementById("demo").innerHTML="Welcome";
+
+In the above example, getElementById() is a method & innerHTML is a property.
+
+The following methods are used to find the html elements:
+1) document.getElementById(id) => It is used to find an element by element id.
+2) document.getElementsByTagName(name) => It is used to find elements by tag name. 
+3) document.getElementsByClassName(name) => It is used to find elements by class name.
+4) document.querySelectorAll(selector) => It is used to find elements by selector.
+
+The following properties are used to change the html elements:
+1) element.innerHTML=new HTML content => It is used to change the content.
+2) element.attribute=new value => It is used to change the attribute value.
+3) element.style.property=new style => It is used to change the style 
+
+The following methods are used to add & remove elements:
+1) document.createElement(element) => It is used to create an element.
+2) document.appendChild(element) => It is used to add an element.
+3) document.removeChild(element) => It is used to remove an element.
+4) document.replaceChild(new, old) => It is used to replace an element.
+
+The following methods are used to add & remove event listeners:
+1) element.addEventListener(event, function) => It is used to add event listener
+2) element.removeEventListener(event, function) => It is used to remove event listener

@@ -1,0 +1,81 @@
+CSS Selectors:
+=============
+1) Simple Selectors
+	i) Element Selector
+	ii) Id Selector
+	iii) Class Selector
+2) Grouping Selectors
+3) Combinator Selectors
+4) Attribute Selectors
+5) Pseudo Selectors
+
+Class attribute can have more than one class also.
+
+Example:
+========
+<html>
+	<head>
+		<style>
+			.demo
+			{
+				color: red;
+			}
+			.test
+			{
+				background-color: yellow;
+			}
+		</style>
+	</head>
+ <body>
+	<h1 class="demo">HTML</h1>
+	<p>Hyper Text Markup Language</p>
+	<h1 class="test">CSS</h1>
+	<p class="demo test">Casading Style Sheets</p>
+ </body>
+</html>
+
+Priority of Selectors:
+=================
+1) Id Selector
+2) Class Selector
+3) Element Selector
+
+Example:
+========
+<!-- Program to demonstrate priorities of simple selectors -->
+<html>
+	<head>
+		<style>
+		h1 /* It is a element selector */
+		{
+			color: red;
+		}
+		#demo /* It is a id selector */
+		{
+			color: green;
+		}
+		.test /* It is a class selector */
+		{
+			color: blue;
+		}
+		</style>
+	</head>
+ <body>
+	<h1 id="demo" class="test">HTML</h1>
+	<h1 class="test">CSS</h1>
+	<h1>Java Script</h1>
+ </body>
+</html>
+
+HTML Comments Syntax:
+=====================
+<!-- ............... -->
+
+CSS Comments Syntax:
+====================
+/* .................. */
+
+Note: Comments are ignored by the browser.
+
+
+

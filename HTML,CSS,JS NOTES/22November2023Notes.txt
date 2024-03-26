@@ -1,0 +1,142 @@
+Loop Controlling Statements:
+========================
+1) break Statement
+2) break LABEL Statement
+3) continue Statement
+4) continue LABEL Statement
+
+break Statement:
+===============
+It terminates the nearest enclosing loop or switch statement.
+
+Example1:
+=========
+<html>
+<body>
+<script>
+for(let i=1;i<=10;i++)
+{
+	if(i==5)
+		break;
+	document.write(i+"<br>");
+}
+</script>
+</body>
+</html>
+
+Example2:
+=========
+<html>
+<body>
+<script>
+for(let i=1;i<=3;i++)
+{
+	for(let j=1;j<=10;j++)
+	{
+		if(j==5)
+			break;
+		document.write(j+"<br>");
+	}
+}
+</script>
+</body>
+</html>
+
+break LABEL Statement:
+====================
+It terminates the specified LABEL loop. Here break is a keyword
+& LABEL is an identifier.
+
+Example:
+========
+<html>
+<body>
+<script>
+FIRST: for(let i=1;i<=3;i++)
+{
+	SECOND: for(let j=1;j<=10;j++)
+	{
+		if(j==5)
+			break FIRST;
+		document.write(j+"<br>");
+	}
+}
+</script>
+</body>
+</html>
+
+continue Statement:
+=================
+It passes the control to the next iteration of a loop.
+
+Example:
+========
+<html>
+<body>
+<script>
+for(let i=1;i<=3;i++)
+{
+	for(let j=1;j<=10;j++)
+	{
+		if(j>5)
+		   continue;
+		document.write(j+"<br>");
+	}
+}
+</script>
+</body>
+</html>
+
+continue LABEL Statement:
+=======================
+It passes the control to the specified LABEL loop. Here continue
+is a keyword & LABEL is an identifier.
+
+Example:
+========
+<html>
+<body>
+<script>
+FIRST:for(let i=1;i<=3;i++)
+{
+	SECOND:for(let j=1;j<=10;j++)
+	{
+		if(j==5)
+		   continue FIRST;
+		document.write(j+"<br>");
+	}
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

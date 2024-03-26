@@ -1,0 +1,104 @@
+1) Color Properties
+2) Background Properties
+3) Margin Properties
+4) Padding Properties
+5) Border Properties
+6) Width & Height Properties
+7) Font Properties
+
+Text Properties:
+==============
+1) color => It is used to set the text color.
+2) text-align => It is used to specify horizontal alignment.
+Possible values are left, right, center & justify.
+3) vertical-align => It is used to specify the superscripted text
+		or subscripted text.
+Possible values are sub & super.
+4) letter-spacing => It is used to specify the space between
+letters.
+5) word-spacing => It is used to specify the space between
+words.
+6) line-height => It is used to specify the height of the line.
+		(Space between lines).
+7) text-decoration-line => It is used to specify that the line
+is underline, overline or line-through.
+8) text-decoration-color => It is used to specify the line color.
+9) text-decoration-style => It is used to specify the line style.
+Possible values are solid, dashed, dotted, double & none.
+10) text-decoration-thickness => It is used to specify the line
+thickness.
+11) text-decoration => It is used to specify all values that are
+related to line.
+12) text-shadow => It is used to specify different types of
+shadows.
+
+Example:
+========
+<html>
+<head>
+<style>
+p
+{
+	font-family: courier;
+	font-size: 40px;
+	font-weight: bold;
+}
+#first
+{
+	text-shadow: 2px 2px; /* 2px horizontal & 2px vertical */
+}
+#second
+{
+	text-shadow: 2px 2px red; /* shadow color red */
+}
+#third
+{
+	text-shadow: 2px 2px 5px red; /* 5px blur effect */
+}
+#fourth
+{
+	color: white;
+	text-shadow: 2px 2px 5px blue;
+}
+#fifth
+{
+	color: cyan;
+	text-shadow: 0 0 15px blue;
+}
+#sixth
+{
+	color: pink;
+	text-shadow: 5px 5px 40px yellow;
+}
+</style>
+</head>
+<body>
+<p id="first">Hyper Text Markup Language</p>
+<p id="second">Hyper Text Markup Language</p>
+<p id="third">Hyper Text Markup Language</p>
+<p id="fourth">Hyper Text Markup Language</p>
+<p id="fifth">Hyper Text Markup Language</p>
+<p id="sixth">Hyper Text Markup Language</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

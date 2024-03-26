@@ -1,0 +1,134 @@
+Polymorphism:
+=============
+Poly means many, morphism means forms & 
+polymorphism means many forms.
+		(or)
+The ability to take more than one form is called as
+polymorphism.
+
+<!-- Program to demonstrate Inheritance & Polymorphism -->
+<html>
+<body>
+<script>
+class Student
+{
+	rollNo=1;
+	name="aaa";
+	display()
+	{
+		document.write(this.rollNo, this.name);
+	}
+}
+class Student2 extends Student
+{
+	address="Hyderabad";
+	display()
+	{
+		super.display();
+		document.write(this.address);
+	}
+}
+let s=new Student2();
+s.display();
+</script>
+</body>
+</html>
+
+In the above example,
+Student class inherited in Student2 class.
+display() method having two forms. It is called
+polymorphism.
+super keyword used to access super class member
+whenever super class member & sub class member
+names are same.
+
+<!-- Program to demonstrate form validations -->
+<html>
+<head>
+<style>
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("E:/roses.jpg");
+}
+div
+{
+	border-style: solid;
+	padding: 20px;
+	background-color: pink;
+	border-radius: 50px;
+	border-width: 5px;
+	border-color: green;
+	box-shadow: 10px 10px;
+	width: 300px;
+	text-align: center;
+}
+input
+{
+	border-radius: 10px;
+	height: 30px;
+}
+.buttons
+{
+	background-color: green;
+	color: white;
+}
+.demo
+{
+	color: purple;
+}
+.test
+{
+	font-family: georgia;
+}
+#uname,#pword
+{
+	width: 250px;
+	height: 40px;
+	border-color: red;
+	border-width: 2px;
+}
+</style>
+<script>
+function validate()
+{
+	let u=document.getElementById("uname");
+	let p=document.getElementById("pword");
+	u.style.border="solid 1px black";
+	p.style.border="solid 1px black";
+	if(u.value.trim()=="")
+	{
+		alert("Username cannot be empty");
+		u.style.border="solid 3px red";
+		return false;
+	}
+	else if(p.value.trim()=="")
+	{
+		alert("Password cannot be empty");
+		p.style.border="solid 3px red";
+		return false
+	}
+	else
+	{
+		return true;
+	}
+}
+</script>
+</head>
+<body>
+<div>
+<h1 class="demo"><u>Login Form</u></h1>
+<form method="POST" action="login.jsp" onsubmit="return validate()">
+<input type="text" name="uname" id="uname" placeholder="Username"><br><br>
+<input type="password" name="pword" id="pword" placeholder="Password"><br><br>
+<input type="submit" class="buttons">&nbsp;&nbsp;<input type="reset" class="buttons">
+</form>
+</div>
+</body>
+</html>
+
+
+
+

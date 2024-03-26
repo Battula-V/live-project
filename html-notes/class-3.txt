@@ -1,0 +1,46 @@
+<html>
+<head> 
+</head>
+<body>
+    <!--image-->
+    <img src="images/logo/tom.jpg" height="30%" width="70%"/>
+    <br> <br>
+    <!--table-->
+    <table border="1px">
+    <!--Headings-->    
+        <tr>
+            <th>s.no 1</th>
+            <th>email id</th>
+            <th>phone no</th>
+        </tr>
+    <!--data-->    
+        <tr>
+            <td>1</td>
+            <td>bullion@gmail.com</td>
+            <td>1230546987</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <!--Form-->
+    <form>
+        <!--fullname-->
+        <label>FullName</label>
+        <input type= "text" placeholder="FullName"/>
+        <br>
+        <!--gender radio buttons-->
+        <label>Gender</label>
+        <input type="radio" value="male" name="Gender"/>Male
+        <input type="radio" value="female" name="Gender"/>female
+        <br>
+        <!--checkbox-->
+        <label>Habbits</label>
+        <input type="checkbox" value="music"/> music
+        <input type="checkbox" value="sports"/> sports
+        <br>
+        <!--select date-->
+        <label>DOB</label>
+        <input type="date" name="dob"/><br>
+    </form>
+</body>
+</html>

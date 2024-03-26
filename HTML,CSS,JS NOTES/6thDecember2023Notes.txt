@@ -1,0 +1,166 @@
+BOM:
+=====
+BOM stands for Browser Object Model.
+It contains objects that allows Java Script to interact
+with browser.
+
+List of objects:
+=============
+1) window object
+2) screen object
+3) history object
+
+1) window object:
+===============
+It represents a browser window.
+
+Properties of window object:
+========================
+1) innerWidth => It is used to get the window width.
+2) innerHeight => It is used to get the window height.
+
+Example:
+========
+<html>
+<body>
+<script>
+document.write("Window Width: "+window.innerWidth+"Pixels<br>");
+document.write("Window Height: "+window.innerHeight+"Pixels");
+</script>
+</body>
+</html>
+
+Methods of window object:
+======================
+1) open() => It is used to open a new window.
+2) close() => It is used to close a specified window.
+3) alert() => It is used to display alert pop up window.
+4) confirm() => It is used to display confirm pop up window.
+5) prompt() => It is used to display prompt pop up window.
+6) setTimeout() => It is used to specify time to start the task.
+7) setInterval() => It is used to specify the time interval to 
+repeat the task.
+
+<!-- Program to demonstrate open() & close() methods -->
+<html>
+<body>
+<input type="button" value="Open" onclick="fun1()">
+<input type="button" value="Close" onclick="fun2()">
+<script>
+let x;
+function fun1()
+{
+	x=window.open();
+}
+function fun2()
+{
+	x.close();
+}
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate alert() method -->
+<html>
+<body>
+<script>
+window.alert("Welcome to Java Script");
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate confirm() method -->
+<html>
+<body>
+<script>
+let x=window.confirm("Click ok button to view the output");
+if(x)
+{
+	document.write("Welcome to Naresh IT");
+}
+else
+{
+	document.write("You cancelled");
+}
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate prompt() method -->
+<html>
+<body>
+<script>
+let x=window.prompt("Enter any number: ");
+if(x<0)
+{
+	document.write("You entered negative number");
+}
+else if(x>0)
+{
+	document.write("You entered positive number");
+}
+else
+{
+	document.write("You entered zero");
+}
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate setTimeout() method -->
+<html>
+<body>
+<script>
+function fun()
+{
+	document.write("Welcome to Naresh IT");
+}
+window.setTimeout(fun, 5000);
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate setInterval() method -->
+<html>
+<body>
+<h1 id="demo"></h1>
+<script>
+let i=0;
+function fun()
+{
+	let a=["HTML","CSS","Java Script"];
+	document.getElementById("demo").innerHTML="Welcome to "+a[i];
+	i++;
+	if(i==3)
+		i=0;
+}
+window.setInterval(fun, 1000);
+</script>
+</body>
+</html>
+
+2) screen object:
+==============
+It represents user's screen.
+
+Properties of screen object:
+=======================
+1) width => It is used to get the screen width.
+2) height => It is used to get the screen height.
+
+Example:
+========
+<html>
+<body>
+<script>
+document.write("Screen Width: "+screen.width+"Pixels<br>");
+document.write("Screen Height: "+screen.height+"Pixels");
+</script>
+</body>
+</html>
+
+
+
+
+
+

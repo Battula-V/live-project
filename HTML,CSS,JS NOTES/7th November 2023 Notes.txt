@@ -1,0 +1,163 @@
+Combinator Selectors:
+===================
+1) Descendant Selector(Space)
+2) Child Selector(>)
+3) Adjacent Sibling Selector(+)
+4) General Siblings Selector(~) 
+
+1) Descendant Selector:
+====================
+This selector selects all specified descendant elements of 
+specified element.
+
+Example:
+========
+.courses h1
+{
+	color: red;
+}
+
+2) Child Selector:
+===============
+This selector selects direct child elements of specified 
+element.
+
+Example:
+========
+.courses > h1
+{
+	color: red;
+}
+
+3) Adjacent Sibling Selector:
+========================
+This selector selects adjacent sibling element of specified
+element.
+
+Example:
+========
+.courses + h1
+{
+	color: red;
+}
+
+4) General Siblings Selector:
+========================
+This selector selects all sibling elements of specified
+element.
+
+Example:
+========
+.courses ~ h1
+{
+	color: red;
+}
+
+<!-- Program to demonstrate all combinator selectors -->
+<html>
+<head>
+<style>
+.courses h1
+{
+	color: red;
+}
+.courses ~ h1
+{
+	color: blue;
+}
+.courses > h1
+{
+	background-color: yellow;
+	border-style: solid;
+	border-color: red;
+	font-size: 60px;
+	width: 300px;
+}
+.courses + h1
+{
+	background-color: cyan;
+	border-style: dotted;
+	border-color: blue;
+	font-size: 60px;
+	width: 300px;
+}
+</style>
+</head>
+<body>
+<div class="courses">
+<h1>HTML</h1>
+	<div class="html">
+	<h1>Basic Tags</h1>
+	<h1>Formatting Tags</h1>
+	</div>
+<h1>CSS</h1>
+	<div class="css">
+	<h1>Color Properties</h1>
+	<h1>Background Properties</h1>
+	</div>
+</div>
+<h1>Java Script</h1>
+<h1>Bootstrap</h1>
+</body>
+</html>
+
+CSS Selectors:
+=============
+1) Simple Selectors:
+	i) Element Selector
+	ii) Id Selector
+	iii) Class Selector
+2) Grouping Selectors:
+	i) Grouping Multiple Elements Selector
+	ii) Grouping All Elements Selector
+3) Pseudo Selectors:
+	1) Pseudo Class Selectors
+		i) :hover
+		ii) :link
+		iii) :visited
+		iv) :active
+		v) :focus
+		vi) :valid
+		vii) :invalid
+		viii) :optional
+		ix) :required
+		x) :checked
+	2) Pseudo Element Selectors
+		i) ::first-letter
+		ii) ::first-line
+		iii) ::selection
+4) Attribute Selectors:
+	i) element[attribute] selector
+	ii) element[attribute="value"] selector
+	iii) element[attribute~="word"]selector
+	iv) element[attribute|="word"] selector
+	v) element[attribute^="word"] selector
+	vi) element[attribute$="word"] selector
+	vii) element[attribute*="word"] selector
+5) Combinator Selectors:
+	i) Descendant Selector(Space)
+	ii) Child Selector(>)
+	iii) Adjacent Sibling Selector(+)
+	iv) General Siblings Selector(~)
+
+Properties:
+=========
+1) Color Properties
+2) Background Properties
+3) Border Properties
+4) Margin Properties
+5) Padding Properties
+6) Width & Height Properties
+7) Font Properties
+8) Text Properties
+9) Gradient Properties
+10) Transform Properties
+11) Transition Properties
+
+
+
+
+
+
+
+

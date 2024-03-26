@@ -1,0 +1,88 @@
+CSS:
+====
+CSS stands for Cascading Style Sheets.
+CSS is a style sheet language & it is used to style an html
+document.
+By using CSS we can separate the content & design.
+One style sheet can be applied to multiple html documents.
+One html document can have multiple style sheets.
+By using CSS, we can save a lot of work because it can 
+control multiple web pages all at once.
+CSS was introduced in 1996.
+CSS latest version is 3.
+CSS was introduced by World Wide Web(W3C) Consortium.
+It is a community of html & related technologies.
+By using HTML, we can create web page & by using CSS,
+we can design web page.
+CSS describes how html elements should be displayed.
+CSS styles are colors, backgrounds, borders, margins,
+fonts, font styles, ... etc.,
+CSS file extension is .css.
+
+CSS Syntax:
+==========
+selector{ property-name: property-value; }
+
+Example:
+========
+h1{ color: red; }
+Here h1 is a selector.
+color is a property name.
+red is a property-value.
+color: red; is a property declaration.
+Here h1 is a html element(tag) to style.
+
+There are 3 ways to apply CSS to HTML document.
+1) Inline CSS
+2) Internal CSS
+3) External CSS
+
+1) Inline CSS:
+===========
+It is used to apply a style to a particular html element.
+To apply inline css to html document, we use style attribute.
+style is a global attribute in html. It can be used in all html
+tags.
+
+Example:
+========
+<html>
+<body>
+<h1 style="color: red;">HTML</h1>
+<p style="color: pink;">HTML stands for Hyper Text Markup Language</p>
+<h1 style="color: green;">CSS</h1>
+<p style="color: purple;">CSS stands for Cascading Style Sheets</p>
+<h1 style="color: blue;">JS</h1>
+<p style="color: magenta;">JS stands for Java Script</p>
+</body>
+</html>
+
+2) Internal CSS:
+=============
+It is used to apply a style to a particular web page.
+Here we use <style> tag.
+
+Example:
+========
+<html>
+<head>
+<style>
+h1
+{ 
+	color: red; 
+}
+p
+{
+	color: blue;
+}
+</style>
+</head>
+<body>
+<h1>HTML</h1>
+<p>HTML stands for Hyper Text Markup Language</p>
+<h1>CSS</h1>
+<p>CSS stands for Cascading Style Sheets</p>
+<h1>JS</h1>
+<p>JS stands for Java Script</p>
+</body>
+</html>

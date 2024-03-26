@@ -1,0 +1,95 @@
+Operators:
+=========
+1) Arithmetic Operators
+2) Relational Operators
+3) Logical Operators
+4) Increment & Decrement Operators
+5) Bitwise Operators
+6) Assignment Operators
+7) Conditional Operators
+8) Unary Plus & Unary Minus Operators
+9) Other Operators
+
+Arithmetic Operators:
+==================
+	Operator		Meaning
+	========		========
+	       +		Addition
+	       -		Subtraction
+	       *		Multiplication
+	       /		Division
+	       %		Modulo Division
+	      **		Exponentiation
+
+<html>
+<body>
+<script>
+let a=5, b=3, c=2;
+document.write(a*b+c);
+document.write(a+b*c);
+</script>
+</body>
+</html>
+
+<html>
+<body>
+<script>
+let a=5, b=3, c=2, d=7;
+document.write(a+b*c+a**c%d);
+</script>
+</body>
+</html>
+
+<html>
+<body>
+<script>
+let a=5, b=3, c=2, d=7;
+document.write((a+b)*(c-d)%b);
+</script>
+</body>
+</html>
+
+Relational Operators:
+==================
+	Operator		 Meaning
+	========		========
+	      <		Less than
+	      >		Greater than
+	     <=		Less than or equals to
+	     >=		Greater than or equals to
+	     ==		Equals to
+	     !=		Not equals to
+	   ===		Strict equals to
+			(or) Equal type & equal value
+	   !==		Strict Not equals to
+			(or) Not equal type & not 
+				equal value
+The above all operators return boolean type values(true or
+false).
+
+<html>
+<body>
+<script>
+let a=5, b="5";
+document.write(a==b);
+document.write(a!=b);
+document.write(a===b);
+document.write(a!==b);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

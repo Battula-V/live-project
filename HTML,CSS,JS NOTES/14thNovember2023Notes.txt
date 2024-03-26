@@ -1,0 +1,116 @@
+1) Identifiers
+2) Keywords(56+8-16=48)
+3) Literals
+	1) Numeric Literals
+		i) Decimal Literals
+		ii) Octal Literals
+		iii) Hexadecimal Literals
+		iv) Binary Literals
+		v) Floating Point Literals
+		vi) Exponential Literals
+		vii) Bigint Literals
+	2) String Literals
+		i) Single Line String Literals
+		ii) Multi Line String Literals
+	3) Boolean Literals
+	4) Object Literals
+4) Data Types
+	i) Number
+	ii) String
+	iii) Boolean
+	iv) Object
+	v) BigInt
+	vi) Undefined
+	vii) Null
+	viii) Symbol
+5) Variables(var, let & const)
+
+<!-- Program to demonstrate bigint literal -->
+<html>
+<body>
+<script>
+let a=999999999999999;
+let b=9999999999999999;
+let c=9999999999999999n;
+document.write(a+"<br>");
+document.write(b+"<br>");
+document.write(c);
+</script>
+</body>
+</html>
+
+If the number is having more than 15 digits then use bigint
+literal.
+Bigint literal must be suffixed with n.
+
+<!-- Program to demonstrate string literals -->
+<html>
+<body>
+<script>
+let s1='welcome';
+let s2="welcome";
+let s3=`welcome`;
+let s4=`Welcome to 
+			Naresh IT`;
+document.write(s1+"<br>");
+document.write(s2+"<br>");
+document.write(s3+"<br>");
+document.write(s4);
+</script>
+</body>
+</html>
+
+Note: Multi line string literal must be in backticks only.
+
+<!-- Program to demonstrate boolean & object literals -->
+<html>
+<body>
+<script>
+let a=true;
+let b=false;
+let c=null;
+document.write(a);
+document.write(b);
+document.write(c);
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate data types & typeof operator -->
+<html>
+<body>
+<script>
+let a=10;
+let b=10n;
+let c="hello";
+let d=true;
+let e=null;
+let f;
+document.write(typeof(a));
+document.write(typeof(b));
+document.write(typeof(c));
+document.write(typeof(d));
+document.write(typeof(e));
+document.write(typeof(f));
+</script>
+</body>
+</html>
+
+typeof operator:
+==============
+It is used to get the type of data. 
+Here type decided dynamically whenever variable initialized.
+typeof operator can be used as follows:
+typeof(variable) (or) typeof variable
+
+
+
+
+
+
+
+
+
+
+
+

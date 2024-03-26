@@ -1,0 +1,150 @@
+Variables:
+========
+A variable is a container & it contains data.
+
+In Java Script, variables can be declared & initialized by using
+let keyword, const keyword & var keyword.
+
+There are four ways to declare & initialize variables in 
+Java Script.
+1) Directly
+2) By using var keyword
+3) By using let keyword
+4) By using const keyword
+
+1) Directly:
+=========
+Example:
+========
+<html>
+<body>
+<script>
+a=100,b=200,c=a+b;
+document.write(a, "<br>", b, "<br>", c);
+</script>
+</body>
+</html>
+
+This way is not recommanded because it will show an error
+in strict mode.
+
+To use strict mode write the following in a program.
+"use strict"
+
+2) By using var keyword:
+====================
+Example:
+========
+var a=100,b=200,c=a+b;
+document.write(a, "<br>", b, "<br>", c);
+
+3) By using let keyword:
+====================
+Example:
+========
+let a=100,b=200,c=a+b;
+document.write(a, "<br>", b, "<br>", c);
+
+4) By using const keyword:
+======================
+Example:
+========
+const a=10,b=20,c=a+b;
+document.write(a, "<br>", b, "<br>", c);
+
+var keyword introduced in 1995.
+let & const keywords introduced in 2015.
+
+Values of var & let variables can be changed where as
+value of const variable cannot be changed.
+
+Example:
+========
+const a=10;
+a=20; => Error
+document.write(a);
+
+Const variable must be initialized otherwise it will show
+an error.
+Example:
+========
+const a; => Error
+
+let is block scope where as var is function scope.
+
+<!-- Program to demonstrate block scope by using let keyword -->
+<html>
+<body>
+<script>
+function fun()
+{
+	for(let i=1;i<=10;i++)
+	{
+		document.write(i+"<br>");
+	}
+	document.write(i);
+}
+fun();
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate function scope by using var keyword -->
+<html>
+<body>
+<script>
+function fun()
+{
+	for(var i=1;i<=10;i++)
+	{
+		document.write(i+"<br>");
+	}
+	document.write(i);
+}
+fun();
+</script>
+</body>
+</html>
+
+<!-- Program to demonstrate global variables, local variables & block variables -->
+<html>
+<body>
+<script>
+let a=10;
+var b=20;
+function fun()
+{
+	let c=30;
+	var d=40;
+	for(var i=1;i<=10;i++)
+	{
+		let e=50;
+		var f=60;
+	}
+	for(let j=1;j<=20;j++)
+	{
+	}
+}
+</script>
+</body>
+</html>
+
+Block variable can be accessed within a block only.
+Local variable can be accessed within a function only.
+Global variable can be accessed in all functions in a 
+program.
+
+<!-- Program to demonstrate getElementsByTagName() method -->
+<html>
+<body>
+<h1>HTML</h1>
+<h1>CSS</h1>
+<h1>Java Script</h1>
+<script>
+let x=document.getElementsByTagName("h1");
+x[0].style.color="red";
+x[1].style.color="green";
+x[2].style.color="blue";
+</script>
+</body>
+</html>

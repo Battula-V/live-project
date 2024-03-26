@@ -1,0 +1,77 @@
+The following methods of document object can be accessed
+to find the elements to perform some operations on elements.
+===================================================
+1) document.getElementById("id");
+=> It is used to find the element based on the value of id 
+attribute.
+2) document.getElementsByTagName("tag-name");
+=> It is used to find the elements based on tag name.
+3) document.getElementsByClassName("class-name");
+=> It is used to find the elements based on the value of class
+attribute.
+4) document.querySelector("selector");
+=> It is used to find the first element of specified selector.
+5) document.querySelectorAll("selector");
+=> It is used to find all the elements of specified selector.
+
+The following properties are used to change the content,
+attribute value & style:
+===============================================
+1) element.innerHTML="new-content"; 
+=> It is used to change the content.
+2) element.attribute="new-value"; 
+=> It is used to change the value of attribute.
+3) element.style.property-name="property-value";
+=> It is used to change css style.
+
+Functions:
+=========
+A group of statements into a single logical unit is called as
+function.
+Function is not called automatically. Function must be called
+explicitly after defining it.
+To define a function we use function keyword in Java script.
+
+Advantages of functions:
+=====================
+1) Modularity
+2) Reusability
+
+Functions are used to perform the task.
+Generally functions are divided into four categories:
+1) Functions with arguments & with return value.
+2) Functions with arguments & without return value.
+3) Functions without arguments & with return value.
+4) Functions without arguments & without return value.
+
+1) Functions with arguments & with return value:
+========================================
+Example:
+========
+<html>
+<body>
+<script>
+function add(a, b)
+{
+	return a+b;
+}
+let x=add(34,93);
+document.write(x);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
