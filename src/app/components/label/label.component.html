@@ -1,0 +1,204 @@
+
+    <div class="container-fluid">
+        <div class="row">
+            
+            <div class="col-12">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Logo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="d-flex">
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link me-2" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>    
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+              </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+
+                <div class="list-group">
+                    <a href="index.html" class="list-group-item list-group-item-action active"> Restaurant</a>
+                    <a href="level1.html" class="list-group-item list-group-item-action"> Level-1 categories</a>
+                    <a href="level2.html" class="list-group-item list-group-item-action"> Level-2 categories</a>
+                    <a href="food.html" class="list-group-item list-group-item-action"> Food items</a>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between  align-items-baseline">
+                            <h3>
+                                Restaurant 
+                            </h3>
+                            <i class="fa fa-plus"   data-bs-toggle="modal" data-bs-target="#addRestaurant"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered   table-hover">
+                              <thead class="table-info">
+                                <tr>
+                                  <th>SNo</th>
+                                  <th> Name</th>
+                                  <th> Phone Number</th>
+                                  <th> Email</th>
+                                  <th> Address</th>
+                                  <th> Status</th>
+                                  <th>Edit</th>
+                                  <th> Delete</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Anna</td>
+                                  <td> 4567890</td>
+                                  <td>@gmail.com</td>
+                                  <td>New York</td>
+                                  <td> Open</td>
+                                  <td><i class="fa fa-pencil" data-bs-toggle="modal" data-bs-target="#editRestaurants"></i></td>
+                                  <td><i class="fa fa-trash-o" data-bs-toggle="modal" data-bs-target="#deleteRestaurant"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Anna</td>
+                                    <td> 4567890</td>
+                                    <td>@gmail.com</td>
+                                    <td>New York</td>
+                                    <td> Open</td>
+                                    <td><i class="fa fa-pencil" data-bs-toggle="modal" data-bs-target="#editRestaurants"></i></td>
+                                    <td><i class="fa fa-trash-o" data-bs-toggle="modal" data-bs-target="#deleteRestaurant"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <td>3</td>
+                                    <td>Anna</td>
+                                    <td> 4567890</td>
+                                    <td>@gmail.com</td>
+                                    <td>New York</td>
+                                    <td> Closed</td>
+                                    <td><i class="fa fa-pencil" data-bs-toggle="modal" data-bs-target="#editRestaurants"></i></td>
+                                    <td><i class="fa fa-trash-o" data-bs-toggle="modal" data-bs-target="#deleteRestaurant"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <td>4</td>
+                                    <td>Anna</td>
+                                    <td> 4567890</td>
+                                    <td>@gmail.com</td>
+                                    <td>New York</td>
+                                    <td> Open</td>
+                                    <td><i class="fa fa-pencil" data-bs-toggle="modal" data-bs-target="#editRestaurants"></i></td>
+                                    <td><i class="fa fa-trash-o" data-bs-toggle="modal" data-bs-target="#deleteRestaurant"></i></td>
+                                  </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div> 
+    <!--add restaurant  -->
+    <div class="modal"  id="addRestaurant">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Add Restaurant</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-4">
+                        <input type="text" placeholder="Enter Restaurant name"  class="form-control" name="categotyName"/>
+                        </div>
+                        <!-- <div class="mb-4">
+                        <select class="form-control" name="status">
+                            <option value="Open">Open</option>
+                            <option value="Close">Close</option>
+                        </select>
+                        </div> -->
+                        <div class="mb-4">
+                            <button type="submit" class="btn-primary btn" >Update Restaurant</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Edit level-1 categories -->
+     <div class="modal" id="editRestaurants">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Edit Restaurants</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-4">
+                            <input type="text" placeholder="Enter Restaurant name"  class="form-control" name="categotyName"/>
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" placeholder="Enter Phone Number"  class="form-control" name="categotyName"/>
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" placeholder="Enter Gmail"  class="form-control" name="categotyName"/>
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" placeholder="Enter Address"  class="form-control" name="categotyName"/>
+                        </div>
+                        <!-- <div class="mb-4">
+                        <select class="form-control" name="status">
+                            <option value="Open">Enter Status</option>
+                            <option value="Close">Close</option>
+                        </select>
+                        </div> -->
+                        <div class="mb-4">
+                            <button type="submit" class="btn-primary btn" >Edit Restaurant</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Delete Level-1 restaurants -->
+     <div class="modal" id="deleteRestaurant">
+        <div class="modal-dialog   modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Delete Restaurant</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+
+                    </button>
+                </div>
+                <div class="modal-body"> 
+                    <form>
+                        <div class="mb-4">
+                        <input type="text" placeholder="Enter Restaurant name"  class="form-control" name="categotyName"/>
+                        </div>                       
+                        <div class="mb-4">
+                            <button type="button" class="btn-primary btn" >Conform</button>
+                        </div> 
+                    </form>                        
+                </div>
+            </div>
+        </div>
+    </div>
