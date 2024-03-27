@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Med Shop</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/shop_detail.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+	<script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  
+<body>
+
+<section id="top">
+<div class="container">
+  <div class="row">
+   <div class="top_1 clearfix">
+    <div class="col-sm-7">
+	 <div class="top_1l clearfix">
+	  <ul class="mgt">
+	   <li><a href="#"><i class="fa fa-phone col_1"></i> (+123) 456-7898</a></li>
+	    <li><a href="#"><i class="fa fa-map-marker col_1"></i> 1370 Clvd, The Bronx, OZ 2169, NZ</a></li>
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-sm-5">
+	 <div class="top_1r clearfix">
+	   <ul class="navbar-right mgt">
+			      <li class="dropdown">
+                     <a href="#" class="dropdown-toggle m_tag" data-toggle="dropdown">USD <b class="caret"></b></a>
+                     <ul class="dropdown-menu drop_m">
+                        <li><a href="#">USD</a></li>
+                        <li><a href="#">INR</a></li>
+						<li><a href="#">GBP</a></li>
+                       </ul>
+                  </li>
+				  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle m_tag" data-toggle="dropdown"><i class="fa fa-flag col_1"></i> English <b class="caret"></b></a>
+                     <ul class="dropdown-menu drop_m">
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">German</a></li>
+						<li><a href="#">Spanish</a></li>
+                       </ul>
+                  </li>
+				  <li><a class="m_tag" href="account.html">My Account</a></li>
+			</ul>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="header" class="clearfix">
+	<nav class="navbar nav_t">
+		<div class="container">
+		    <div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><i class="fa fa-heartbeat"></i> Med <span>Shop</span> </a>
+			</div>
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+				<li><a class="tag_m" href="index.html">Home</a></li>
+				<li><a class="tag_m" href="about.html">About</a></li>
+				<li><a class="tag_m" href="shop.html">Product</a></li>
+				<li><a class="tag_m active_tab" href="shop_detail.html">Detail</a></li>
+				<li class="dropdown">
+					  <a class="tag_m" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Blog<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li><a href="blog.html">Blog</a></li>
+						<li><a class="border_none" href="blog_details.html">Blog Detail</a></li>
+					  </ul>
+                    </li>
+				<li><a class="tag_m" href="contact.html">Contact</a></li>
+				<li class="dropdown dropdown-large">
+				<a href="#" class="dropdown-toggle tag_m" data-toggle="dropdown">Dropdown<b class="caret"></b></a>
+				
+				<ul class="dropdown-menu dropdown-menu-large row">
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Glyphicons</li>
+							<li><a href="#">Available glyphs</a></li>
+							<li class="disabled"><a href="#">How to use</a></li>
+							<li><a href="#">Examples</a></li>
+							<li><a href="#">Example</a></li>
+							<li><a href="#">Aligninment options</a></li>
+							<li><a href="#">Headers</a></li>
+							<li><a href="#">Disabled menu items</a></li>
+						</ul>
+					</li>
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Button groups</li>
+							<li><a href="#">Basic example</a></li>
+							<li><a href="#">Button toolbar</a></li>
+							<li><a href="#">Sizing</a></li>
+							<li><a href="#">Nesting</a></li>
+							<li><a href="#">Vertical variation</a></li>
+							<li><a href="#">Single button dropdowns</a></li>
+						</ul>
+					</li>
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Button groups</li>
+							<li><a href="#">Basic example</a></li>
+							<li><a href="#">Button toolbar</a></li>
+							<li><a href="#">Sizing</a></li>
+							<li><a href="#">Nesting</a></li>
+							<li><a href="#">Vertical variation</a></li>
+							<li><a href="#">Single button dropdowns</a></li>
+						</ul>
+					</li>
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Button groups</li>
+							<li><a href="#">Basic example</a></li>
+							<li><a href="#">Button toolbar</a></li>
+							<li><a href="#">Sizing</a></li>
+							<li><a href="#">Nesting</a></li>
+							<li><a href="#">Vertical variation</a></li>
+							<li><a href="#">Single button dropdowns</a></li>
+						</ul>
+					</li>
+				</ul>
+				
+			</li>
+			    
+			</ul>
+		    	<ul class="nav navbar-nav navbar-right">
+				<li><a class="tag_m1" href="#"><i class="fa fa-heart-o"></i></a></li>
+				<li><a class="tag_m1" href="#"><i class="fa fa-shopping-bag"></i></a></li>
+				<li class="dropdown"><a class="tag_m1" href="#" data-toggle="dropdown"><span class="fa fa-search"></span></a>
+											<ul class="dropdown-menu drop_2" style="min-width: 300px;">
+												<li>
+													<div class="row_1">
+														<div class="col-sm-12">
+															<form class="navbar-form navbar-left" role="search">
+															<div class="input-group">
+																<input type="text" class="form-control" placeholder="Search">
+																<span class="input-group-btn">
+																	<button class="btn btn-primary" type="button">
+																		Search</button>
+																</span>
+															</div>
+															</form>
+														</div>
+													</div>
+												</li>
+											</ul>
+								  </li>
+			    </ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	
+	</section>
+	
+<section id="center" class="center_shop"> 
+ <div class="container">
+  <div class="row">
+   <div class="center_shop_1 text-center clearfix">
+    <div class="col-sm-12">
+	  <h1 class="mgt">Listing Detail</h1>
+	  <h5><a href="#">Home</a> / <span class="col_1">Listing Detail</span></h5>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="shop_detail">
+ <div class="container">
+  <div class="row">
+   <div class="shop_detail_1 clearfix">
+    <div class="col-sm-5">
+	 <div class="shop_detail_1l clearfix">
+	 <img src="img/34.jpg" alt="abc" class="iw">
+	 </div>
+	</div>
+	<div class="col-sm-7">
+	 <div class="shop_detail_1r clearfix">
+	   <div class="center_shop_1r clearfix">
+	  <div class="center_shop_1ri clearfix">
+	   <h5 class="mgt">VENDOR</h5>
+	   <h3>Naminos elementum disus tincidunts cosmo de cosmopolis</h3>
+	   <h6>
+	   <span>
+	    <i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>	   </span>
+	   2 Reviews	   </h6>
+	   <h6><span class="col_2">Limited-Time Offers, End in</span> 00d 00:00:00</h6>
+	  </div>
+	  <div class="center_shop_1ri1 clearfix">
+	   	<h5 class="bold">SKU <span class="pull-right normal">FUR-006AB890</span></h5>
+		<h5 class="bold">Availability <span class="pull-right normal"> 10 In Stock</span></h5>
+		<h5 class="bold">Product Type <span class="pull-right normal"> Loremous Cosmo</span></h5>
+		<p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras...</p>
+		 <div class="pd_n clearfix">
+		   <h5 class="bold">Color <span class="col_2">*</span></h5>
+		   <ul>
+		    <li class="bg_1 act"></li>
+			<li class="bg_2"></li>
+			<li class="bg_3"></li>
+			<li class="bg_4"></li>
+			<li class="bg_5"></li>
+		   </ul>
+		 </div>
+		 <div class="pd_n clearfix">
+		   <h5 class="bold">Size <span class="col_2">*</span></h5>
+		   <ul>
+		    <li class="bg_3 act_1">XS</li>
+			<li class="bg_3 line">L</li>
+			<li class="bg_3 line">XL</li>
+			<li class="bg_3 line">S</li>
+		   </ul>
+		 </div>
+		<h4 class="col_2"><span>$55.00</span> $40.00</h4>
+		<h5>Quantity:</h5>
+		<div class="input-group number-spinner">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+				</span>
+				<input type="text" class="form-control text-center" value="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+				</span>			</div>
+		<h6 class="bold">Subtotal:<span>$60.00</span></h6>
+		<div class="pd_n1 clearfix">
+		  		<h4><a class="button" href="#">ADD TO CART</a></h4>
+		        <h4><a class="button_1" href="#"><i class="fa fa-heart-o"></i> ADD TO WISHLIST</a></h4>
+		</div>
+		<ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+	  </div>
+	 </div>
+	 </div>
+	</div>
+   </div>
+   <div class="shop_detail_2 clearfix">
+    <div class="product_detail_1 clearfix">
+		   <ul class="nav nav-tabs tab_1">
+			  <li class="active"><a data-toggle="tab" href="#home"><i class="fa fa-globe"></i> Description</a></li>
+			  <li class=""><a data-toggle="tab" href="#menu"><i class="fa fa-photo"></i> Additional Information</a></li>
+			  <li class=""><a data-toggle="tab" href="#menu1"><i class="fa fa-cog"></i> Product Review</a></li>
+           </ul>
+		   <div class="tab-content clearfix">
+			  <div id="home" class="tab-pane fade clearfix active in">
+				 <div class="click clearfix">
+					<div class="col-sm-12">
+					 <div class="home_i">
+					   <p>Web design lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					   <p>Suspendisse et justo. Praesent mattis commyolk augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commyolk augue aliquam ornare augue.</p>
+					   <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+					   <ul>
+					    <li>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and</li>
+						<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+						<li>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'</li>
+						<li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+						<li>Dorem ipsum dolor sit amet</li>
+					   </ul>
+					 </div>
+					</div>
+			   </div>
+			  </div>
+			  <div id="menu" class="tab-pane fade clearfix">
+				 <div class="click clearfix">
+					<div class="col-sm-12">
+					  <div class="menu_i clearfix">
+					    <table>
+						  <tbody>
+						  <tr>
+							<td>Pricing</td>
+							<td>$42.00</td>
+						  </tr>
+						  <tr>
+							<td>Stock Availability</td>
+							<td>AVAILABLE</td>
+						  </tr>
+						  <tr>
+							<td>Rating</td>
+							<td>
+							<span>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							</span>
+							</td>
+						  </tr>
+						  
+					   </tbody>
+	                    </table>
+					  </div>
+					</div>
+			   </div>
+			  </div>
+			  <div id="menu1" class="tab-pane fade clearfix">
+				 <div class="click clearfix">
+					<div class="col-sm-12">
+					 <div class="menu1i clearfix">
+					   <div class="menu1ii mgt clearfix">
+					    <div class="col-sm-9">
+						<img class="thumbnail" src="img/35.jpg" alt="abc">
+						<h5><span class="bold">Conubia Nostra</span> <span class="date"><i class="fa fa-clock-o"></i>  May 9, 2019</span></h5>
+						<p>Really happy with this print. The colors are great, and the paper quality is very good.</p>
+						</div>
+						<div class="col-sm-3 text-right">
+						 <span class="">
+						 <i class="fa fa-star"></i>
+						 <i class="fa fa-star"></i>
+						 <i class="fa fa-star"></i>
+						 <i class="fa fa-star-o"></i>
+						 <i class="fa fa-star-o"></i>
+						 </span>
+						</div>
+					   </div>
+					   <div class="menu1ii clearfix">
+					    <div class="col-sm-9">
+						<img class="thumbnail" src="img/36.jpg" alt="abc">
+						<h5><span class="bold">Conubia Nostra</span> <span class="date"><i class="fa fa-clock-o"></i>  May 9, 2019</span></h5>
+						<p>Really happy with this print. The colors are great, and the paper quality is very good.</p>
+						</div>
+						<div class="col-sm-3 text-right">
+						 <span class="">
+						 <i class="fa fa-star"></i>
+						 <i class="fa fa-star"></i>
+						 <i class="fa fa-star"></i>
+						 <i class="fa fa-star-o"></i>
+						 <i class="fa fa-star-o"></i>
+						 </span>
+						</div>
+					   </div>
+					   <div class="menu1ii clearfix">
+					    <div class="col-sm-9">
+						<img class="thumbnail" src="img/37.jpg" alt="abc">
+						<h5><span class="bold">Conubia Nostra</span> <span class="date"><i class="fa fa-clock-o"></i>  May 9, 2019</span></h5>
+						<p>Really happy with this print. The colors are great, and the paper quality is very good.</p>
+						</div>
+						<div class="col-sm-3 text-right">
+						 <span class="">
+						 <i class="fa fa-star"></i>
+						 <i class="fa fa-star"></i>
+						 <i class="fa fa-star"></i>
+						 <i class="fa fa-star-o"></i>
+						 <i class="fa fa-star-o"></i>
+						 </span>
+						</div>
+					   </div>
+					   <div class="menu1i1 clearfix">
+					    <div class="col-sm-6 space_left">
+						<h4>ADD A REVIEW</h4>
+						<h5>Name *</h5>
+						<input class="form-control" type="text">
+						<h5>Email *</h5>
+						<input class="form-control" type="text">
+						<h5>Your Review</h5>
+						<textarea class="form-control form_1"></textarea>
+						<h5 class="bg"><a class="button" href="#">Submit</a></h5>
+						</div>
+						<div class="col-sm-6">
+						 <div class="grid clearfix">
+		                   <figure class="effect-jazz">
+			                <a href="#"><img src="img/1.jpg" height="400" class="iw" alt="img25"></a>
+		                   </figure>
+	                     </div>
+						</div>
+					   </div>
+					 </div>
+					</div>
+			   </div>
+			  </div>
+			</div>
+	 </div>
+   </div>
+   <div class="shop_detail_3 clearfix">
+     <div class="categories_1 clearfix">
+    <div class="col-sm-12 space_left">
+	 <h2 class="mgt">Related Products</h2>
+	</div>
+   </div>
+     <div class="arrive_1 clearfix">
+				<div class="col-sm-3 space_left">
+				<div class="arriv_2m clearfix">
+				  <div class="arriv_2m1 clearfix">
+					<a href="#"><img src="img/23.jpg" alt="abc" class="iw"></a>
+				  </div>
+				  <div class="arriv_2m2 clearfix">
+				   <h5 class="text-center mgt">New</h5>
+				  </div>
+				  <div class="arriv_2m2n clearfix">
+				   <h5 class="text-center mgt">Sale</h5>
+				  </div>
+				  <div class="arriv_2m3 clearfix">
+				   <h4 class="bold mgt">PRODUCT</h4>
+				   <p><a href="#">Naminos elementum disus tincidunts cosmo de cosmopolis</a></p>
+				   <span class="span_1">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				   </span>
+				   <h3 class="normal">
+				   <span class="span_2">$45.00</span>
+				   <span class="span_3 col_1"> $34.00</span> 
+				   </h3>
+				  </div>
+				</div>
+				</div>
+				<div class="col-sm-3 space_left">
+				<div class="arriv_2m clearfix">
+				  <div class="arriv_2m1 clearfix">
+					<a href="#"><img src="img/24.jpg" alt="abc" class="iw"></a>
+				  </div>
+				  <div class="arriv_2m2 clearfix">
+				   <h5 class="text-center mgt">New</h5>
+				  </div>
+				  <div class="arriv_2m2n clearfix">
+				   <h5 class="text-center mgt">Sale</h5>
+				  </div>
+				  <div class="arriv_2m3 clearfix">
+				   <h4 class="bold mgt">OTHER</h4>
+				   <p><a href="#">Naminos elementum disus tincidunts cosmo de cosmopolis</a></p>
+				   <span class="span_1">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				   </span>
+				   <h3 class="normal">
+				   <span class="span_2">$55.00</span>
+				   <span class="span_3 col_1"> $44.00</span> 
+				   </h3>
+				  </div>
+				</div>
+				</div>
+				<div class="col-sm-3 space_left">
+				<div class="arriv_2m clearfix">
+				  <div class="arriv_2m1 clearfix">
+					<a href="#"><img src="img/25.jpg" alt="abc" class="iw"></a>
+				  </div>
+				  <div class="arriv_2m2 clearfix">
+				   <h5 class="text-center mgt">New</h5>
+				  </div>
+				  <div class="arriv_2m2n clearfix">
+				   <h5 class="text-center mgt">Sale</h5>
+				  </div>
+				  <div class="arriv_2m3 clearfix">
+				   <h4 class="bold mgt">POPULAR</h4>
+				   <p><a href="#">Naminos elementum disus tincidunts cosmo de cosmopolis</a></p>
+				   <span class="span_1">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				   </span>
+				   <h3 class="normal">
+				   <span class="span_2">$65.00</span>
+				   <span class="span_3 col_1"> $54.00</span> 
+				   </h3>
+				  </div>
+				</div>
+				</div>
+				<div class="col-sm-3 space_left">
+				<div class="arriv_2m clearfix">
+				  <div class="arriv_2m1 clearfix">
+					<a href="#"><img src="img/26.jpg" alt="abc" class="iw"></a>
+				  </div>
+				  <div class="arriv_2m2 clearfix">
+				   <h5 class="text-center mgt">New</h5>
+				  </div>
+				  <div class="arriv_2m2n clearfix">
+				   <h5 class="text-center mgt">Sale</h5>
+				  </div>
+				  <div class="arriv_2m3 clearfix">
+				   <h4 class="bold mgt">TRENDING</h4>
+				   <p><a href="#">Naminos elementum disus tincidunts cosmo de cosmopolis</a></p>
+				   <span class="span_1">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				   </span>
+				   <h3 class="normal">
+				   <span class="span_2">$75.00</span>
+				   <span class="span_3 col_1"> $66.00</span> 
+				   </h3>
+				  </div>
+				</div>
+				</div>
+   </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="connect" class="clearfix">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12 space_all">
+    <div class="connect_1 clearfix">
+	 <div class="col-sm-3 connect_1m">
+	  <div class="connect_1l clearfix">
+	    <span><i class="fa fa-truck"></i></span>
+	  </div>
+	  <div class="connect_1r clearfix">
+	   <h4>Free Shipping</h4>
+	   <p>Free shipping world wide</p>
+	  </div>
+	 </div>
+	 <div class="col-sm-3 connect_1m">
+	  <div class="connect_1l clearfix">
+	    <span><i class="fa fa-headphones"></i></span>
+	  </div>
+	  <div class="connect_1r clearfix">
+	   <h4>Support 24/7</h4>
+	   <p>Contact us 24 hours a day</p>
+	  </div>
+	 </div>
+	 <div class="col-sm-3 connect_1m">
+	  <div class="connect_1l clearfix">
+	    <span><i class="fa fa-credit-card"></i></span>
+	  </div>
+	  <div class="connect_1r clearfix">
+	   <h4>Secure Payments</h4>
+	   <p>100% payment protection</p>
+	  </div>
+	 </div>
+	 <div class="col-sm-3 connect_1m border_none">
+	  <div class="connect_1l clearfix">
+	    <span><i class="fa fa-shopping-cart"></i></span>
+	  </div>
+	  <div class="connect_1r clearfix">
+	   <h4>Easy Return</h4>
+	   <p>Simple returns policy</p>
+	  </div>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="footer">
+ <div class="container">
+  <div class="row">
+   <div class="footer_1 clearfix">
+    <div class="col-sm-3">
+	 <div class="footer_1i clearfix">
+	  <a class="navbar-brand" href="index.html"><i class="fa fa-heartbeat"></i> Med <span>Shop</span> </a>
+	  <h5><span class="bold">Hotline:</span> <a href="#">01234</a></h5>
+	  <h5><span class="bold">Phone:</span> <a href="#">(+123) 456-7898</a></h5>
+	  <h5><span class="bold">Email:</span> <a href="#">info@gmail.com</a></h5>
+	  <h5><span class="bold">Address:</span> <a href="#">2190 Clue, The Xronz, OZ 0038, USA</a></h5>
+	  <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_1i1 clearfix">
+      <h4 class="mgt">Information</h4>
+	  <ul>
+	   <li><a href="#">About Us</a></li>
+	   <li><a href="#">Contact Us</a></li>
+	   <li><a href="#">Privacy Policy</a></li>
+	   <li><a href="#">Terms & Conditions</a></li>
+	   <li><a href="#">Delivery Information</a></li>
+	   <li><a href="#">Orders and Returns</a></li>
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_1i1 clearfix">
+      <h4 class="mgt">Customer Care</h4>
+	  <ul>
+	   <li><a href="#">Help & FAQs</a></li>
+	   <li><a href="#">My Account</a></li>
+	   <li><a href="#">Order History</a></li>
+	   <li><a href="#">Wishlist</a></li>
+	   <li><a href="#">Newsletter</a></li>
+	   <li><a href="#">Newsletter</a></li>
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_1i1 clearfix">
+      <h4 class="mgt">Newsletter</h4>
+	  <p>Sign up for our mailing list to get the latest updates & offers.</p>
+	  <input class="form-control" placeholder="Email address" type="text">
+	  <h5><a class="button" href="#"> Subscribe Now</a></h5>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="footer_bottom">
+ <div class="container">
+  <div class="row">
+   <div class="footer_2 text-center clearfix">
+    <div class="col-sm-12">
+	 <p class="mgt">© 2013 Your Website Name. All Rights Reserved | Design by <a class="col_1" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<script>
+	$(document).on('click', '.number-spinner button', function () {    
+	var btn = $(this),
+		oldValue = btn.closest('.number-spinner').find('input').val().trim(),
+		newVal = 0;
+	
+	if (btn.attr('data-dir') == 'up') {
+		newVal = parseInt(oldValue) + 1;
+	} else {
+		if (oldValue > 1) {
+			newVal = parseInt(oldValue) - 1;
+		} else {
+			newVal = 1;
+		}
+	}
+	btn.closest('.number-spinner').find('input').val(newVal);
+});
+	</script>
+</body>
+ 
+</html>

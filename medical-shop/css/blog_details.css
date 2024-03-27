@@ -1,0 +1,193 @@
+/*
+Template Name:Med Shop
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************blog_details****************/
+.center_shop{
+ background: #2a96ff14;
+ padding-top:80px;
+ padding-bottom:80px;
+ }
+#blog_details{
+ padding-top:50px;
+ padding-bottom:50px; 
+ }
+
+.blog_details_1lii{
+ margin-top:30px;
+ }
+.blog_details_1lii span i{
+ font-size:26px;
+ color:#999;
+ }
+.blog_details_1l{
+padding:20px;
+background: #2a96ff14; 
+ }
+blockquote{
+background:#fff;
+margin-top:15px;
+border-color:#2a96ff;
+padding-top:20px;
+padding-bottom:20px; 
+ }
+.blog_details_1li1{
+margin-top:20px; 
+ }
+.blog_details_1li1 p i{
+margin-right:5px; 
+color:#2a96ff;
+font-size:16px;
+ }
+.blog_details_1li2l ul li{
+display:inline-block;
+padding-right:5px; 
+ }
+.blog_details_1li2r ul li a {
+    background-color: #000;
+}
+.blog_details_1li3{
+border-top:1px solid #ddd; 
+ }
+.blog_details_1li3i1 p{
+margin-top:5px; 
+ }
+.blog_details_1li3i1 h5{
+margin-top:5px; 
+ }
+.blog_details_1li3i1{ 
+background:#fff;
+padding:15px; 
+ }
+.blog_details_1li4i1{
+margin-top:20px; 
+ }
+.blog_details_1li4i1 .form-control{
+height:50px;
+border:none;
+font-size:18px;
+box-shadow:none;
+ }
+.blog_details_1li4i1 .form_1{
+height:150px;
+ }
+
+.blog_details_1r1 h4{
+border-bottom:1px solid #ddd;
+padding-bottom:10px;
+margin-bottom:20px; 
+ }
+.input-group .form-control{
+height:50px; 
+font-size:18px;
+ }
+.input-group .btn{
+font-size:18px;
+padding:11.5px 16px;
+margin-left:0!important;
+background: #2a96ff;
+border-color:#2a96ff;
+ }
+.blog_details_1r1{
+ padding:20px;
+ background: #2a96ff14; 
+ margin-top:30px;
+ }
+.blog_details_1r1 img{
+ float:left;
+ margin-right:10px;
+ }
+.blog_details_1r1 ul li{
+ margin-top:5px;
+ }
+.blog_details_1r1 ul li i{
+font-size:10px;
+margin-right:5px;
+color:#2a96ff;
+ }
+ 
+.blog_details_1r2 h4{
+border-bottom:1px solid #ddd;
+padding-bottom:10px;
+margin-bottom:20px; 
+ }
+.blog_details_1r2{
+ padding:20px;
+ background: #2a96ff14; 
+ margin-top:30px;
+ }
+.blog_details_1r2 ul li{
+ display:inline-block;
+margin-top:5px;
+font-size:16px;
+ }
+.blog_details_1r2 ul li a{
+ display:inline-block;
+ background:#fff;
+ padding:8px;
+ }
+.blog_details_1r2 ul li a:hover{
+background:#2a96ff;
+color:#fff;
+ }
+.clear_1{
+margin-top:15px; 
+ }
+/*********************blog_details_end****************/
+@media screen and (max-width : 767px){
+#blog_details{
+text-align:center; 
+ }
+.blog_details_1lii span i{
+display:inline-block;
+margin-top:10px; 
+margin-bottom:5px;
+ }
+.blog_details_1li1 img{
+margin-top:10px; 
+ }
+.blog_details_1li2r {
+text-align:center; 
+margin-top:10px;
+ }
+.blog_details_1li2r ul li{
+margin-bottom:5px; 
+ }
+.blog_details_1li3i1  img{
+margin-bottom:10px;  
+ }
+.blog_details_1li4i1 .form-control{
+margin-top:10px; 
+ }
+.blog_details_1r1 h5{
+ margin-top:5px;
+ text-align:left;
+ }
+.blog_details_1r1 h6{
+ text-align:left;
+ }
+.blog_details_1r2  img{
+margin-top:10px; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.blog_details_1lii span i{
+font-size:16px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.blog_details_1lii span i{
+font-size:18px; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+

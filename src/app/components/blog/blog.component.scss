@@ -1,0 +1,57 @@
+/*
+Template Name:Med Shop
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************blog****************/
+.center_shop{
+    background: #2a96ff14;
+    padding-top:80px;
+    padding-bottom:80px;
+    }
+   #blog_home{
+    padding-top:50px;
+    padding-bottom:30px; 
+    }
+   .blog_home_1 {
+       margin-top: 30px;
+   }
+   .center_product_1r4r{
+   margin-top:40px; 
+    }
+   .center_product_1r4r ul li a:hover{
+   background: #2a96ff;
+   color:#fff;
+   border-color:#2a96ff;
+    }
+   .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+   background: #2a96ff;
+   color:#fff;
+   border-color:#2a96ff;
+    }
+   /*********************blog_end****************/
+   @media screen and (max-width : 767px){
+   #blog_home{
+    text-align:center;
+    }
+   .blog_home_1i {
+   margin-top:15px; 
+    }
+   }
+   
+   @media (min-width:768px) and (max-width:991px) {
+   
+    }
+   @media (min-width:992px) and (max-width:1200px) {
+   
+    }
+   @media (min-width:1201px) and (max-width:1350px) {
+   
+    }
+   
+   
+   
+   
+   
