@@ -1,0 +1,43 @@
+Angular is a framework for html to develop single page application(SPA)
+SPA means there is only one html file for entire project
+
+
+Installing Angular
+=================
+To instal angular we need Node.js software and Node package manager(NPM)
+Node.js is used for running the javascript in a server
+
+
+
+Check node.js instalation
+==========================
+Go to command prompt and run the below command 
+node -v
+
+Also check npm version by running below command
+npm -v
+
+Now its time to install angular. run the below command to install angular
+npm install -g @angular/cli
+-g means  to install globally(available for any drive)
+cli means command line interface(used for running the angular commands)
+
+Creating angular project
+================================
+run the below command to create a project
+ng new ve-admin 
+
+Running angular project
+=============================
+Go to project folder and run the below command 
+ng serve
+
+Creating component
+==========================
+ng generate component Name
+
+After creating the component, add this components in the routes like below
+{
+    path:'url to display', 
+    component: any component to display for the above url
+}
