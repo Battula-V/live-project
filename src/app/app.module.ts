@@ -7,11 +7,10 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SectionComponent } from './components/section/section.component';
-import { ProductComponent } from './components/product/product.component';
-import { DetailComponent } from './components/detail/detail.component';
-import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ArticleComponent } from './components/article/article.component';
+import { OfferComponent } from './components/offer/offer.component';
+import { TypographyComponent } from './components/typography/typography.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +19,10 @@ import { LoginComponent } from './components/login/login.component';
     HeaderComponent,
     FooterComponent,
     SectionComponent,
-    ProductComponent,
-    DetailComponent,
-    AboutUsComponent,
-    ContactComponent,
-    LoginComponent
+    ArticleComponent,
+    OfferComponent,
+    TypographyComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

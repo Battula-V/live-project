@@ -1,41 +1,36 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { SectionComponent } from './components/section/section.component';
-import { ProductComponent } from './components/product/product.component';
-import { DetailComponent } from './components/detail/detail.component';
-import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ArticleComponent } from './components/article/article.component';
+import { OfferComponent } from './components/offer/offer.component';
+import { TypographyComponent } from './components/typography/typography.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { LoginComponent } from './components/login/login.component';
 
 const routes: Routes = [
   {
     path:"",
-    component: HomeComponent,
+    component:HomeComponent,
     children:[
       {
         path:"",
         component:SectionComponent
       },
       {
-        path:"product",
-        component:ProductComponent
+        path:"article",
+        component:ArticleComponent
       },
       {
-        path:"detail",
-        component:DetailComponent
+        path:"offer",
+        component:OfferComponent
       },
       {
-        path:"about-us",
-        component:AboutUsComponent
+        path:"typography",
+        component:TypographyComponent
       },
       {
         path:"contact",
         component:ContactComponent
-      },
-      {
-        path:"login",
-        component:LoginComponent
       }
     ]
   }
