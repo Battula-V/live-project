@@ -1,0 +1,233 @@
+/*
+Template Name:CHEF
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+/********************* recipe_main ****************/
+#recipe_main{ 
+    background-image: url(/assets/img/62.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .recipe_inner{ 
+    padding-top:200px;
+    padding-bottom:200px;
+    background-color: #00000061;
+   }
+   .recipe_main_1 h1{ 
+    text-align: center;
+    color: #fff;
+    background-color: #0d4f20a6;
+    margin: auto;
+    width: 30%;
+    padding: 30px 30px 20px 30px;
+    letter-spacing: 3px;
+    border-radius: 30px 50px 30px 50px;
+    border: 3px dashed #fff;
+   }
+   /********************* recipe_main_end ****************/
+   /********************* recipe ****************/
+   #recipe{ 
+    padding-top:30px;
+    padding-bottom:3px;
+   }
+   .recipe_3{ 
+    text-align:center;
+   }
+   .recipe_3 h3{ 
+    padding-top:14px;
+   }
+   .recipe_3 p{ 
+    padding:0px;
+    margin:0px;
+    padding-bottom:20px;
+   }
+   .recipe_2{ 
+    padding-bottom:40px;
+   }
+   .recipe_3 img{ 
+    padding-right:10px;
+   }
+   #recipe .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #f1f1f1;
+    background-image: none;
+    border: 1px solid #f1f1f1;
+    border-radius: 0px;
+   }
+   #recipe .btn-danger {
+    color: #0e0e0e;
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+    padding-top: 15px;
+    border-radius: 0px;
+    padding-bottom: 13px;
+   }
+   #recipe .clickable
+   {
+   cursor: pointer;
+   }
+   #recipe .clickable .glyphicon{
+    background: rgb(15 54 10);
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 4px;
+    color: #fff;
+   }
+   #recipe .thumbnail .caption {
+   padding: 19px;
+   }
+   #recipe .panel-heading span
+   {
+   margin-top: -23px;
+   font-size: 15px;
+   margin-right: -9px;
+   }
+   #recipe .panel-body {
+   border-bottom: 1px solid #dedcd7;
+   font-size: 16px;
+   background-color: #ffffff;
+   }
+   #recipe .panel-body a{
+   color:#000;
+   }
+   #recipe .panel-body a:hover{
+   color:#000;
+   }
+   #recipe .panel-primary {
+   border: none;
+   border-bottom: 1px solid #E1E1E1;
+   margin-left:0px;
+   margin-top: 10px;
+   }
+   #recipe .panel-title>a {
+   font-size:18px;
+   color: #000;
+   }
+   #recipe a.clickable { color: inherit; }
+   #recipe a.clickable:hover { text-decoration:none; }
+   #recipe .panel-primary>.panel-heading {
+   color: #000;
+   background: #f1f1f1;
+   border-bottom: #f1f1f1;
+   padding: 15px 15px 12px 15px;
+   }
+   .recipe_5 ul{ 
+    text-align:center;
+    margin-bottom:5px;
+    }
+   .recipe_5 li{ 
+    display:inline;
+    margin-right:3px;
+    }
+   .well_14:hover {
+   background-color: #000;
+   color: #fff;
+   }
+   .recipe_5 li {
+   display: inline;
+   margin-right: 3px;
+   }
+   .well_14 {
+   background-color: #0f360a;
+   color: #fff;
+   padding: 10px;
+   border-radius: 10px;
+   }
+   .recipe_6{
+    padding-bottom:20px;
+   }
+   /********************* recipe_end ****************/
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   @media screen and (max-width : 767px){
+   .recipe_inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   }
+   .recipe_main_1 h1 {
+    width: 80%;
+    font-size: 45px;
+   }
+   #recipe{ 
+    text-align:center;
+   }
+   .recipe_3 {
+    padding-bottom: 30px;
+   }
+   .recipe_2 {
+    padding-bottom: 10px;
+   }
+   .recipe_3 img {
+    padding-right: 0px;
+   }
+   .recipe_5 li {
+    display: inline-block;
+    margin-bottom: 10px;
+   }
+   }
+   
+   @media (min-width:470px) and (max-width:767px) {
+   
+   }
+   
+   @media (min-width:768px) and (max-width:991px) {
+   .recipe_inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   }
+   .recipe_main_1 h1 {
+    width: 50%;
+   }
+   .recipe_3 h3 {
+    font-size: 20px;
+   }
+   .recipe_5 li {
+    margin-right: 0px;
+   }
+   .well_14 {
+    padding: 5px;
+    font-size: 10px;
+   }
+   }
+   
+   @media (min-width:992px) and (max-width:1200px) {
+   .recipe_inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   }
+   .recipe_main_1 h1 {
+    width: 50%;
+   }
+   .recipe_3 h3 {
+    font-size: 20px;
+   }
+   .recipe_5 li {
+    margin-right: 0px;
+   }
+   .well_14 {
+    padding: 5px;
+    font-size: 10px;
+   }
+   }
+   
+   @media (min-width:1201px) and (max-width:1325px) {
+   
+   }

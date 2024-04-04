@@ -1,101 +1,340 @@
 /*
-Template Name: Play Show
+Template Name:CHEF
 File: Layout CSS
-Author: TemplatesOnWeb
-Author URI: https://www.templateonweb.com/
-Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
 */
-/*********************about****************/
-.main_about{
-    background-image: url(/assets/img/35.jpg);
-    background-position: center; 
-    }
-   .spec_1i{
-   box-shadow: 0 0 10px #e901011f;
-    }
-   #team .events_1i1i1 ul{
-   background:#e90101;
-   border-radius:10px 10px 0px 0px;
-   padding:10px 20px 8px 20px; 
-    }
-   #team .events_1i1i1{
-   display:none; 
-    }
-   #team .events_1i1:hover .events_1i1i1{
-   display:block; 
-    }
-   .main_team{
-    background-image: url(../../../assets/img/37.jpg);
-    background-position: center; 
-    }
-   /*********************about_end****************/
+
+/********************* about_main ****************/
+#about_main{ 
+    background-image: url('/assets/img/53.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .about_inner{ 
+    padding-top:200px;
+    padding-bottom:200px;
+    background-color: #00000061;
+   }
+   .about_main_1 h1{ 
+    text-align: center;
+    color: #fff;
+    background-color: #0d4f20a6;
+    margin: auto;
+    width: 40%;
+    padding: 30px 30px 20px 30px;
+    letter-spacing: 3px;
+    border-radius: 30px 50px 30px 50px;
+    border: 3px dashed #fff;
+   }
+   /********************* about_main_end ****************/
+   /********************* about ****************/
+   .well_2{ 
+    font-size:40px;
+    padding-right:5px;
+   }
+   .about_3 img{
+    padding-top:20px;
+    padding-right:10px;
+   }
+   /********************* about_end ****************/
+   /********************* latest ****************/
+   #latest{ 
+    padding-top: 30px;
+    padding-bottom:55px;
+    background-color: #e5ffe1;
+   }
+   .latest_2 h2{ 
+    padding-bottom:20px;
+    color: #078a2b;
+   }
+   .latest_5 h3{ 
+    padding-top:10px;
+    padding-bottom:5px;
+   }
+   .latest_5 h3 a:hover{ 
+    color: #078a2b;
+   }
+   .latest_5 ul{ 
+    padding-top:5px;
+   }
+   .latest_5 li{ 
+    display:inline;
+    margin-right:8px;
+   }
+   .latest_5 li a{ 
+    color: #078a2b;
+   }
+   .latest_5 i{ 
+    padding-right:5px;
+   }
+   .latest_5 p{ 
+    padding-bottom:30px;
+   }
+   .latest_4 img{ 
+    padding-right:10px;
+   }
+   .latest_5{ 
+    padding-right:10px;
+   }
+   .latest_3{ 
+    padding-bottom:20px;
+    padding-top:20px;
+   }
+   .latest_6{ 
+    text-align:center;
+    padding-top: 10px;
+   }
+   .latest_6 img{ 
+    border-radius: 50%;
+    border: 4px dotted #0f360a;
+   }
+   .latest_6 h3{ 
+    padding-top:20px;
+   }
+   .latest_6 ul{ 
+    padding-top:10px;
+    padding-bottom:30px;
+   }
+   .latest_6 li{ 
+    display:inline;
+    margin-right:15px;
+   }
+   .latest_6 li a{ 
+    font-size:20px;
+   }
+   .latest_7{ 
+    padding-top:40px;
+    position:relative;
+   }
+   .latest_8{ 
+    position:absolute;
+    top:45%;
+    background-color:#000;
+    left:4%;
+    right:4%;
+    padding:16px;
+    text-align:center;
+   }
+   .tell_1{ 
+    display:block;
+    width:100%; 
+    text-align:center;
+   }
+   .latest_8 h2{ 
+    color:#fff;
+   }
+   .latest_8 h4{ 
+    color:#999;
+   }
+   .latest_9 h4{ 
+    padding-top: 10px;
+    text-align: center;
+    border: 1px solid #0f9e37;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom:30px;
+   }
+   .latest_11 img{ 
+    border-radius: 50%;
+   }
+   .latest_12 h4{ 
+    padding-top:20px;
+   }
+   .latest_12 p{ 
+    padding:0px;
+    margin:0px;
+   }
+   .latest_12 h4 a:hover{ 
+    color: #12b13e;
+   }
+   .latest_10{ 
+    padding-bottom:10px;
+   }
+   .latest_13{ 
+    padding-top: 15px;
+    text-align: center;
+    border-top: 5px solid #0f9e37;
+    margin-top: 20px;
+   }
+   .latest_13 p{ 
+    padding:0px;
+    margin:0px;
+    padding-bottom:10px;
+   }
+   .latest_13 input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom:25px;
+    font-size: 17px;
+    background-color: #eaeaea;
+   }
+   .latest_14 h4{ 
+    padding-top: 10px;
+    text-align: center;
+    border: 1px solid #0f9e37;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom:30px;
+   }
+   .latest_15 img{ 
+    padding-bottom:10px;
+   }
+   /********************* latest_end ****************/
+   /********************* perfect ****************/
+   #perfect{ 
+    padding-top:30px;
+    padding-bottom:30px;
+   }
+   .perfect_1 h2{ 
+    text-align:center;
+    padding-bottom:30px;
+    color: #0f9e37;
+   }
+   .perfect_4 li{ 
+    display:inline;
+    margin-right:5px;
+   }
+   .perfect_4 i{ 
+    margin-right:5px;
+   }
+   .perfect_3{ 
+    position:relative;
+   }
+   .perfect_4{ 
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    right: 4%;
+    background-color: #00000069;
+    padding: 20px;
+   }
+   .perfect_4 h3{ 
+    color:#fff;
+   }
+   .perfect_4 li{ 
+    color:#fff;
+   }
+   .perfect_2{ 
+    padding-bottom:10px;
+   }
+   /********************* perfect_end ****************/
+   
+   
+   
+   
+   
+   
+   
+   
    
    
    @media screen and (max-width : 767px){
-   .feature_1l {
-   text-align:center;
-   margin-bottom:15px; 
-    }
-   .feature_1l  p{
-   text-align:left; 
-    }
-   .serve_1  br{
-   display:none; 
-    }
-   .serve_1  p{
-   text-align:left; 
-    }
-   .spec_1i {
-   margin-bottom:15px; 
-    }
-   .proj_i {
-   text-align:center;
-   margin-top:10px; 
-   margin-bottom:10px; 
-    }
-   .events_1i2 {
-   margin-bottom:15px; 
-    }
-    }
+   .about_main_1 h1 {
+    width: 80%;
+    font-size: 30px;
+   }
+   .about_inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   }
+   #latest {
+    text-align: center;
+   }
+   .latest_8 {
+    position: static;
+   }
+   #perfect {
+    text-align: center;
+    padding-bottom: 10px;
+   }
+   .perfect_1 h2 {
+    padding-bottom: 10px;
+   }
+   .perfect_4 {
+    position: static;
+    margin-bottom: 10px;
+   }
+   }
+   @media (min-width:470px) and (max-width:767px) {
    
+   }
    
-   @media (min-width:576px) and (max-width:767px) {
-   
-   
-    }
    @media (min-width:768px) and (max-width:991px) {
-   .feature_1r img{
-   min-height:650px; 
-    }
-   #spec  .button_1{
-    padding:23px 20px 20px 20px!important;
-    font-size:14px;
-    }
-   #spec  .button_2{
-    padding:23px 20px 20px 20px!important;
-    font-size:14px;
-    }
-   .proj_il .fs-3{
-   font-size:16px!important; 
-    }
-    }
+   .about_inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   }
+   .about_main_1 h1 {
+    width: 60%;
+   }
+   .latest_8 {
+    top: 46%;
+    left: 6%;
+    right: 6%;
+   }
+   .latest_12 h4 {
+    padding-top: 0px;
+    font-size: 13px;
+   }
+   .latest_12 p {
+    font-size: 15px;
+   }
+   .perfect_4 {
+    top: 70%;
+    left: 6%;
+    right: 6%;
+    padding: 15px;
+   }
+   #work .carousel-caption h4 {
+    font-size: 31px;
+   }
+   #work .carousel-caption p {
+    font-size: 17px;
+   }
+   #work .carousel-caption {
+    padding: 10px;
+   }
+   }
    
    @media (min-width:992px) and (max-width:1200px) {
-   .feature_1r img{
-   min-height:650px; 
-    }
-   #spec  .button_1{
-    padding:23px 20px 20px 20px!important;
-    font-size:14px;
-    }
-   #spec  .button_2{
-    padding:23px 20px 20px 20px!important;
-    font-size:14px;
-    }
-    }
-   @media (min-width:1201px) and (max-width:1255px) {
+   .about_inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   }
+   .about_main_1 h1 {
+    width: 60%;
+   }
+   .latest_8 {
+    top: 46%;
+    left: 5%;
+    right: 5%;
+   }
+   .latest_12 h4 {
+    padding-top: 0px;
+    font-size: 13px;
+   }
+   .latest_12 p {
+    font-size: 15px;
+   }
+   .perfect_4 {
+    top: 78%;
+    left: 5%;
+    right: 5%;
+    padding: 15px;
+   }
+   #work .carousel-caption h4 {
+    font-size: 31px;
+   }
+   #work .carousel-caption p {
+    font-size: 17px;
+   }
+   #work .carousel-caption {
+    padding: 10px;
+   }
+   }
    
-    }
+   @media (min-width:1201px) and (max-width:1325px) {
    
-   
-   
+   }

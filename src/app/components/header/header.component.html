@@ -1,100 +1,153 @@
-<div class="main_1 clearfix position-absolute top-0 w-100">
-    <section id="header">
-        <nav class="navbar navbar-expand-md navbar-light" id="navbar_sticky">
-            <div class="container-xl">
-                <a class="navbar-brand fs-2 p-0 fw-bold text-white m-0 me-5" href="index.html"><i class="fa fa-youtube-play me-1 col_red"></i> Play Show </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-0">
-                        
-                        <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" routerLink="">Home</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                        <a class="nav-link" routerLink="about">About </a>
-                        </li>
-                        
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Blog
-                        </a>
-                        <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" routerLink="blog"> Blog</a></li>
-                            <li><a class="dropdown-item border-0" routerLink="blog-detail"> Blog Detail</a></li>
+
+<section id="header" class="clearfix cd-secondary-nav">
+   
+    <div class="container-fluid">
+   
+     <div class="row">
+   
+      <div class="col-sm-12">
+   
+        <nav class="navbar navbar-default">
+   
+               <!-- Brand and toggle get grouped for better mobile display -->
+   
+             <div class="navbar-header">
+   
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+   
+                  <span class="sr-only">Toggle navigation</span>
+   
+                  <span class="icon-bar"></span>
+   
+                  <span class="icon-bar"></span>
+   
+                  <span class="icon-bar"></span>
+   
+                  </button>
+   
+                <a class="navbar-brand" routerLink="">CHEF</a>            </div>
+   
+               <!-- Collect the nav links, forms, and other content for toggling -->
+   
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   
+                  <ul class="nav navbar-nav">
+   
+                     <li><a class="m_tag active_m" routerLink="">Home</a></li>
+   
+                     <li><a class="m_tag" routerLink="about">About</a></li>
+   
+                     <li class="dropdown">
+   
+                        <a href="#" class="dropdown-toggle m_tag" data-toggle="dropdown">Recipe <b class="caret"></b></a>
+   
+                        <ul class="dropdown-menu drop_m">
+   
+                           <li><a routerLink="recipe">Recipe</a></li>
+   
+                           <li><a routerLink="details">Details</a></li>
+   
                         </ul>
-                        </li>
-                        
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Pages
-                        </a>
-                        <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" routerLink="login"> My Account</a></li>
-                            <li><a class="dropdown-item border-0" routerLink="contact"> Contact</a></li>
+   
+                     </li>	
+   
+                     <li><a class="m_tag" routerLink="gallery">Gallery</a></li>				  
+   
+                     <li><a class="m_tag" routerLink="contact">Contact</a></li>
+   
+                     <li class="dropdown">
+   
+                        <a href="#" class="dropdown-toggle m_tag" data-toggle="dropdown">Pages <b class="caret"></b></a>
+   
+                        <ul class="dropdown-menu drop_m">
+   
+                           <li><a routerLink="faq">Faq</a></li>
+   
+                           <li><a routerLink="team">Team</a></li>
+   
                         </ul>
-                        </li>
-                        
-                        <li class="nav-item">
-                        <a class="nav-link" routerLink="team">Team</a>
-                        </li>
-                                
-                        <li class="nav-item">
-                        <a class="nav-link" routerLink="contact">Contact</a>
-                        </li>
-                        
-                    </ul>
-                    <ul class="navbar-nav mb-0 ms-auto">
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dropdown_search" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                            <i class="fa fa-search"></i>
-                        </a>
-                        <ul class="dropdown-menu drop_1 drop_o p-3" aria-labelledby="navbarDropdown" data-bs-popper="none">
-                            <li>
-                            <div class="input-group p-2">
-                                <input type="text" class="form-control border-0" placeholder="Search Here">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-primary bg-transparent border-0 fs-5" type="button">
-                                        <i class="fa fa-search col_red"></i> </button>
-                                </span>
-                        </div>
-                            </li>
-                        </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dropdown_search" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                            <i class="fa fa-bell-o"></i>
-                        </a>
-                        <ul class="dropdown-menu drop_1 drop_o drop_o1 p-0" aria-labelledby="navbarDropdown" data-bs-popper="none">
-                            <li class="bg_red text-white p-3 fw-bold">
-                                Notification <span class="bg-white col_red span_1  rounded-circle d-inline-block me-1">3</span>
-                            </li>
-                            <li class="p-3 pb-0">
-                            <div class="row">
-                            <div class="col-md-2 pe-0 col-2"><i class="fa fa-circle col_red font_8"></i></div>
-                            <div class="col-md-10 ps-0 col-10">
-                            <a class="fw-normal text-capitalize" href="#">Semper</a> download 2000+ Simple Line Icons and Explore<br>
-                            <span class="text-muted font_14">2 Days</span>
-                            </div>
-                            </div>
-                            </li><hr>
-                            <li class="p-3 pt-0"><div class="row">
-                            <div class="col-md-2 pe-0 col-2"><i class="fa fa-circle col_red font_8"></i></div>
-                            <div class="col-md-10 ps-0 col-10">
-                        Added new movie <a class="fw-normal text-capitalize" href="#">Porta</a> Cheatsheet to Start Using With Your Projects.<br>
-                        <span class="text-muted font_14">3 Days</span>
-                            </div>
-                            </div></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" routerLink="account"><i class="fa fa-user fs-4 align-middle me-1 lh-1 col_red"></i> Account </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </section>
-</div>
+   
+                     </li>
+   
+                      <li class="dropdown dropdown-large">
+   
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+   
+                   <ul class="dropdown-menu dropdown-menu-large row">
+   
+                       <li class="col-sm-4">
+   
+                       <div class="header_1">
+   
+                         <a href="#"><img src="assets/img/54.jpg" alt="abc" class="img_responsive"></a>
+   
+                         <p><a href="#">Sed Dignissim Lacinia Vestibulum Lacinia Dignissim Lacinia Vestibulum Lacinia</a></p>
+                        </div>	
+                       </li>
+   
+                       <li class="col-sm-4">
+   
+                       <div class="header_1">
+   
+                        <a href="#"><img src="assets/img/55.jpg" alt="abc" class="img_responsive"></a>
+   
+                        <p><a href="#">Sed Dignissim Lacinia Vestibulum Lacinia Dignissim Lacinia Vestibulum Lacinia</a></p>
+                        </div>	
+                       </li>
+   
+                       <li class="col-sm-4">
+   
+                       <div class="header_1">
+   
+                         <a href="#"><img src="assets/img/56.jpg" alt="abc" class="img_responsive"></a>
+   
+                         <p><a href="#">Sed Dignissim Lacinia Vestibulum Lacinia Dignissim Lacinia Vestibulum Lacinia</a></p>
+                        </div>	
+                       </li>
+                   </ul>
+               </li>
+   
+                  </ul>
+   
+                  <ul>
+   
+                      <li>
+   
+                        <div id="custom-search-input">
+   
+           <div class="input-group col-md-2">
+   
+                                   <input type="text" class="  search-query form-control" placeholder="Search">
+   
+                                   <span class="input-group-btn">
+   
+                                       <button class="btn btn-danger" type="button">
+   
+                                           <span class=" glyphicon glyphicon-search"></span>
+   
+                                       </button>
+   
+                                   </span>
+   
+                               </div>
+   
+          </div>
+   
+                   </li>
+   
+                  </ul>			                      
+   
+   
+               </div>
+   
+               <!-- /.navbar-collapse -->
+   
+            </nav>
+   
+      </div>
+   
+     </div>
+   
+    </div>
+   
+   </section>

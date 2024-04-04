@@ -3,13 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { SectionComponent } from './components/section/section.component';
 import { AboutComponent } from './components/about/about.component';
-import { BlogComponent } from './components/blog/blog.component';
-import { BlogDetailComponent } from './components/blog-detail/blog-detail.component';
-import { LoginComponent } from './components/login/login.component';
+import { RecipeComponent } from './components/recipe/recipe.component';
+import { DetailsComponent } from './components/details/details.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FaqComponent } from './components/faq/faq.component';
 import { TeamComponent } from './components/team/team.component';
-import { AccountComponent } from './components/account/account.component';
-import { HomeHeaderComponent } from './components/home-header/home-header.component';
 
 const routes: Routes = [
   {
@@ -25,28 +24,28 @@ const routes: Routes = [
         component:AboutComponent
       },
       {
-        path:"blog",
-        component:BlogComponent
+        path:"recipe",
+        component:RecipeComponent
       },
       {
-        path:"blog-detail",
-        component:BlogDetailComponent
+        path:"details",
+        component:DetailsComponent
       },
       {
-        path:"login",
-        component:LoginComponent
+        path:"gallery",
+        component:GalleryComponent
       },
       {
         path:"contact",
         component:ContactComponent
       },
       {
-        path:"team",
-        component:TeamComponent
+        path:"faq",
+        component:FaqComponent
       },
       {
-        path:"account",
-        component:AccountComponent
+        path:"team",
+        component:TeamComponent
       }
     ]
   }
