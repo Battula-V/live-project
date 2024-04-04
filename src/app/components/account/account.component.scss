@@ -1,0 +1,58 @@
+/*
+Template Name:Med Shop
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************account****************/
+.center_shop{
+    background: #2a96ff14;
+    padding-top:80px;
+    padding-bottom:80px;
+    }
+   .account_1_l .form-control{
+    height:50px;
+    margin-top:15px;
+    font-size:18px;
+    border:none;
+    background: #2a96ff14;
+    box-shadow:none;
+    }
+   .account_1_l{
+   box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   padding:40px 20px; 
+    }
+   #account{
+   padding-top:50px;
+   padding-bottom:50px; 
+    }
+   /*********************account_end****************/
+   @media screen and (max-width : 767px){
+   #account{
+    text-align:center;
+    }
+   .account_1_l .pull-right{
+   float:none!important;
+   display:block;
+   margin-top:5px; 
+    }
+   .account_1_l {
+   margin-top:10px; 
+    }
+   }
+   
+   @media (min-width:768px) and (max-width:991px) {
+   
+    }
+   @media (min-width:992px) and (max-width:1200px) {
+   
+    }
+   @media (min-width:1201px) and (max-width:1350px) {
+   
+    }
+   
+   
+   
+   
+   

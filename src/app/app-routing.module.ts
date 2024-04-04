@@ -8,6 +8,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { BlogDetailComponent } from './components/blog-detail/blog-detail.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SectionComponent } from './components/section/section.component';
+import { AccountComponent } from './components/account/account.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
       {
         path:"contact",
         component: ContactComponent
+      },
+      {
+        path:"account",
+        component:AccountComponent
       }
     ]
   }
