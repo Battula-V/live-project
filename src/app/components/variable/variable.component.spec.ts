@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VariablesComponent } from './variables.component';
+import { VariableComponent } from './variable.component';
 
-describe('VariablesComponent', () => {
-  let component: VariablesComponent;
-  let fixture: ComponentFixture<VariablesComponent>;
+describe('VariableComponent', () => {
+  let component: VariableComponent;
+  let fixture: ComponentFixture<VariableComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [VariablesComponent]
+      declarations: [VariableComponent]
     });
-    fixture = TestBed.createComponent(VariablesComponent);
+    fixture = TestBed.createComponent(VariableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
