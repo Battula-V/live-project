@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { VariablesComponent } from './components/variables/variables.component';
 import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
+import { MyFunctionsComponent } from './components/my-functions/my-functions.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path:"object-variable",
     component:ObjectVariableComponent
+  },
+  {
+    path:"my-functions",
+    component:MyFunctionsComponent
   }
 ];
 
