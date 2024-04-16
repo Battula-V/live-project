@@ -7,13 +7,15 @@ import { VariableComponent } from './components/variable/variable.component';
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
+import { MyFunctionComponent } from './components/my-function/MyFunctionComponent';
 @NgModule({
   declarations: [
     AppComponent,
     VariableComponent,
     ObjectVariableComponent,
     MenuBarComponent,
-    ArrayVariableComponent
+    ArrayVariableComponent,
+    MyFunctionComponent
   ],
   imports: [
     BrowserModule,
