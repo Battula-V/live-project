@@ -7,7 +7,8 @@ import { VariablesComponent } from './components/variables/variables.component';
 import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
-import { MyFunctionsComponent } from './components/my-functions/my-functions.component'; 
+import { MyFunctionsComponent } from './components/my-functions/my-functions.component';
+import { MyClassComponent } from './components/my-class/my-class.component'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { MyFunctionsComponent } from './components/my-functions/my-functions.com
     ArrayVariableComponent,
     MenuBarComponent,
     ObjectVariableComponent,
-    MyFunctionsComponent
+    MyFunctionsComponent,
+    MyClassComponent
   ],
   imports: [
     BrowserModule,
