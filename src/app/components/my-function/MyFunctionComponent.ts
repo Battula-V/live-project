@@ -14,6 +14,12 @@ export class MyFunctionComponent implements OnInit {
   friends:Array<string>=["akbar","somu"];
   relatives={friend1:"somu", friend2:"akbar"};
   relatives1={friend2:"akbar" , friend1:"somu"};
+  constructor(){
+    this.searchArray();
+  }
+  searchArray(){
+    console.log("we are using search array");
+  }
   ngOnInit(): void {
     let userName="Ramu dondla";
     console.log(userName);
