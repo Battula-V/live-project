@@ -25,8 +25,22 @@ export class MyFunctionsComponent {
       set of statements;
 
     }`;
+    type1SyntaxArrow=`
+    () => {
+
+      set of statements;
+
+    }`;
     type1Example=`
     addTwoNumbers(){
+      let a=23;
+      let b=45;
+      let c=a+b;
+      console.log(c);
+    }`;
+
+    type1ExampleArrow=`
+    () => {
       let a=23;
       let b=45;
       let c=a+b;
@@ -45,8 +59,27 @@ export class MyFunctionsComponent {
       return value;
 
     }`;
+
+    type2SyntaxArrow=`
+    let output = (param-1, param-2, ........, param-n) => {
+
+      set of statements;
+
+      return value;
+
+    }`;
     type2Example=`
     addTwoNumbers(a,b){
+
+      let c=a+b;
+
+     return c;
+
+    }`;
+
+    type2ExampleArrow=`
+    let result = (a,b) => {
+
       let c=a+b;
 
      return c;
@@ -67,6 +100,15 @@ export class MyFunctionsComponent {
       return value;
 
     }`;
+
+    type3SyntaxArrow=`
+    let output = () => {
+
+      set of statements;
+
+      return value;
+
+    }`;
     type3Example=`
     addTwoNumbers(){
       let a=23;
@@ -77,6 +119,16 @@ export class MyFunctionsComponent {
 
     }`;
     
+    type3ExampleArrow=`
+    let result = () => {
+      let a=23;
+      let b=45;
+      let c=a+b;
+
+     return c;
+
+    }`;
+
     type3CallingSyntax=`
     let output=functionName();`;
     type3CallingExample=`
@@ -84,6 +136,14 @@ export class MyFunctionsComponent {
 
     type4Syntax=`
     functionName(param-1, param-2, ........, param-n){
+
+      set of statements;
+
+
+    }`;
+
+    type4SyntaxArrow=`
+    (param-1, param-2, ........, param-n) => {
 
       set of statements;
 
@@ -98,9 +158,26 @@ export class MyFunctionsComponent {
 
     }`;
     
+    type4ExampleArrow=`
+    (a,b) => {
+
+      let c=a+b;
+      console.log(c);
+     
+
+    }`;
+
     type4CallingSyntax=`
     functionName(param-1, param-2, ........, param-n);`;
     type4CallingExample=`
     addTwoNumbers(23 , 45);`;
+
+    arrowFunctionSyntax=`
+    () => {
+
+      set of statements;
+
+    }
+    `;
 
 }
