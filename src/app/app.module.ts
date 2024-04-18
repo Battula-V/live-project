@@ -8,7 +8,8 @@ import { ArrayVariableComponent } from './components/array-variable/array-variab
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
 import { MyFunctionsComponent } from './components/my-functions/my-functions.component';
-import { MyClassComponent } from './components/my-class/my-class.component'; 
+import { MyClassComponent } from './components/my-class/my-class.component';
+import { MyPreDefinedThingsComponent } from './components/my-pre-defined-things/my-pre-defined-things.component'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { MyClassComponent } from './components/my-class/my-class.component';
     MenuBarComponent,
     ObjectVariableComponent,
     MyFunctionsComponent,
-    MyClassComponent
+    MyClassComponent,
+    MyPreDefinedThingsComponent
   ],
   imports: [
     BrowserModule,

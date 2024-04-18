@@ -5,6 +5,7 @@ import { ArrayVariableComponent } from './components/array-variable/array-variab
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
 import { MyFunctionsComponent } from './components/my-functions/my-functions.component';
 import { MyClassComponent } from './components/my-class/my-class.component';
+import { MyPreDefinedThingsComponent } from './components/my-pre-defined-things/my-pre-defined-things.component';
 
 const routes: Routes = [
   {
@@ -26,7 +27,12 @@ const routes: Routes = [
   {
     path:"my-class",
     component:MyClassComponent
+  },
+  {
+    path : "my-pre-defined",
+    component : MyPreDefinedThingsComponent
   }
+
 ];
 
 @NgModule({
