@@ -9,7 +9,9 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
 import { MyFunctionsComponent } from './components/my-functions/my-functions.component';
 import { MyClassComponent } from './components/my-class/my-class.component';
-import { MyPreDefinedThingsComponent } from './components/my-pre-defined-things/my-pre-defined-things.component'; 
+import { MyPreDefinedThingsComponent } from './components/my-pre-defined-things/my-pre-defined-things.component';
+import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
+import { FormsModule } from "@angular/forms";
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,11 +21,13 @@ import { MyPreDefinedThingsComponent } from './components/my-pre-defined-things/
     ObjectVariableComponent,
     MyFunctionsComponent,
     MyClassComponent,
-    MyPreDefinedThingsComponent
+    MyPreDefinedThingsComponent,
+    LifeCycleHooksComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

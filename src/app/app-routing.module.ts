@@ -6,7 +6,7 @@ import { ObjectVariableComponent } from './components/object-variable/object-var
 import { MyFunctionsComponent } from './components/my-functions/my-functions.component';
 import { MyClassComponent } from './components/my-class/my-class.component';
 import { MyPreDefinedThingsComponent } from './components/my-pre-defined-things/my-pre-defined-things.component';
-
+import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 const routes: Routes = [
   {
     path:"",
@@ -31,8 +31,11 @@ const routes: Routes = [
   {
     path : "my-pre-defined",
     component : MyPreDefinedThingsComponent
+  },
+  {
+    path: "life-cycle-hooks",
+    component: LifeCycleHooksComponent
   }
-
 ];
 
 @NgModule({
