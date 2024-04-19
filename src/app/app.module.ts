@@ -10,6 +10,8 @@ import { ArrayVariableComponent } from './components/array-variable/array-variab
 import { MyFunctionComponent } from './components/my-function/MyFunctionComponent';
 import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 import { FormsModule } from "@angular/forms";
+import { PracticeComponent } from './components/practice/practice.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { FormsModule } from "@angular/forms";
     MenuBarComponent,
     ArrayVariableComponent,
     MyFunctionComponent,
-    LifeCycleHooksComponent
+    LifeCycleHooksComponent,
+    PracticeComponent
   ],
   imports: [
     BrowserModule,

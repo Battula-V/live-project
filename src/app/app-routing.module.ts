@@ -5,6 +5,8 @@ import { ArrayVariableComponent } from './components/array-variable/array-variab
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
 import { MyFunctionComponent } from './components/my-function/MyFunctionComponent';
 import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
+import { PracticeComponent } from './components/practice/practice.component';
+
 
 const routes: Routes = [
   {
@@ -26,7 +28,12 @@ const routes: Routes = [
   {
     path:"life-cycle-hooks",
     component:LifeCycleHooksComponent
+  },
+  {
+    path:"practice",
+    component:PracticeComponent
   }
+   
 ];
 
 @NgModule({
