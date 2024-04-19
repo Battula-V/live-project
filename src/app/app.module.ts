@@ -8,6 +8,8 @@ import { ObjectVariableComponent } from './components/object-variable/object-var
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
 import { MyFunctionComponent } from './components/my-function/MyFunctionComponent';
+import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
+import { FormsModule } from "@angular/forms";
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,11 +17,13 @@ import { MyFunctionComponent } from './components/my-function/MyFunctionComponen
     ObjectVariableComponent,
     MenuBarComponent,
     ArrayVariableComponent,
-    MyFunctionComponent
+    MyFunctionComponent,
+    LifeCycleHooksComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

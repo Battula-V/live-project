@@ -4,6 +4,7 @@ import { VariableComponent } from './components/variable/variable.component';
 import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
 import { MyFunctionComponent } from './components/my-function/MyFunctionComponent';
+import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path:"my-function",
     component:MyFunctionComponent
+  },
+  {
+    path:"life-cycle-hooks",
+    component:LifeCycleHooksComponent
   }
 ];
 
