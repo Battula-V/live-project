@@ -6,6 +6,7 @@ import { ObjectVariableComponent } from './components/object-variable/object-var
 import { MyFunctionComponent } from './components/my-function/MyFunctionComponent';
 import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 import { PracticeComponent } from './components/practice/practice.component';
+import { PropertyAndEventBindingsComponent } from './components/property-and-event-bindings/property-and-event-bindings.component';
 
 
 const routes: Routes = [
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path:"practice",
     component:PracticeComponent
+  },
+  {
+    path:"property-and-event-binding",
+    component:PropertyAndEventBindingsComponent
   }
    
 ];
