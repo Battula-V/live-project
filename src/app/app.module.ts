@@ -14,6 +14,10 @@ import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycl
 import { FormsModule } from "@angular/forms";
 import { PropertyAndEventBindingsComponent } from './components/property-and-event-bindings/property-and-event-bindings.component';
 import { DataSharingComponent } from './components/data-sharing/data-sharing.component';
+import { DataSharingTypeOneComponent } from './components/data-sharing/components/data-sharing-type-one/data-sharing-type-one.component';
+import { DataSharingTypeTwoComponent } from './components/data-sharing/components/data-sharing-type-two/data-sharing-type-two.component';
+import { DataSharingTypeThreeComponent } from './components/data-sharing/components/data-sharing-type-three/data-sharing-type-three.component';
+import { DataSharingTypeFourComponent } from './components/data-sharing/components/data-sharing-type-four/data-sharing-type-four.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +30,11 @@ import { DataSharingComponent } from './components/data-sharing/data-sharing.com
     MyPreDefinedThingsComponent,
     LifeCycleHooksComponent,
     PropertyAndEventBindingsComponent,
-    DataSharingComponent
+    DataSharingComponent,
+    DataSharingTypeOneComponent,
+    DataSharingTypeTwoComponent,
+    DataSharingTypeThreeComponent,
+    DataSharingTypeFourComponent
   ],
   imports: [
     BrowserModule,

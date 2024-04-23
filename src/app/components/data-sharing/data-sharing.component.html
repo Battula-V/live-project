@@ -1,66 +1,19 @@
-<h3>What is data sharing</h3>
-<p> sharing (or) Sending ,  variables (or) data from one component to another component is called "data sharing" </p>
 
-<h3> Types Of Data Sharing </h3>
-<p> Below are the two types of data sharing </p>
-<ol>
-    <li>  with parent-child components</li>
-    <li> with different components</li>
-</ol>
-
-<h3>1.with parent-child components</h3>
-<p> There are 2-types of data sharing </p>
-<ol type="i">
-    <li>From parent to child(property binding)</li>
-    <li>From child to parent(event binding)</li>
-</ol>
-
-<h3>i.From parent to child</h3>
-    <p> For Parent to child we use property binding </p>
-    <p> parant child can be identified like below </p>
-    <b> parent.component.html</b>
-    <pre>{{code1}}</pre>
-    <b>In parent.component.ts-file </b>
-    <p> userName="raghu";</p>
-    <b>In chilld.component.ts-file </b>
-    <p> empolyeeName="akbar";</p>
-    <p> managerName ="jani";</p>
-    <p> If empolyeeName variable want to recieve data from parent component , then indicate @Input() before the empolyeeName variable like below  </p>
-    <p>  @Input() empolyeeName="akbar";</p>
-    <p> managerName ="jani";</p>
-    <p> In the above components parent.component.html is called "parent component"</p>
-    <pre>{{code1}} is called "child component".</pre>
-    <p> Now to send data from parent to child we write like below </p>
-    <b>Syntax:-</b>
-    <p> To send variables </p>
-    <pre>{{code2}}</pre>
-    <p> To send direct data </p>
-    <pre>{{code4}}</pre>
-    <b>Example:-</b>
-    <pre>{{code3}}</pre>
-    <pre>{{code5}}</pre>
-
-
-<h3>ii.From child to parent</h3>
-    <p>For child to parent we use event binding</p>
-    <p> parant child can be identified like below </p>
-    <b> parent.component.html</b>
-    <pre>{{code1}}</pre>
-    <b>In parent.component.ts-file </b>
-    <p> userName="raghu";</p>
-    <pre>{{code6}}</pre>
-    <b>In chilld.component.ts-file </b>
-    <p> empolyeeName="akbar";</p>
-    <p> managerName ="jani";</p>
-    <p> @output() myEvent : EventEmitter = new EventEmitter(); </p>
-    <p> Now to perform the above event we write like below </p>
-    <p>myEvent.emit(variable (or) data);</p>
-    <p> In the above components parent.component.html is called "parent component"</p>
-    <pre>{{code1}} is called "child component".</pre>
-    <p> Now to send data from child to parent we write like below </p>
-    <b>Syntax:-</b>
-    <pre>{{code7}}</pre>
-    <b>Example:-</b>
-    <pre>{{code8}}</pre>
-     
-
+<div class="row">
+    <div class="col-1">
+        <h3>What is data sharing</h3>
+        <p> sharing (or) Sending ,  variables (or) data from one component to another component is called "data sharing" </p>
+        
+        <h3> Types Of Data Sharing </h3>
+        <p> Below are the two types of data sharing </p>
+        <ol>
+            <li>  <a routerLink="type-one">with parent-child components</a></li>
+            <li>  <a routerLink="type-two" routerLinkActive="color">with different components</a></li>
+            <li>  <a routerLink="type-three" routerLinkActive="color">with query string in url</a></li>
+            <li>  <a routerLink="type-four" routerLinkActive="color">with routing configuration</a> </li>
+        </ol> 
+    </div>
+    <div class="col-2">        
+        <router-outlet></router-outlet>
+    </div>
+</div>
