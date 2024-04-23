@@ -12,6 +12,7 @@ import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycl
 import { FormsModule } from "@angular/forms";
 import { PracticeComponent } from './components/practice/practice.component';
 import { PropertyAndEventBindingsComponent } from './components/property-and-event-bindings/property-and-event-bindings.component';
+import { DataSharingComponent } from './components/data-sharing/data-sharing.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PropertyAndEventBindingsComponent } from './components/property-and-eve
     MyFunctionComponent,
     LifeCycleHooksComponent,
     PracticeComponent,
-    PropertyAndEventBindingsComponent
+    PropertyAndEventBindingsComponent,
+    DataSharingComponent
   ],
   imports: [
     BrowserModule,

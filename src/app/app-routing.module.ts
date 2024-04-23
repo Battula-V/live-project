@@ -7,6 +7,7 @@ import { MyFunctionComponent } from './components/my-function/MyFunctionComponen
 import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 import { PracticeComponent } from './components/practice/practice.component';
 import { PropertyAndEventBindingsComponent } from './components/property-and-event-bindings/property-and-event-bindings.component';
+import { DataSharingComponent } from './components/data-sharing/data-sharing.component';
 
 
 const routes: Routes = [
@@ -37,6 +38,10 @@ const routes: Routes = [
   {
     path:"property-and-event-binding",
     component:PropertyAndEventBindingsComponent
+  },
+  {
+    path:"data-sharing",
+    component:DataSharingComponent
   }
    
 ];
