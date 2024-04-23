@@ -8,6 +8,7 @@ import { MyClassComponent } from './components/my-class/my-class.component';
 import { MyPreDefinedThingsComponent } from './components/my-pre-defined-things/my-pre-defined-things.component';
 import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 import { PropertyAndEventBindingsComponent } from './components/property-and-event-bindings/property-and-event-bindings.component';
+import { DataSharingComponent } from './components/data-sharing/data-sharing.component';
 const routes: Routes = [
   {
     path:"",
@@ -40,6 +41,10 @@ const routes: Routes = [
   {
     path:"property-and-event-bindings",
     component:PropertyAndEventBindingsComponent
+  },
+  {
+    path:"data-sharing",
+    component:DataSharingComponent
   }
 ];
 

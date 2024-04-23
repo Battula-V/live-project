@@ -13,6 +13,7 @@ import { MyPreDefinedThingsComponent } from './components/my-pre-defined-things/
 import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 import { FormsModule } from "@angular/forms";
 import { PropertyAndEventBindingsComponent } from './components/property-and-event-bindings/property-and-event-bindings.component';
+import { DataSharingComponent } from './components/data-sharing/data-sharing.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { PropertyAndEventBindingsComponent } from './components/property-and-eve
     MyClassComponent,
     MyPreDefinedThingsComponent,
     LifeCycleHooksComponent,
-    PropertyAndEventBindingsComponent
+    PropertyAndEventBindingsComponent,
+    DataSharingComponent
   ],
   imports: [
     BrowserModule,
