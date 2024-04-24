@@ -1,3 +1,4 @@
 <p>{{name}}</p>
-<app-menu [nickName]="name"  (myEvent)="userName($event)"></app-menu>
+<p>{{superName}}</p>
+<app-menu [nickName]="name"  (myEvent)="userName($event)"  [jokeName]="superName" (dbEvent)=" akbar($event)"></app-menu>
 <router-outlet></router-outlet>

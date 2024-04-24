@@ -11,4 +11,9 @@ export class AppComponent {
   userName(event:any){
     console.log(event);
   }
+
+  superName="yash";
+  akbar(event:any){
+    console.log(event);
+  }
 }

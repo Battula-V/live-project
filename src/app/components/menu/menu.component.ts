@@ -8,8 +8,13 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 export class MenuComponent implements OnInit{
   ngOnInit(): void {
     this.myEvent.emit("orey");
+    this.dbEvent.emit("rrrrrrrrrrrrrrrrrrrrrrrrrr");
   }
   @Input() nickName="chintu";
   @Output() myEvent : EventEmitter<any> =new EventEmitter();
+
+  @Input() jokeName="gabbu";
+  @Output() dbEvent: EventEmitter<any> = new EventEmitter(); 
+
 
 }
