@@ -7,6 +7,8 @@ import { DataSharingTypeOneComponent } from './components/data-sharing/component
 import { DataSharingTypeTwoComponent } from './components/data-sharing/components/data-sharing-type-two/data-sharing-type-two.component';
 import { DataSharingTypeThreeComponent } from './components/data-sharing/components/data-sharing-type-three/data-sharing-type-three.component';
 import { DataSharingTypeFourComponent } from './components/data-sharing/components/data-sharing-type-four/data-sharing-type-four.component';
+import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
+import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
 const routes: Routes = [
   {
     path:"practice",
@@ -15,6 +17,14 @@ const routes: Routes = [
   {
     path:"variables",
     component:VariablesComponent
+  },
+  {
+    path:"array-variable",
+    component:ArrayVariableComponent
+  },
+  {
+    path:"object-variable",
+    component:ObjectVariableComponent
   },
   {
     path:"data-sharing",

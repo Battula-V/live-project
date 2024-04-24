@@ -11,6 +11,8 @@ import { DataSharingTypeFourComponent } from './components/data-sharing/componen
 import { DataSharingTypeThreeComponent } from './components/data-sharing/components/data-sharing-type-three/data-sharing-type-three.component';
 import { DataSharingTypeTwoComponent } from './components/data-sharing/components/data-sharing-type-two/data-sharing-type-two.component';
 import { DataSharingTypeOneComponent } from './components/data-sharing/components/data-sharing-type-one/data-sharing-type-one.component';
+import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
+import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,9 @@ import { DataSharingTypeOneComponent } from './components/data-sharing/component
     DataSharingTypeFourComponent,
     DataSharingTypeThreeComponent,
     DataSharingTypeTwoComponent,
-    DataSharingTypeOneComponent
+    DataSharingTypeOneComponent,
+    ArrayVariableComponent,
+    ObjectVariableComponent
   ],
   imports: [
     BrowserModule,
