@@ -13,6 +13,7 @@ import { DataSharingTypeTwoComponent } from './components/data-sharing/component
 import { DataSharingTypeOneComponent } from './components/data-sharing/components/data-sharing-type-one/data-sharing-type-one.component';
 import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
+import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { ObjectVariableComponent } from './components/object-variable/object-var
     DataSharingTypeTwoComponent,
     DataSharingTypeOneComponent,
     ArrayVariableComponent,
-    ObjectVariableComponent
+    ObjectVariableComponent,
+    LifeCycleHooksComponent
   ],
   imports: [
     BrowserModule,

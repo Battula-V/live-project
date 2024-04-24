@@ -9,6 +9,7 @@ import { DataSharingTypeThreeComponent } from './components/data-sharing/compone
 import { DataSharingTypeFourComponent } from './components/data-sharing/components/data-sharing-type-four/data-sharing-type-four.component';
 import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
+import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 const routes: Routes = [
   {
     path:"practice",
@@ -25,6 +26,10 @@ const routes: Routes = [
   {
     path:"object-variable",
     component:ObjectVariableComponent
+  },
+  {
+    path:"life-cycle-hooks",
+    component:LifeCycleHooksComponent
   },
   {
     path:"data-sharing",
