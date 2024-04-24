@@ -6,10 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  officeName="bullion";
-  title = 'ui';
+  title = 'ui';  
+  name="ramu";
   userName(event:any){
-     
     console.log(event);
   }
 }

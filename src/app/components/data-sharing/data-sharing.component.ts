@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./data-sharing.component.scss']
 })
 export class DataSharingComponent {
-    
-    
+
 }

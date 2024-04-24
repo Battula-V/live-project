@@ -1,3 +1,3 @@
-<pre>{{officeName}}</pre>
-<app-menu-bar  [hostelName] ="officeName" (myEvent)="userName($event)"></app-menu-bar>
+<p>{{name}}</p>
+<app-menu [nickName]="name"  (myEvent)="userName($event)"></app-menu>
 <router-outlet></router-outlet>
