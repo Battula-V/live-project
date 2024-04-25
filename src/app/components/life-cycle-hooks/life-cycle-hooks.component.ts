@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { DataSharingService } from "../data-sharing/data-sharing.service";
 @Component({
   selector: 'app-life-cycle-hooks',
   templateUrl: './life-cycle-hooks.component.html',
@@ -12,5 +12,13 @@ export class LifeCycleHooksComponent implements OnInit{
   name="ramu";
   userName(){
     this.name="akash";
+  }
+
+  constructor(private dataSharingServiceObj : DataSharingService){
+      this.dataSharingServiceObj.applicationData.subscribe(
+        ( bg : any) => {
+          console.log(bg);
+        }
+      );
   }
 }
