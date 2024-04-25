@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { DataSharingService } from "../data-sharing/data-sharing.service";
 
 @Component({
   selector: 'app-my-function',
@@ -14,7 +14,12 @@ export class MyFunctionComponent implements OnInit {
   friends:Array<string>=["akbar","somu"];
   relatives={friend1:"somu", friend2:"akbar"};
   relatives1={friend2:"akbar" , friend1:"somu"};
-  constructor(){
+  constructor(private dataSharingServiceObj : DataSharingService){
+    dataSharingServiceObj.applicationData.subscribe(
+      (venky:any) => {
+        console.log(venky);
+      }
+    );
     this.searchArray();
   }
   searchArray(){
@@ -29,5 +34,6 @@ export class MyFunctionComponent implements OnInit {
     console.log(userName);
     console.log(userName);
   }
+  
   
 }
