@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./array-variable.component.scss']
 })
 export class ArrayVariableComponent {
-  myFriends:Array<string>=["ramu" , "sowmya" , "rajesh" , "babu" , "somu"];
-  myFriends1:Array<any>=["ramu" , "somu" , "sowmya" , "rajesh" , "babu" , 4];
+  myHouses : Array<string> = ["chinthapalli" , "janapadu" ,"karempudi" , "macherla"];
+  myHousesOne : Array<any> = ["chinthapalli" , "janapadu", "macherla" ,"karempudi" , 4, 5];
+  myLuckyNumbers : Array<number>= [2, 3,56,87];
+  myOpinions : Array<boolean> = [ true , false];
+
 }
