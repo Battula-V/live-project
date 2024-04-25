@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { DataSharingService } from "../data-sharing/data-sharing.service";
 @Component({
   selector: 'app-variables',
   templateUrl: './variables.component.html',
@@ -23,5 +23,14 @@ export class VariablesComponent implements OnInit{
 
   }
 
- 
+  constructor(private dataSharingServiceObj : DataSharingService){
+    this.dataSharingServiceObj.applicationData.subscribe(
+      (one : any) => {
+        console.log(one);
+      }
+    );
+    dataSharingServiceObj.observeSubjectData({name : "ganga"});
+  }
+
+
 }

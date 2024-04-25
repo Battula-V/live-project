@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  fatherName="srinu";
   title = 'ui';  
   name="ramu";
   userName(event:any){
@@ -14,6 +15,10 @@ export class AppComponent {
 
   superName="yash";
   akbar(event:any){
+    console.log(event);
+  }
+
+  villageName(event:any){
     console.log(event);
   }
 }
