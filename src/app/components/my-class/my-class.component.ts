@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { DataSharingService } from "../data-sharing/data-sharing.service";
 @Component({
   selector: 'app-my-class',
   templateUrl: './my-class.component.html',
@@ -77,5 +77,13 @@ export class MyClassComponent {
             
     }
     `;
+    constructor(private dataSharingServiceObj : DataSharingService){
+        this.dataSharingServiceObj.applicationData.subscribe(
+          (variableTwo:any) => {
+            console.log(variableTwo);
+          }
+        );
+        dataSharingServiceObj.observeSubjectData({ name : 'ramu'});
+    }
 
 }

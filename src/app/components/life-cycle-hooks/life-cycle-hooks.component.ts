@@ -1,5 +1,5 @@
 import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, DoCheck, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
-
+import { DataSharingService } from "../data-sharing/data-sharing.service";
 @Component({
   selector: 'app-life-cycle-hooks',
   templateUrl: './life-cycle-hooks.component.html',
@@ -42,6 +42,12 @@ export class LifeCycleHooksComponent implements OnInit, OnChanges, DoCheck, Afte
     console.log(" ngOnInit - After the first ngOnChanges.");
   }
 
-
+  constructor( private dataSharingSeriveObj :  DataSharingService ){
+    this.dataSharingSeriveObj.applicationData.subscribe(
+      (variableOne) => {
+        console.log(variableOne);
+      }
+    );
+  }
 
 }
