@@ -59,12 +59,13 @@ const routes: Routes = [
         component:DataSharingTypeTwoComponent
       },
       {
-        path:"type-three",
+        path:"type-three/:name",
         component:DataSharingTypeThreeComponent
       },
       {
         path:"type-four",
-        component:DataSharingTypeFourComponent
+        component:DataSharingTypeFourComponent,
+        data : {name:"ramu" ,salary:1200}
       }
     ]
   }

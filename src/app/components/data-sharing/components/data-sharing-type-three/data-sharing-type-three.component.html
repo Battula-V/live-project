@@ -1,1 +1,45 @@
-<p>data-sharing-type-three works!</p>
+<h3> Sharing data using url</h3>
+<p> Data can be shared from one component to another component using url. It has two ways </p>
+<ol>
+    <li>using parameter (starts with slash(/) in Url )</li>
+    <li> using query string (starts with question mark(?) in url)</li>
+</ol>
+<div class="row">
+    <div class="w-50">
+        <h3>1.using parameter (starts with slash(/) in Url )</h3>
+            <p> In routing add :parameterName in path after the route. If route is abc and parameterName is salary , then routing will be like below </p>
+            <pre> {{code1}}</pre>
+
+            <p>In any component create an link and add the component route with parameter value like below</p>
+            <pre>{{code2}}</pre>
+
+            <p>Now to get the salary parameter value 1200 into the ts-file follow the below process  </p>
+                <ol>
+                    <li>import ActivatedRoute</li>
+                    <li>create  ActivatedRoute object in the constructor   </li>
+                    <li>Now subscribe to params property in the ActivatedRoute class </li>
+                    <li>Now it will show the value of a salary </li>
+                </ol>
+
+                <pre>{{code3}}</pre>
+    </div>
+            
+    <div class="w-50">
+        <h3>2.using query string (starts with question mark(?) in url)</h3>
+            <p>The format of query string is ?key1=value1&key2=value2&......keyn=valuen</p>
+            <p> If route is abc and queryParameterName is salary , then routing will be like below </p>
+            <pre> {{code6}}</pre>
+            <p>In any component create an link and add the  query parameter like below</p>
+            <pre>{{code4}}</pre>
+
+            <p>Now to get the salary parameter value 1200 into the ts-file follow the below process  </p>
+                <ol>
+                    <li>import ActivatedRoute</li>
+                    <li>create  ActivatedRoute object in the constructor   </li>
+                    <li>Now subscribe to queryParams property in the ActivatedRoute class </li>
+                    <li>Now it will show the value of a salary </li>
+                </ol>
+
+                <pre>{{code5}}</pre>
+    </div>
+</div>
