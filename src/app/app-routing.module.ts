@@ -61,7 +61,8 @@ const routes: Routes = [
       },
       {
         path:"type-four",
-        component:DataSharingTypeFourComponent
+        component:DataSharingTypeFourComponent,
+        data : { name : "bhanu" , Designition : "developer"}
       }
     ]
   }
