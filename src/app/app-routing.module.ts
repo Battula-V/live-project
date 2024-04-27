@@ -44,7 +44,7 @@ const routes: Routes = [
         component:DataSharingTypeTwoComponent
       },
       {
-        path:"type-three",
+        path:"/data-sharing/type-three/:name",
         component:DataSharingTypeThreeComponent
       },
       {
