@@ -44,12 +44,13 @@ const routes: Routes = [
         component:DataSharingTypeTwoComponent
       },
       {
-        path:"/data-sharing/type-three/:name",
+        path:"type-three/:name",
         component:DataSharingTypeThreeComponent
       },
       {
         path:"type-four",
-        component:DataSharingTypeFourComponent
+        component:DataSharingTypeFourComponent,
+        data : {name : "venu" , study : "degree" , village : "karampudi" , sisters : 45}
       }
     ]
   }
