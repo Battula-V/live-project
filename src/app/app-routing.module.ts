@@ -13,6 +13,7 @@ import { DataSharingTypeOneComponent } from './components/data-sharing/component
 import { DataSharingTypeTwoComponent } from './components/data-sharing/components/data-sharing-type-two/data-sharing-type-two.component';
 import { DataSharingTypeThreeComponent } from './components/data-sharing/components/data-sharing-type-three/data-sharing-type-three.component';
 import { DataSharingTypeFourComponent } from './components/data-sharing/components/data-sharing-type-four/data-sharing-type-four.component';
+import { CreatingMultipleProjectsComponent } from './components/creating-multiple-projects/creating-multiple-projects.component';
 const routes: Routes = [
   {
     path:"",
@@ -68,6 +69,10 @@ const routes: Routes = [
         data : {name:"ramu" ,salary:1200}
       }
     ]
+  },
+  {
+    path : "creating-multiple-projects",
+    component : CreatingMultipleProjectsComponent 
   }
 ];
 
