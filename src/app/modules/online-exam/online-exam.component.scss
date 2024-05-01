@@ -1,0 +1,27 @@
+.row
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.keep-right
+{
+    flex: 1 1 auto;
+}
+.size
+{
+    font-size: 0.87rem;
+}
+.side-menu
+{
+    background-color:#fff;
+    width: 75%;
+    height: 100%;
+    top: 0rem;
+    position: absolute;
+    padding: 0.5rem;
+}
+.mouse-pointer
+{
+    cursor: pointer;
+}
