@@ -2,16 +2,16 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';  
 const routes: Routes = [
   {
-    path : "online-exams",
-    loadChildren : () => import("./modules/online-exam/online-exam.module").then((m) => m.OnlineExamModule)
+    path : "state-exams",
+    loadChildren : () => import("./modules/state-exams/state-exams.module").then((m) => m.StateExamsModule)
   },
   {
-    path : "online-shopping",
-    loadChildren : () => import("./modules/online-shopping/online-shopping.module").then((m) => m.OnlineShoppingModule)
+    path : "central-exams",
+    loadChildren : () => import("./modules/central-exams/central-exams.module").then((m) => m.CentralExamsModule)
   },
   {
-    path :"**",
-    redirectTo : "online-exams"
+    path : "**",
+    redirectTo : "state-exams"
   }
 ]
    
