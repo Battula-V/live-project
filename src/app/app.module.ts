@@ -8,13 +8,15 @@ import { VariablesComponent } from './components/variables/variables.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
+import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 @NgModule({
   declarations: [
     AppComponent,
     VariablesComponent,
     MenuBarComponent,
     ArrayVariableComponent,
-    ObjectVariableComponent, 
+    ObjectVariableComponent,
+    LifeCycleHooksComponent, 
   ],
   imports: [
     BrowserModule,

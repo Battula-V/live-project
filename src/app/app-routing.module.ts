@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { VariablesComponent } from './components/variables/variables.component';
 import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
 import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
+import { LifeCycleHooksComponent } from './components/life-cycle-hooks/life-cycle-hooks.component';
 const routes: Routes = [
   {
     path : "",
@@ -15,6 +16,10 @@ const routes: Routes = [
   {
     path : "object-variable",
     component : ObjectVariableComponent
+  },
+  {
+    path : "life-cycle-hooks",
+    component : LifeCycleHooksComponent
   }
 ]
    
