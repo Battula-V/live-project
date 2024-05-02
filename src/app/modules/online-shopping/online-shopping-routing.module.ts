@@ -1,14 +1,33 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, Routes } from '@angular/router'
+import { RouterModule, Routes } from '@angular/router';  
 import { OnlineShoppingComponent } from './online-shopping.component';
+import { BooksComponent } from './components/books/books.component';
+import { DressesComponent } from './components/dresses/dresses.component';
+import { VehiclesComponent } from './components/vehicles/vehicles.component';
+
 
 const routes: Routes = [
   {
     path : "",
-    component : OnlineShoppingComponent
+    component : OnlineShoppingComponent,
+    children :[
+      {
+        path : "books",
+        component : BooksComponent
+      },
+      {
+        path : "dresses",
+        component : DressesComponent
+      },
+      {
+        path : "vehicles",
+        component : VehiclesComponent
+      }
+    ]
   }
 ]
+
 @NgModule({
   declarations: [],
   imports: [

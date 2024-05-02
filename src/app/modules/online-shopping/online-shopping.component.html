@@ -1,2 +1,41 @@
-<p>online-shopping works!</p>
+ 
+
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" fxShow.sm fxShow.xs fxHide.lg fxHide.md  (click)=" menuClick()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span (click)="user('/online-shopping')" class="mouse-pointer">Online Shopping</span>
+    <span class="keep-right"></span>
+    <div fxLayout="row" fxLayoutGap = "2rem" class="size">
+        <span (click)="user('/online-shopping/books')" class="mouse-pointer">Books</span> 
+        <span (click)="user('/online-shopping/dresses')" class="mouse-pointer">Dresses</span>
+        <span (click)="user('/online-shopping/vehicles')" class="mouse-pointer">Vehicles</span>
+    </div>
+    <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button> -->
+</mat-toolbar>
+
+<div class="side-menu" fxShow.sm fxShow.xs fxHide.lg fxHide.xl fxHide.md  *ngIf="isShowMenuBar">
+  <div fxLayout="row" fxLayoutAlign="space-between">
+    <h1>Side Menu</h1>
+    <mat-icon (click)="closeButton()">close</mat-icon>
+  </div>
+  <div fxLayout="column">
+    <mat-list>
+      <mat-list-item *ngFor="let folder of folders">
+        <mat-icon matListItemIcon>folder</mat-icon>
+        <div matListItemTitle (click)="user(folder.path)">{{folder.name}}</div>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    </mat-list>
+
+  </div>
+</div>
+
+
+ 
 <router-outlet></router-outlet>
