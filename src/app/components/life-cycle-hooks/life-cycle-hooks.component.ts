@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class LifeCycleHooksComponent {
       name="Bhanu";
+
+      user(){
+        this.name="ramu";
+      }
 }
