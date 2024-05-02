@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" fxShow.sm fxShow.xs fxHide.md fxHide.lg fxHide.xl (click)="menuClick()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span (click)="user('/exams')">Exams</span>
+    <span class="keep-right"></span>
+    <div fxLayout="row" fxLayoutGap="2rem" class="size">
+        <span (click)="user('/exams/polycet')">POLYCET</span>
+        <span (click)="user('/exams/eamcet')">EAMCET</span>
+        <span (click)="user('/exams/e-cet')">E-CET</span>
+    </div>
+    <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button> -->
+</mat-toolbar>
+
+<div class="side-menu" fxShow.sm fxShow.xs fxHide.md fxHide.lg fxHide.xl >
+    <div fxLayout="row" fxLayoutAlign="space-between">
+        <h1>Siude Menu</h1>
+        <mat-icon (click)="closeButton()">Close</mat-icon>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
