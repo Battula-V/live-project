@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { VariablesComponent } from './components/variables/variables.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { ArrayVariableComponent } from './components/array-variable/array-variable.component';
+import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
 @NgModule({
   declarations: [
     AppComponent,
     VariablesComponent,
-    MenuBarComponent, 
+    MenuBarComponent,
+    ArrayVariableComponent,
+    ObjectVariableComponent, 
   ],
   imports: [
     BrowserModule,
