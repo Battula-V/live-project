@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IpeExamComponent } from './ipe-exam.component';
+import { VariablesComponent } from './variables.component';
 
-describe('IpeExamComponent', () => {
-  let component: IpeExamComponent;
-  let fixture: ComponentFixture<IpeExamComponent>;
+describe('VariablesComponent', () => {
+  let component: VariablesComponent;
+  let fixture: ComponentFixture<VariablesComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [IpeExamComponent]
+      declarations: [VariablesComponent]
     });
-    fixture = TestBed.createComponent(IpeExamComponent);
+    fixture = TestBed.createComponent(VariablesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

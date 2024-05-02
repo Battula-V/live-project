@@ -1,17 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';  
+import { VariablesComponent } from './components/variables/variables.component';
 const routes: Routes = [
   {
-    path : "state-exams",
-    loadChildren : () => import("./modules/state-exams/state-exams.module").then((m) => m.StateExamsModule)
-  },
-  {
-    path : "central-exams",
-    loadChildren : () => import("./modules/central-exams/central-exams.module").then((m) => m.CentralExamsModule)
-  },
-  {
-    path : "**",
-    redirectTo : "state-exams"
+    path : "",
+    component : VariablesComponent
   }
 ]
    
