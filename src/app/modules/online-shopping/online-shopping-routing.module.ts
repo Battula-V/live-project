@@ -5,6 +5,7 @@ import { OnlineShoppingComponent } from './online-shopping.component';
 import { BooksComponent } from './components/books/books.component';
 import { DressesComponent } from './components/dresses/dresses.component';
 import { VehiclesComponent } from './components/vehicles/vehicles.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,10 @@ const routes: Routes = [
     path : "",
     component : OnlineShoppingComponent,
     children :[
+      {
+        path : "",
+        component : LoginComponent
+      },
       {
         path : "books",
         component : BooksComponent
