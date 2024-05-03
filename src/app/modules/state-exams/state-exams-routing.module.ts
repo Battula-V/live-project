@@ -5,12 +5,17 @@ import { StateExamsComponent } from './state-exams.component';
 import { SscExamComponent } from './components/ssc-exam/ssc-exam.component';
 import { IpeExamComponent } from './components/ipe-exam/ipe-exam.component';
 import { PolycetExamComponent } from './components/polycet-exam/polycet-exam.component';
+import { LoginComponent } from './components/login/login.component';
 
 const routes: Routes = [
   {
     path : "",
     component : StateExamsComponent,
     children : [
+      {
+        path : "",
+        component : LoginComponent
+      },
       {
         path : "ssc-exam",
         component : SscExamComponent
