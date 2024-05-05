@@ -19,6 +19,7 @@ import { DataSharingTypeTwoComponent } from './components/data-sharing/component
 import { DataSharingTypeThreeComponent } from './components/data-sharing/components/data-sharing-type-three/data-sharing-type-three.component';
 import { DataSharingTypeFourComponent } from './components/data-sharing/components/data-sharing-type-four/data-sharing-type-four.component';
 import { CreatingMultipleProjectsComponent } from './components/creating-multiple-projects/creating-multiple-projects.component';
+import { CallingApisComponent } from './components/calling-apis/calling-apis.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +37,8 @@ import { CreatingMultipleProjectsComponent } from './components/creating-multipl
     DataSharingTypeTwoComponent,
     DataSharingTypeThreeComponent,
     DataSharingTypeFourComponent,
-    CreatingMultipleProjectsComponent
+    CreatingMultipleProjectsComponent,
+    CallingApisComponent
   ],
   imports: [
     BrowserModule,
