@@ -38,6 +38,7 @@ export class LoginComponent {
   }
 
   login(){
+    this.stateExamServiceObj.apicalling();
     this.stateExamServiceObj.observeSubjectData({loginStatus :  true});
     this.routerObj.navigate(['/state-exams/ssc-exam']);
   }
