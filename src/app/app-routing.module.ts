@@ -15,6 +15,7 @@ import { DataSharingTypeThreeComponent } from './components/data-sharing/compone
 import { DataSharingTypeFourComponent } from './components/data-sharing/components/data-sharing-type-four/data-sharing-type-four.component';
 import { CreatingMultipleProjectsComponent } from './components/creating-multiple-projects/creating-multiple-projects.component';
 import { CallingApisComponent } from './components/calling-apis/calling-apis.component';
+import { WorkingWithFormsComponent } from './components/working-with-forms/working-with-forms.component';
 const routes: Routes = [
   {
     path:"",
@@ -47,6 +48,10 @@ const routes: Routes = [
   {
     path:"property-and-event-bindings",
     component:PropertyAndEventBindingsComponent
+  },
+  {
+    path : "working-with-forms",
+    component : WorkingWithFormsComponent
   },
   {
     path:"data-sharing",

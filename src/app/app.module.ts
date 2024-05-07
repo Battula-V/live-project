@@ -20,6 +20,7 @@ import { DataSharingTypeThreeComponent } from './components/data-sharing/compone
 import { DataSharingTypeFourComponent } from './components/data-sharing/components/data-sharing-type-four/data-sharing-type-four.component';
 import { CreatingMultipleProjectsComponent } from './components/creating-multiple-projects/creating-multiple-projects.component';
 import { CallingApisComponent } from './components/calling-apis/calling-apis.component';
+import { WorkingWithFormsComponent } from './components/working-with-forms/working-with-forms.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +39,8 @@ import { CallingApisComponent } from './components/calling-apis/calling-apis.com
     DataSharingTypeThreeComponent,
     DataSharingTypeFourComponent,
     CreatingMultipleProjectsComponent,
-    CallingApisComponent
+    CallingApisComponent,
+    WorkingWithFormsComponent
   ],
   imports: [
     BrowserModule,

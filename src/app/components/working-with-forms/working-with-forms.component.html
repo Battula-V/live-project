@@ -1,0 +1,37 @@
+<h1> Sending Data From Html To TS File</h1>
+<p> We can Send the data from html to ts-file with the help of forms</p>
+
+<h3>Working with forms</h3>
+<p> There are two types forms in angular </p>
+<ol>
+    <li>Template Driven forms (Basic)</li>
+    <li>Reactive Forms (Advanced)</li>
+</ol>
+
+<div class="row">
+    <div class="w-50">
+        <h3>Template Driven  forms (Basic)</h3>
+        <p>import FormsModule in module file  like this:-  
+            import FormsModule from '@angular/forms';</p>
+        <p> Here , property binding , using ngModel attribute , is used for sending data from html  to ts-file and data from ts-file  to html file. This is called "Two-way binding". and this can be achieved by ngModel . This is applicable only for the form elements </p>
+        <b> Syntax:-</b>
+        <b>In Html</b>
+        <pre>{{code1}}</pre>
+        <b>In Ts-file</b>       
+        <p> variableName = value;</p>
+    </div>
+ 
+
+
+    <div class="w-50">
+        <h3>Reactive Forms (Advanced)</h3>
+        <p>import ReactiveFormsModule in module file  like this:-
+            import ReactiveFormsModule from '@angular/forms';</p>
+        <p> Here , property binding , using formControl attribute , is used for sending data from html  to ts-file and data from ts-file  to html file. This is called "Two-way binding". and this can be achieved by formControl . This is applicable only for the form elements </p>
+        <b> Syntax:-</b>
+        <pre>{{code2}}</pre>
+        <b>In Ts-file</b>       
+        <p> import FormControl, Validators  from '@angular/forms';</p>
+        <p> variableName = new FormControl(value);</p>
+    </div>
+</div>
