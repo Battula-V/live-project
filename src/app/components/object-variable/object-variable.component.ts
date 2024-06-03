@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./object-variable.component.scss']
 })
 export class ObjectVariableComponent implements OnInit{
-  myFriends:any = { friend2:"akbar" ,friend1:"babu"};
+  myFriends:any={friend1:"somu", friend2:"rana"}
   ngOnInit(): void {
     
   }
