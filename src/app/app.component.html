@@ -1,2 +1,4 @@
-<app-menu-bar></app-menu-bar>
+<p>{{friendName}}</p>
+<p>{{villageName}}</p>
+<app-menu-bar [hostelName]="friendName"  (myEvent)="updateUser($event)"  [mandalName]="villageName" (myEvent)="updateVillageName($event)"></app-menu-bar>
 <router-outlet></router-outlet>

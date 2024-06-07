@@ -7,6 +7,10 @@ import { MyPreDefinedThingsComponent } from './components/my-pre-defined-things/
 import { AngularLifeCycleHooksComponent } from './components/angular-life-cycle-hooks/angular-life-cycle-hooks.component';
 import { PropertyAndEventBindingComponent } from './components/property-and-event-binding/property-and-event-binding.component';
 import { DataSharingComponent } from './components/data-sharing/data-sharing.component';
+import { DataSharingTypeOneComponent } from './components/data-sharing/components/data-sharing-type-one/data-sharing-type-one.component';
+import { DataSharingTypeTwoComponent } from './components/data-sharing/components/data-sharing-type-two/data-sharing-type-two.component';
+import { DataSharingTypeThreeComponent } from './components/data-sharing/components/data-sharing-type-three/data-sharing-type-three.component';
+import { DataSharingTypeFourComponent } from './components/data-sharing/components/data-sharing-type-four/data-sharing-type-four.component';
 const routes: Routes = [
   {
     path :"",
@@ -34,7 +38,25 @@ const routes: Routes = [
   },
   {
     path : "data-sharing",
-    component : DataSharingComponent
+    component : DataSharingComponent,
+    children:[
+      {
+        path:"type-1",
+        component:DataSharingTypeOneComponent
+      },
+      {
+        path:"type-2",
+        component:DataSharingTypeTwoComponent
+      },
+      {
+        path:"type-3",
+        component:DataSharingTypeThreeComponent
+      },
+      {
+        path:"type-4",
+        component:DataSharingTypeFourComponent
+      }
+    ]
   }
 ];
 

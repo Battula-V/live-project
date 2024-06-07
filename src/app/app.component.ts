@@ -6,9 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  officeName="bullion";
+
+
+  villageName="done";
+  friendName="ramu";
   title = 'ui';
   userName(event:any){
+    console.log(event);
+  }
+
+  updateUser(event:any){
+     
+    console.log(event);
+  }
+
+  updateVillageName(event:any){
+    this.villageName="pdrl";
     console.log(event);
   }
 }
