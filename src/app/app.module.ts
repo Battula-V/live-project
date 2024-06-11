@@ -2,41 +2,18 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { VariablesComponent } from './components/variables/variables.component';
-import { ArrayVariablesComponent } from './components/array-variables/array-variables.component';
-import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
-import { ObjectVariableComponent } from './components/object-variable/object-variable.component';
-import { MyPreDefinedThingsComponent } from './components/my-pre-defined-things/my-pre-defined-things.component';
-import { AngularLifeCycleHooksComponent } from './components/angular-life-cycle-hooks/angular-life-cycle-hooks.component'; 
-import {FormsModule } from "@angular/forms";
-import { PropertyAndEventBindingComponent } from './components/property-and-event-binding/property-and-event-binding.component';
-import { DataSharingComponent } from './components/data-sharing/data-sharing.component';
-import { DataSharingTypeOneComponent } from './components/data-sharing/components/data-sharing-type-one/data-sharing-type-one.component';
-import { DataSharingTypeTwoComponent } from './components/data-sharing/components/data-sharing-type-two/data-sharing-type-two.component';
-import { DataSharingTypeThreeComponent } from './components/data-sharing/components/data-sharing-type-three/data-sharing-type-three.component';
-import { DataSharingTypeFourComponent } from './components/data-sharing/components/data-sharing-type-four/data-sharing-type-four.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    VariablesComponent,
-    ArrayVariablesComponent,
-    MenuBarComponent,
-    ObjectVariableComponent,
-    MyPreDefinedThingsComponent,
-    AngularLifeCycleHooksComponent,
-    PropertyAndEventBindingComponent,
-    DataSharingComponent,
-    DataSharingTypeOneComponent,
-    DataSharingTypeTwoComponent,
-    DataSharingTypeThreeComponent,
-    DataSharingTypeFourComponent 
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    BrowserAnimationsModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
