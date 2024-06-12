@@ -16,4 +16,6 @@ export class PropertyAndEventBindingsComponent {
       console.log(name);
   }`;
     code6=`<button type="button" (click)="userName()">submit</button>`;
+
+    code7=`<tagname *ngFor=" let  ArrayValue of ArrayVariavble"> {{ArrayValue}} </tagname>`;
 }
