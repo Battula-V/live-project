@@ -17,3 +17,35 @@ body { margin: 0;
 {
     background-color: #fff !important;
 }
+
+mat-form-field{
+
+    .mat-mdc-text-field-wrapper 
+    { 
+        border-bottom: 1px solid #000;
+    }
+    .mat-mdc-form-field-flex 
+    {
+       padding: 1px solid #000;  
+    }
+    .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input {
+        color:#000 !important;
+    }
+    .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+        background-color: #fff !important;
+    }
+    .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-floating-label, .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-floating-label--float-above {
+        color:#000 !important;
+    }
+    //text-color
+    //================
+    // ::placeholder {
+    //     color: deeppink;
+    //   }
+
+}
+.mdc-button .mdc-button__label {
+    
+    color: #000;
+}
+
