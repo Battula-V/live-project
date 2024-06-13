@@ -14,23 +14,28 @@
                     <div fxLayout="column" fxFlex="100">
                         <mat-form-field fxFlex="100">
                             <mat-label>Email</mat-label>
-                            <input type="email" matInput placeholder="Enter Email"   formControlName="email" name="email">
-                            <mat-icon  matSuffix>sentiment_very_satisfied</mat-icon>
-                            <mat-hint>Hint</mat-hint>
+                            <input type="email" matInput placeholder="Email"   formControlName="email" name="email">
+                            <mat-icon  matSuffix>email</mat-icon>
                         </mat-form-field>
                         <mat-form-field fxFlex="100">
                             <mat-label>password</mat-label>
                             <input type="password" matInput placeholder="Enter password"  formControlName="password" name="password">
-                            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-                            <mat-hint>Hint</mat-hint>
+                            <mat-icon matSuffix>lock</mat-icon>
+                            <mat-hint>Minimun 6-10 characters</mat-hint>
                         </mat-form-field>
                     </div>
                 </form>
             </mat-card-content>
             <mat-card-actions> 
-                <div fxLayout="row" fxLayoutAlign="center" fxFlex="100">                     
-                    <button type="submit" mat-raised-button color="primary" [disabled]="loginGroup.invalid" fxFlex="50"   (click)="login()">Login</button>   
-                </div> 
+                <div fxLayout="column" fxLayoutAlign="center" fxFlex="100">
+                    <div fxLayout="row" fxLayoutAlign="space-between" fxFlex="100" class="mx-1 my-1">                     
+                         <a routerLink="forgot-password">Forgot password?</a>
+                         <a routerLink="reset-password">Reset password</a>
+                    </div> 
+                    <div fxLayout="row" fxLayoutAlign="center" fxFlex="100" class="mt-1 mb-1">                     
+                        <button type="submit" mat-raised-button color="primary" [disabled]="loginGroup.invalid" fxFlex="50"   (click)="login()">Login</button>   
+                    </div>
+                </div>              
             </mat-card-actions>
           </mat-card>
     </div>

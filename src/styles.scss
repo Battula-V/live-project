@@ -46,6 +46,18 @@ mat-form-field{
 }
 .mdc-button .mdc-button__label {
     
-    color: #000;
+    color: #615d5d;
 }
-
+mat-icon
+{
+    color: #3a65fb !important;
+}
+mat-hint
+{    
+    font-style: italic;
+    font-weight: 500;
+    color: blue;
+} 
+.mdc-floating-label--required:not(.mdc-floating-label--hide-required-marker)::after {
+    color: red;
+}
