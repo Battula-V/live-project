@@ -19,9 +19,16 @@ export class LoginComponent {
   }
   
   login(){
-    let dataOne=this.loginGroup.value.email;
+    let dataOne=this.loginGroup.value;
     console.log(typeof(dataOne));
-    //this.loginServiceObj.callingApi(this.loginGroup.value.email , this.loginGroup.value.password);
+    console.log(dataOne);
+    console.log(dataOne.email);
+    console.log(dataOne.password);
+    this.loginServiceObj.login(dataOne.email , dataOne.password).subscribe(
+      (res:any)=>{
+        console.log(res);
+      }
+    );
   }
 
 }
