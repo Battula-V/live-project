@@ -1,6 +1,7 @@
 import { Component } from '@angular/core'; 
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { LoginService } from "../../modules/login/login.service";
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-login',
@@ -14,7 +15,7 @@ export class LoginComponent {
     password : new FormControl('',[Validators.required, Validators.minLength(6), Validators.maxLength(10)])
   });
 
-  constructor(private loginServiceObj:LoginService){
+  constructor(private loginServiceObj:LoginService , private toastr: ToastrService){
 
   }
   
@@ -26,7 +27,12 @@ export class LoginComponent {
     console.log(dataOne.password);
     this.loginServiceObj.login(dataOne.email , dataOne.password).subscribe(
       (res:any)=>{
-        console.log(res);
+        console.log(res);        
+        this.toastr.error("LoginSuccess","Success");
+      },
+      (error:any)=>{
+        console.log(error);        
+        this.toastr.error("LoginFailed", "Failed");
       }
     );
   }

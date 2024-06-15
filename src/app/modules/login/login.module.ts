@@ -14,7 +14,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { LoginService } from './login.service';
 import { ForgotComponent } from './components/forgot/forgot.component';
 import { ResetComponent } from './components/reset/reset.component';
-
+ 
 
 
 @NgModule({
@@ -39,6 +39,7 @@ import { ResetComponent } from './components/reset/reset.component';
   ],
   providers:[
     LoginService
+  
   ]
 })
 export class LoginModule { }
