@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { LoginService } from "../../modules/login/login.service";
 import { ToastrService } from 'ngx-toastr';
+import { ApplicationContextService } from "../shared/services/application-context.service";
+import { ApplicationContext } from "../shared/models/application-context.model";
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-login',
@@ -15,7 +18,14 @@ export class LoginComponent {
     password : new FormControl('',[Validators.required, Validators.minLength(6), Validators.maxLength(10)])
   });
 
-  constructor(private loginServiceObj:LoginService , private toastr: ToastrService){
+  applicationContextObj = new ApplicationContext();
+
+
+  constructor(private loginServiceObj : LoginService , 
+              private toastr : ToastrService,
+              private applicationContextServiceObj : ApplicationContextService,
+              private routerObj : Router
+            ){
 
   }
   
@@ -28,7 +38,10 @@ export class LoginComponent {
     this.loginServiceObj.login(dataOne.email , dataOne.password).subscribe(
       (res:any)=>{
         console.log(res);        
-        this.toastr.error("LoginSuccess","Success");
+        this.toastr.success("LoginSuccess","Success");
+        this.applicationContextObj.loginStatus=true;
+        this.applicationContextServiceObj.updateApplicationContext(this.applicationContextObj);
+        this.routerObj.navigate(['/home']);
       },
       (error:any)=>{
         console.log(error);        

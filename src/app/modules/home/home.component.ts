@@ -4,6 +4,7 @@ import { ApplicationContext } from '../shared/models/application-context.model';
 import { Router } from "@angular/router";
 import { ROUTES } from '../shared/constants/application-data';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -15,7 +16,7 @@ export class HomeComponent {
       (res :ApplicationContext) => {
         console.log(res.loginStatus);
         if(!res.loginStatus){
-          this.routerObj.navigate([ROUTES.LOGIN]);
+          //this.routerObj.navigate([ROUTES.LOGIN]);
         }
       }
     );

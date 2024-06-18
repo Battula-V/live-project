@@ -5,6 +5,10 @@ import { HomeRoutingModule } from "./home-routing.module";
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card';
+import { FlexLayoutModule } from "@angular/flex-layout";
+import {MatDividerModule} from '@angular/material/divider'; 
+import {MatListModule} from '@angular/material/list';
 
 
 @NgModule({
@@ -16,7 +20,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     HomeRoutingModule,
     MatIconModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule,
+    FlexLayoutModule,
+    MatDividerModule,
+    MatListModule
   ]
 })
 export class HomeModule { }
