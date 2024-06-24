@@ -8,6 +8,9 @@ import { AdminComponent } from './components/admin/admin.component';
 import { DepartmentComponent } from './components/department/department.component';
 import { EmployeesComponent } from './components/employees/employees.component';
 import { DesignationComponent } from './components/designation/designation.component';
+import { CategoryComponent } from './components/category/category.component';
+import { SubCategoryComponent } from './components/sub-category/sub-category.component';
+import { ProductsComponent } from './components/products/products.component';
 const routes: Routes = [
   {
     path:"",
@@ -18,25 +21,37 @@ const routes: Routes = [
         component : DashboardComponent
       },
       {
-        path:"super-admin",
-        component:SuperAdminComponent
+        path:"category",
+        component:CategoryComponent
       },
       {
-        path:"admin",
-        component:AdminComponent
+        path:"sub-category",
+        component:SubCategoryComponent
       },
       {
-        path:"department",
-        component:DepartmentComponent
-      },
-      {
-        path:"employees",
-        component:EmployeesComponent
-      },
-      {
-        path:"designation",
-        component:DesignationComponent
+        path:"products",
+        component:ProductsComponent
       }
+      // {
+      //   path:"super-admin",
+      //   component:SuperAdminComponent
+      // },
+      // {
+      //   path:"admin",
+      //   component:AdminComponent
+      // },
+      // {
+      //   path:"department",
+      //   component:DepartmentComponent
+      // },
+      // {
+      //   path:"employees",
+      //   component:EmployeesComponent
+      // },
+      // {
+      //   path:"designation",
+      //   component:DesignationComponent
+      // }
     ]
   }
 ]

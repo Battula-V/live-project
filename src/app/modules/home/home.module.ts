@@ -19,6 +19,9 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { ReactiveFormsModule,FormsModule } from "@angular/forms";
 import { DesignationComponent } from './components/designation/designation.component';
+import { CategoryComponent } from './components/category/category.component';
+import { SubCategoryComponent } from './components/sub-category/sub-category.component';
+import { ProductsComponent } from './components/products/products.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { DesignationComponent } from './components/designation/designation.compo
     AdminComponent,
     DepartmentComponent,
     EmployeesComponent,
-    DesignationComponent
+    DesignationComponent,
+    CategoryComponent,
+    SubCategoryComponent,
+    ProductsComponent
   ],
   imports: [
     CommonModule,
