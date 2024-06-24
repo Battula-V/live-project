@@ -22,6 +22,13 @@
                                     <mat-label>Password</mat-label>
                                     <input matInput placeholder="Password" formControlName="password" required>
                                 </mat-form-field> -->
+                                <mat-form-field>
+                                    <mat-label>Status</mat-label>
+                                    <mat-select formControlName="status">
+                                      <mat-option value="active">active</mat-option>
+                                      <mat-option value="inactive">inactive</mat-option>
+                                    </mat-select>
+                                </mat-form-field>
                                 <button type="submit" mat-raised-button color="primary" [disabled]="addDesignationForm.invalid"     (click)="submit()">Submit</button>
                             </div>
                         </div>

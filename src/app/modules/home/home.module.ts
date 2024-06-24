@@ -19,6 +19,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { ReactiveFormsModule,FormsModule } from "@angular/forms";
 import { DesignationComponent } from './components/designation/designation.component';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { DesignationComponent } from './components/designation/designation.compo
     MatInputModule,
     MatFormFieldModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    MatSelectModule
   ]
 })
 export class HomeModule { }

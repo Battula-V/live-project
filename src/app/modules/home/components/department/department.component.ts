@@ -10,7 +10,8 @@ export class DepartmentComponent {
 
   addDepartmentForm = new FormGroup({
     departmentName : new FormControl('',[Validators.required]),
-    name :new FormControl('',[Validators.required])
+    // name :new FormControl('',[Validators.required])
+    status : new FormControl('',[Validators.required])
   })
 
   submit(){

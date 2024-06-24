@@ -13,7 +13,7 @@ export class AdminComponent {
     phoneNumber : new FormControl('',[Validators.required,Validators.minLength(10),Validators.maxLength(10)]),
     email : new FormControl('',[Validators.required, Validators.email]),
     password : new FormControl('',[Validators.required,Validators.minLength(6),Validators.maxLength(10)]),
-
+    status : new FormControl('',[Validators.required])
   })
 
   submit(){

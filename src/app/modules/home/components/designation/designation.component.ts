@@ -9,8 +9,8 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 export class DesignationComponent {
 
   addDesignationForm = new FormGroup({
-    designationName : new FormControl('',[Validators.required])
-     
+    designationName : new FormControl('',[Validators.required]),
+    status : new FormControl('',[Validators.required])
   })
 
   submit(){

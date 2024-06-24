@@ -13,7 +13,8 @@ export class EmployeesComponent {
     phoneNumber : new FormControl('',[Validators.required,Validators.minLength(10),Validators.maxLength(10)]),
     email : new FormControl('',[Validators.required, Validators.email]),
     password : new FormControl('',[Validators.required,Validators.minLength(6),Validators.maxLength(10)]),
-
+    designation : new FormControl('',[Validators.required]),
+    status : new FormControl('',[Validators.required])
   })
 
   submit(){
