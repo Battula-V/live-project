@@ -21,6 +21,7 @@ import { DataSharingTypeFourComponent } from './components/data-sharing/componen
 import { CreatingMultipleProjectsComponent } from './components/creating-multiple-projects/creating-multiple-projects.component';
 import { CallingApisComponent } from './components/calling-apis/calling-apis.component';
 import { WorkingWithFormsComponent } from './components/working-with-forms/working-with-forms.component';
+import { CallingGetApiComponent } from './components/calling-get-api/calling-get-api.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +41,8 @@ import { WorkingWithFormsComponent } from './components/working-with-forms/worki
     DataSharingTypeFourComponent,
     CreatingMultipleProjectsComponent,
     CallingApisComponent,
-    WorkingWithFormsComponent
+    WorkingWithFormsComponent,
+    CallingGetApiComponent
   ],
   imports: [
     BrowserModule,

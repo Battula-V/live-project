@@ -16,6 +16,8 @@ import { DataSharingTypeFourComponent } from './components/data-sharing/componen
 import { CreatingMultipleProjectsComponent } from './components/creating-multiple-projects/creating-multiple-projects.component';
 import { CallingApisComponent } from './components/calling-apis/calling-apis.component';
 import { WorkingWithFormsComponent } from './components/working-with-forms/working-with-forms.component';
+import { FormValidationComponent } from './components/form-validation/form-validation.component';
+import { CallingGetApiComponent } from './components/calling-get-api/calling-get-api.component';
 const routes: Routes = [
   {
     path:"",
@@ -83,6 +85,14 @@ const routes: Routes = [
   {
     path  : "calling-apis",
     component : CallingApisComponent
+  },
+  {
+    path:"form-validation",
+    component:FormValidationComponent
+  },
+  {
+    path:"calling-get-api",
+    component:CallingGetApiComponent
   }
 ];
 
