@@ -44,4 +44,20 @@ export class CallingGetApiComponent {
    }
   `;
 
+  code6=`
+     departmentGetApi(){
+   return this.httpClientObj.get("http://127.0.0.1:8000/api/get-department");
+  }
+  `;
+
+  code7=`
+    ngOnInit(){
+    this.homeServiceObj.departmentGetApi().subscribe(
+      (res:any)=>{
+        console.log(res);
+      }
+    );  
+  }
+  `;
+
 }

@@ -18,6 +18,7 @@ import { CallingApisComponent } from './components/calling-apis/calling-apis.com
 import { WorkingWithFormsComponent } from './components/working-with-forms/working-with-forms.component';
 import { FormValidationComponent } from './components/form-validation/form-validation.component';
 import { CallingGetApiComponent } from './components/calling-get-api/calling-get-api.component';
+import { ApiCallingAsItIsPostmanComponent } from './components/api-calling-as-it-is-postman/api-calling-as-it-is-postman.component';
 const routes: Routes = [
   {
     path:"",
@@ -93,6 +94,10 @@ const routes: Routes = [
   {
     path:"calling-get-api",
     component:CallingGetApiComponent
+  },
+  {
+    path:"calling-add-api",
+    component:ApiCallingAsItIsPostmanComponent
   }
 ];
 

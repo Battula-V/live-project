@@ -17,4 +17,8 @@ password : new FormControl('',[Validators.required, Validators.minLength(6), Val
 });
 `;
 
+code4=`
+  <button type="submit" mat-raised-button color="primary" [disabled]="loginGroup.invalid">Login</button>
+`;
+
 }
