@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-variables',
@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./variables.component.scss']
 })
 export class VariablesComponent implements OnInit{
+  @ViewChild('myFile') myFile!:ElementRef;
+  constructor(){
+
+  }
+  openFile(){
+    this.myFile.nativeElement.click();
+  }
     address:string="guntur";
     roleNumber:number=1714130386;
     is_principal:boolean=true;
