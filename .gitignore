@@ -17,3 +17,4 @@
 /back-end/swiggy-api/.fleet
 /back-end/swiggy-api/.idea
 /back-end/swiggy-api/.vscode
+node_modules
