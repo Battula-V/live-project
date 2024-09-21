@@ -20,4 +20,5 @@ export class DataSharingTypeTwoComponent {
         }
     );
 }`;
+  code5 = `import { BehaviorSubject } from "rxjs";`;
 }
